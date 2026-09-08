@@ -1,0 +1,434 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System descriptions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System descriptions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System descriptions</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Overview</h3> 
+               
+               
+               <p class="p">The infotainment system includes 4G network, PAD unit, Bluetooth phone, smart voice recognition, vehicle-infotainment interaction,
+                  on-board radio, USB, SD card assembly, audio and video equipment interface, image system and other functions.
+               </p>  
+               
+               <p class="p">Main components:</p>  
+               
+               <p class="p">USB interface assembly</p>  
+               
+               <p class="p">It includes 2 USB interfaces, of which only 1 USB interface supports audio and video file reading, and both USB interfaces
+                  can be used for charging handheld devices.
+               </p>  
+               
+               <p class="p">4G/WIFI/BT/GPS antenna</p>  
+               
+               <p class="p">It supports 4G internet access and Wi-Fi connection to phones, among other functions.</p>  
+               
+               <p class="p">EDR camera</p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Loop recording: When the memory card space is insufficient, the recorder will automatically overwrite the oldest videos to
+                        enable continuous loop recording.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Emergency recording: In the event of a collision or scratch, pressing the emergency button will automatically lock the video
+                        recorded 4 to 7 minutes prior to the accident, preventing it from being overwritten.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Collision recording: Once the recorder is activated and in recording mode, it will automatically enable collision detection.
+                        In the event of a severe accident, the recorder will automatically save an important segment of the recorded video capturing
+                        the accident. This specific recording will not be overwritten or deleted.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <p class="p">Panoramic camera</p>  
+               
+               <p class="p">It includes two main functions: 2D panoramic view and transparent panoramic view. In R gear, these functions will be triggered
+                  automatically. Users can also activate and enable these functions manually by pressing the hard button on the steering wheel
+                  or the APP soft button on the touchscreen homepage. The image is input through 720P high-definition cameras and transmitted
+                  through the LVDS interface at a rate of 30 frames per second.
+               </p>  
+               
+               <p class="p">Rearview camera</p>  
+               
+               <p class="p">It is mainly used to provide the user with a reversing image during reversing, to help the user complete parking faster. The
+                  user can use this function by turning on APP button on the touchscreen homepage if necessary or by shifting into R gear.
+               </p>  
+               
+               <p class="p">Multi-purpose camera assembly</p>  
+               
+               <p class="p"> 
+                  
+                  <ul name="contents" class="ul"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">It can assist the radar in identifying stationary vehicles ahead and remind the driver of active deceleration at a suitable
+                           distance, so as to avoid collision with such vehicles.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">The multi-purpose camera can assist the radar in identifying the vehicle ahead which runs inside the current lane and has
+                           a coincident trajectory with the current vehicle as the target, and allow the driver to follow the target in cruise control
+                           mode.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">The multi-purpose camera and the radar can timely identify the vehicles which run on both sides and try to change to the current
+                           lane as targets, and allow the driver to brake when necessary.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">The multi-purpose camera and radar can identify pedestrians ahead in time, so that the vehicle can completely avoid possible
+                           accidents.
+                        </p> 
+                        
+                     </li> 
+                     
+                  </ul>
+                  
+                  
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component position view</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G123940.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>1</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>eCall speaker</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>7</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Front left noise reduction MIC*2</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>2</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Unit assembly</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>8</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Right high-pitch speaker</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>3</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>4GWiFiBT antenna</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>9</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Rear left door low-pitch speaker</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>4</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Front right door low-pitch speaker</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>10</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>PAD display screen assembly</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>5</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Rear right door low-pitch speaker</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>11</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Left high-pitch speaker</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>6</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>External antenna</p>
+                        </td>
+                        <td width="25%" align="center" valign="middle"> 
+                           
+                           <p>12</p> 
+                           
+                        </td>
+                        <td width="25%" align="center" valign="middle">
+                           <p>Front left door low-pitch speaker</p>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+               <p class="p">
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G118318.png"></img></div>
+                  </div>
+               </p>
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="50%" class="greenCell" valign="top">
+                           <p>S/N</p>
+                        </th>
+                        <th width="50%" class="greenCell" valign="top">
+                           <p>Name</p>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="50%" valign="top">
+                           <p>1</p>
+                        </td>
+                        <td width="50%" valign="top">
+                           <p>External power amplifier</p>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+               <p class="p">
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G123938.png"></img></div>
+                  </div>
+               </p>
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="50%" class="greenCell" valign="top">
+                           <p>S/N</p>
+                        </th>
+                        <th width="50%" class="greenCell" valign="top">
+                           <p>Name</p>
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="50%" valign="top">
+                           <p>1</p>
+                        </td>
+                        <td width="50%" valign="top">
+                           <p>eCallBOX assembly</p>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G149068.png" alt="G149068"></img></div>
+                  </div> 
+                  
+               </p> 
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G149061.png" alt="G149061"></img></div>
+                  </div> 
+                  
+               </p>
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

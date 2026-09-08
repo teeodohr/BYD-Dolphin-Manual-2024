@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.4.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 647 841.9" style="enable-background:new 0 0 647 841.9;" xml:space="preserve">
+<g id="图层_1_00000162340017286051354880000005771452040651866246_">
+	<g id="部件框图" style="display:none;">
+	</g>
+	<g id="线路">
+	</g>
+	<g id="边框">
+	</g>
+	<polyline style="fill:#DCDDDD;" points="44,41.9 602,41.9 602,88.1 44,88.1 	"/>
+	<line style="fill:none;stroke:#000000;stroke-width:0.5;" x1="44" y1="47.6" x2="602" y2="47.6"/>
+	<line style="fill:none;stroke:#000000;" x1="44" y1="41.6" x2="602" y2="41.6"/>
+	<line style="fill:none;stroke:#000000;stroke-width:0.5;" x1="44" y1="58.9" x2="602" y2="58.9"/>
+	<line style="fill:none;stroke:#000000;stroke-width:0.5;" x1="44" y1="70.6" x2="602" y2="70.6"/>
+	<line style="fill:none;stroke:#000000;stroke-width:0.5;" x1="44" y1="82.3" x2="602" y2="82.3"/>
+	<line style="fill:none;stroke:#000000;" x1="44" y1="88.1" x2="602" y2="88.1"/>
+	<text transform="matrix(1 0 0 1 608 49.6298)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">30</text>
+	<text transform="matrix(1 0 0 1 608 60.7958)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">IG1</text>
+	<text transform="matrix(1 0 0 1 608 72.4208)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">IG3</text>
+	<text transform="matrix(1 0 0 1 608 83.9247)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">ACC</text>
+	<text transform="matrix(1 0 0 1 31.0342 49.7119)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">30</text>
+	<text transform="matrix(1 0 0 1 27.8701 60.8779)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">IG1</text>
+	<text transform="matrix(1 0 0 1 27.8701 72.5029)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">IG3</text>
+	<text transform="matrix(1 0 0 1 24.378 84.0029)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">ACC</text>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;" d="M602,59.3"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;" d="M44,59.3"/>
+	<polyline style="fill:none;stroke:#89438F;stroke-width:3;" points="142.2,740.2 142.2,425.4 275.6,425.4 	"/>
+	<polyline style="fill:none;stroke:#89438F;stroke-width:3;" points="142.2,189.1 142.2,410.9 267.7,410.9 276.1,425.3 	"/>
+	<polyline style="fill:none;stroke:#89438F;stroke-width:3;" points="412.3,740.2 412.3,425.4 276.2,425.4 	"/>
+	<polyline style="fill:none;stroke:#89438F;stroke-width:3;" points="534.8,740.2 534.8,593.1 413,593.1 	"/>
+	<polyline style="fill:none;stroke:#89438F;stroke-width:3;" points="412.3,189.1 412.3,410.9 284.2,410.9 276.1,425.3 	"/>
+	<line style="fill:none;stroke:#89438F;stroke-width:3;" x1="276.1" y1="189.3" x2="276.1" y2="739.9"/>
+	<polyline style="fill:none;stroke:#F29C97;stroke-width:3;stroke-miterlimit:10;" points="219.4,350 227.9,332.3 355.7,332.3 
+		355.7,188.2 	"/>
+	<polyline style="fill:none;stroke:#F29C97;stroke-width:3;stroke-miterlimit:10;" points="85.5,189.1 85.5,332.5 210.9,332.5 
+		219.4,350 	"/>
+	<polyline style="fill:none;stroke:#F29C97;stroke-width:3;stroke-miterlimit:10;" points="355.7,739.9 355.7,350.1 219.5,350.1 	
+		"/>
+	<polyline style="fill:none;stroke:#F29C97;stroke-width:3;stroke-miterlimit:10;" points="477.5,739.9 477.5,640.4 355.2,640.4 	
+		"/>
+	<line style="fill:none;stroke:#F29C97;stroke-width:3;stroke-miterlimit:10;" x1="219.4" y1="740.2" x2="219.4" y2="189.3"/>
+	<polyline style="fill:none;stroke:#F29C97;stroke-width:3;stroke-miterlimit:10;" points="85.5,740.2 85.5,350.1 219.5,350.1 	"/>
+	<g id="_x30_1-曲线图框_2_">
+		<path style="fill:#9ACCE4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;" d="M151.3,179.1h-77
+			v-25.9h77c0,0-4.7,7.6,0,13C156,171.5,151.3,179.1,151.3,179.1z"/>
+	</g>
+	<g id="_x30_2-上针脚_4_">
+		<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="85.5" y1="187.3" x2="85.5" y2="179.1"/>
+		<path style="fill:#FFFFFF;" d="M85.4,190.4c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C88.6,189,87.2,190.4,85.4,190.4"/>
+		<path d="M85.4,191c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V191z
+			 M85.4,183.5v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C89.2,185.2,87.6,183.5,85.4,183.5"/>
+		<rect x="81.4" y="183.1" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+		<rect x="85" y="184" width="1" height="4.2"/>
+		
+			<rect x="85" y="184" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_2_">
+		<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="142.2" y1="187.3" x2="142.2" y2="179.1"/>
+		<path style="fill:#FFFFFF;" d="M142.1,190.4c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C145.3,189,143.9,190.4,142.1,190.4"/>
+		<path d="M142.1,191c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V191z
+			 M142.1,183.5v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C145.9,185.2,144.3,183.5,142.1,183.5"
+			/>
+		<rect x="138.1" y="183.1" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+		<rect x="141.7" y="184" width="1" height="4.2"/>
+		
+			<rect x="141.7" y="184" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+	</g>
+	<g>
+		<g id="_x30_2-上针脚_14_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="85.5" y1="740.9" x2="85.5" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M85.4,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C88.6,739.2,87.2,737.8,85.4,737.8"/>
+			<path d="M85.4,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M85.4,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="81.4" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="85" y="740" width="1" height="4.2"/>
+			
+				<rect x="85" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+		<g id="_x30_2-上针脚_3_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="142.2" y1="740.9" x2="142.2" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M142.1,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C145.3,739.2,143.9,737.8,142.1,737.8"/>
+			<path d="M142.1,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M142.1,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="138.1" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="141.7" y="740" width="1" height="4.2"/>
+			
+				<rect x="141.7" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+	</g>
+	<path style="fill:#9ACCE4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;" d="M151.3,775h-77v-25.9
+		h77V775"/>
+	<g id="_x30_1-曲线图框_3_">
+		<path style="fill:#9ACCE4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;" d="M285.2,179.1h-77
+			v-25.9h77c0,0-4.7,7.6,0,13S285.2,179.1,285.2,179.1z"/>
+	</g>
+	<g id="_x30_1-曲线图框_8_">
+		<path style="fill:#9ACCE4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;" d="M457.6,179.1h-113
+			v-25.9h113c0,0-4.7,7.6,0,13S457.6,179.1,457.6,179.1z"/>
+	</g>
+	<g id="_x30_2-上针脚_8_">
+		<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="219.4" y1="187.3" x2="219.4" y2="179.1"/>
+		<path style="fill:#FFFFFF;" d="M219.3,190.4c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C222.5,189,221.1,190.4,219.3,190.4"/>
+		<path d="M219.4,191c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V191z
+			 M219.4,183.5v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C223.2,185.2,221.6,183.5,219.4,183.5"
+			/>
+		<rect x="215.4" y="183.1" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+		<rect x="218.9" y="184" width="1" height="4.2"/>
+		
+			<rect x="218.9" y="184" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_7_">
+		<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="276.1" y1="187.3" x2="276.1" y2="179.1"/>
+		<path style="fill:#FFFFFF;" d="M276,190.4c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C279.2,189,277.8,190.4,276,190.4"/>
+		<path d="M276.1,191c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V191z
+			 M276.1,183.5v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C279.9,185.2,278.3,183.5,276.1,183.5"
+			/>
+		<rect x="272.1" y="183.1" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+		<rect x="275.6" y="184" width="1" height="4.2"/>
+		
+			<rect x="275.6" y="184" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+	</g>
+	<g>
+		<g id="_x30_2-上针脚_6_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="219.4" y1="740.9" x2="219.4" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M219.3,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C222.5,739.2,221.1,737.8,219.3,737.8"/>
+			<path d="M219.4,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M219.4,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="215.4" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="218.9" y="740" width="1" height="4.2"/>
+			
+				<rect x="218.9" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+		<g id="_x30_2-上针脚_5_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="276.1" y1="740.9" x2="276.1" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M276,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C279.2,739.2,277.8,737.8,276,737.8"/>
+			<path d="M276.1,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M276.1,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="272.1" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="275.6" y="740" width="1" height="4.2"/>
+			
+				<rect x="275.6" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+	</g>
+	<g id="_x30_1-曲线图框_1_">
+		<path style="fill:#9ACCE4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;" d="M285.2,775h-77v-25.9
+			h77c0,0-4.7,7.6,0,13C289.9,767.4,285.2,775,285.2,775z"/>
+	</g>
+	<g id="_x30_2-上针脚_19_">
+		<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="355.7" y1="187.3" x2="355.7" y2="179.1"/>
+		<path style="fill:#FFFFFF;" d="M355.6,190.4c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C358.8,189,357.4,190.4,355.6,190.4"/>
+		<path d="M355.6,191c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V191z
+			 M355.6,183.5v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C359.4,185.2,357.8,183.5,355.6,183.5"
+			/>
+		<rect x="351.6" y="183.1" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+		<rect x="355.2" y="184" width="1" height="4.2"/>
+		
+			<rect x="355.2" y="184" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+	</g>
+	<g id="_x30_2-上针脚_15_">
+		<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="412.3" y1="187.3" x2="412.3" y2="179.1"/>
+		<path style="fill:#FFFFFF;" d="M412.2,190.4c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+			C415.4,189,414,190.4,412.2,190.4"/>
+		<path d="M412.3,191c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V191z
+			 M412.3,183.5v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C416.1,185.2,414.5,183.5,412.3,183.5"
+			/>
+		<rect x="408.3" y="183.1" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+		<rect x="411.8" y="184" width="1" height="4.2"/>
+		
+			<rect x="411.8" y="184" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+	</g>
+	<g>
+		<g id="_x30_2-上针脚_10_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="355.7" y1="740.9" x2="355.7" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M355.6,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C358.8,739.2,357.4,737.8,355.6,737.8"/>
+			<path d="M355.6,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M355.6,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="351.6" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="355.2" y="740" width="1" height="4.2"/>
+			
+				<rect x="355.2" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+		<g id="_x30_2-上针脚_9_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="412.3" y1="740.9" x2="412.3" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M412.2,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C415.4,739.2,414,737.8,412.2,737.8"/>
+			<path d="M412.3,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M412.3,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="408.3" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="411.8" y="740" width="1" height="4.2"/>
+			
+				<rect x="411.8" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+	</g>
+	<g id="_x30_1-曲线图框_4_">
+		<path style="fill:#9ACCE4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;" d="M421.5,775h-77v-25.9
+			h77c0,0-4.7,7.6,0,13C426.1,767.4,421.5,775,421.5,775z"/>
+	</g>
+	<path style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;" d="M412.3,188.8"/>
+	<path style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;" d="M412.3,189.2"/>
+	<path style="fill:#060001;stroke:#FFFFFF;stroke-width:0.5;" d="M412.3,189.2"/>
+	<path style="fill:#FFFFFF;stroke:#F29C97;stroke-width:3;stroke-miterlimit:10;" d="M142.2,189.1"/>
+	<g>
+		<circle style="fill:#060001;stroke:#FFFFFF;stroke-width:0.5;" cx="219.4" cy="350" r="2.6"/>
+		<path style="fill:#060001;stroke:#FFFFFF;stroke-width:0.5;" d="M219.4,347.5c1.5,0,2.6,1.2,2.6,2.6c0,1.5-1.2,2.6-2.6,2.6"/>
+	</g>
+	<path style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;" d="M85.5,740.2"/>
+	<path style="fill:none;stroke:#000000;stroke-width:3;stroke-miterlimit:10;" d="M219.4,350"/>
+	<circle style="fill:#060001;stroke:#FFFFFF;stroke-width:0.5;" cx="276.2" cy="425.4" r="2.6"/>
+	<path style="fill:none;stroke:#000000;stroke-miterlimit:10;" d="M142.2,189.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 79.2247 175.7739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_H</text>
+		<text transform="matrix(1 0 0 1 133.9747 175.7739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_L</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 212.8766 175.7739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_H</text>
+		<text transform="matrix(1 0 0 1 267.6266 175.7739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_L</text>
+	</g>
+	<text transform="matrix(1 0 0 1 350.3004 175.7739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_H</text>
+	<text transform="matrix(1 0 0 1 404.9255 175.7739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_L</text>
+	<g>
+		<text transform="matrix(1 0 0 1 348.4802 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_H</text>
+		<text transform="matrix(1 0 0 1 403.2302 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_L</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 211.8766 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_H</text>
+		<text transform="matrix(1 0 0 1 266.6266 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_L</text>
+	</g>
+	<text transform="matrix(1 0 0 1 88.3403 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_H</text>
+	<text transform="matrix(1 0 0 1 125.3499 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_L</text>
+	<rect x="223.9" y="353.2" style="fill:#FFFFFF;stroke:#060001;stroke-width:0.25;" width="26.9" height="6.9"/>
+	<text transform="matrix(1 0 0 1 224.6521 358.8189)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">SP300G</text>
+	<rect x="279.9" y="428.6" style="fill:#FFFFFF;stroke:#060001;stroke-width:0.25;" width="26.9" height="6.9"/>
+	<text transform="matrix(1 0 0 1 281.1521 434.1932)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">SP301G</text>
+	<circle style="fill:#060001;stroke:#FFFFFF;stroke-width:0.5;" cx="355.5" cy="640.4" r="2.6"/>
+	<rect x="359.8" y="630.3" style="fill:#FFFFFF;stroke:#060001;stroke-width:0.25;" width="26.9" height="6.9"/>
+	<text transform="matrix(1 0 0 1 361.2354 635.5497)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">SP3500</text>
+	<circle style="fill:#060001;stroke:#FFFFFF;stroke-width:0.5;" cx="412.2" cy="593.1" r="2.6"/>
+	<rect x="416.1" y="581.7" style="fill:#FFFFFF;stroke:#060001;stroke-width:0.25;" width="24.8" height="6.9"/>
+	<text transform="matrix(1 0 0 1 416.8188 587.0081)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">SP3501</text>
+	<g>
+		<rect x="71.4" y="214.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 76.1016 219.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="128.1" y="214.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 132.759 219.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<g>
+		<rect x="205.4" y="214.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 210.0844 219.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="262.1" y="214.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 266.7418 219.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<g>
+		<rect x="205.4" y="298.4" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 210.0844 303.749)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="262.1" y="298.4" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 266.7418 303.749)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<g>
+		<rect x="342.8" y="214.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 347.481 219.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="399.5" y="214.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 404.1383 219.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<g>
+		<rect x="341.6" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 346.3134 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="398.3" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 402.9708 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<g>
+		<rect x="205.4" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 210.0844 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="262.1" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 266.7418 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<rect x="74.3" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 78.9534 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+	</g>
+	<rect x="131" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+	<g>
+		<text transform="matrix(1 0 0 1 135.6109 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+	</g>
+	<text transform="matrix(1 0 0 1 148.9852 728.4073)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">! TPP</text>
+	<text transform="matrix(1 0 0 1 482.1228 728.4073)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 539.2061 728.4073)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 359.7352 728.4073)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 416.8185 728.4073)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 359.7352 536.7227)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 416.8185 536.7227)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 359.7352 445.3893)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 416.8185 445.3893)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">TPP</text>
+	<text transform="matrix(1 0 0 1 88.5999 728.4073)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">! TPP</text>
+	<text transform="matrix(1 0 0 1 90.5413 209.2545)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">*PAD-3.0</text>
+	<text transform="matrix(1 0 0 1 148.1523 209.2545)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">*PAD-3.0</text>
+	<text transform="matrix(1 0 0 1 225.9987 209.2545)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">*PAD-2.1</text>
+	<text transform="matrix(1 0 0 1 283.6096 209.2545)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">*PAD-2.1</text>
+	<text transform="matrix(1 0 0 1 225.9987 729.8998)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">*HMFD</text>
+	<text transform="matrix(1 0 0 1 282.2349 729.8998)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">*HMFD</text>
+	<rect x="103.9" y="760.6" width="19.8" height="6"/>
+	<polyline style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" points="85.5,749.1 85.5,763.6 142.2,763.6 
+		142.2,749.1 	"/>
+	<text transform="matrix(1 0 0 1 108.3494 771.6737)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">120 Ω</text>
+	<path style="fill:#9ACCE4;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;" d="M543.7,775h-77v-25.9
+		h77V775"/>
+	<text transform="matrix(1 0 0 1 480.7446 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_H</text>
+	<text transform="matrix(1 0 0 1 517.7543 755.1739)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">CAN_L</text>
+	<rect x="496.3" y="760.6" width="19.8" height="6"/>
+	<polyline style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" points="477.9,749.1 477.9,763.6 534.6,763.6 
+		534.6,749.1 	"/>
+	<text transform="matrix(1 0 0 1 500.7537 771.6737)" style="font-family:'FZLTHJW--GB1-0'; font-size:4px;">120 Ω</text>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M144.4,693c2.3,0,4.1-1.9,4.1-4.3
+		c0-2.4-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L144.4,693z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M278.4,693c2.3,0,4.1-1.9,4.1-4.3
+		c0-2.4-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L278.4,693z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M414.8,693c2.3,0,4.1-1.9,4.1-4.3
+		c0-2.4-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L414.8,693z"/>
+	<g>
+		<g id="_x30_2-上针脚_17_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="477.9" y1="740.9" x2="477.9" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M477.8,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C481,739.2,479.6,737.8,477.8,737.8"/>
+			<path d="M477.8,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M477.8,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="473.8" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="477.4" y="740" width="1" height="4.2"/>
+			
+				<rect x="477.4" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+		<g id="_x30_2-上针脚_16_">
+			<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="534.5" y1="740.9" x2="534.5" y2="749.1"/>
+			<path style="fill:#FFFFFF;" d="M534.4,737.8c-1.7,0-3,1.4-3,3c0,1.8,1.4,3.2,3,3.2c1.8,0,3.2-1.4,3.2-3.2
+				C537.6,739.2,536.2,737.8,534.4,737.8"/>
+			<path d="M534.5,738.3c-1.4,0-2.5,1.2-2.5,2.5c0,1.6,1.1,2.7,2.5,2.7v1.2c-2,0-3.7-1.6-3.7-3.8c0-2.1,1.7-3.7,3.7-3.7V738.3z
+				 M534.5,744.7c2.2,0,3.8-1.7,3.8-3.8s-1.6-3.7-3.8-3.7v1.1c1.6,0,2.7,1.2,2.7,2.5c0,1.6-1.2,2.7-2.7,2.7V744.7"/>
+			<rect x="530.5" y="741" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+			<rect x="534" y="740" width="1" height="4.2"/>
+			
+				<rect x="534" y="740" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+		</g>
+	</g>
+	<g>
+		<rect x="463.8" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 468.5095 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="520.5" y="706.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 525.1669 711.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M537,693c2.3,0,4.1-1.9,4.1-4.3
+		c0-2.4-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L537,693z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M144.4,236.1c2.3,0,4.1-1.9,4.1-4.3
+		s-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L144.4,236.1z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M278.3,285.5c2.3,0,4.1-1.9,4.1-4.3
+		s-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L278.3,285.5z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M278.3,236.1c2.3,0,4.1-1.9,4.1-4.3
+		s-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L278.3,236.1z"/>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M414.8,236.1c2.3,0,4.1-1.9,4.1-4.3
+		s-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L414.8,236.1z"/>
+	<g>
+		<rect x="342.8" y="460.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 347.481 465.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="399.5" y="460.3" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 404.1383 465.699)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M414.8,482.1c2.3,0,4.1-1.9,4.1-4.3
+		s-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L414.8,482.1z"/>
+	<g>
+		<rect x="342.8" y="551.9" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 347.481 557.3442)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">P 0.35</text>
+		</g>
+		<rect x="399.5" y="551.9" style="fill:#FFFFFF;" width="28.1" height="7.1"/>
+		<g>
+			<text transform="matrix(1 0 0 1 404.1383 557.3442)" style="font-family:'FZLTHJW--GB1-0'; font-size:6px;">V 0.35</text>
+		</g>
+	</g>
+	<path style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;" d="M414.8,573.8c2.3,0,4.1-1.9,4.1-4.3
+		c0-2.4-1.8-4.3-4-4.3l-61.3,8.7c-2.3-0.1-4-2-4-4.3c0-2.4,1.9-4.3,4.1-4.3L414.8,573.8z"/>
+	<g id="_x30_5-对接插头向上_2_">
+		<rect x="215.2" y="251.2" style="fill:#FFFFFF;" width="8.5" height="18.8"/>
+		<g>
+			<g>
+				<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="219.4" y1="259.4" x2="219.4" y2="251.2"/>
+				<path style="fill:#FFFFFF;" d="M219.3,262.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+					C222.5,261.1,221.1,262.5,219.3,262.5"/>
+				<path d="M219.4,263.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V263.1z
+					 M219.4,255.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S221.6,255.6,219.4,255.6"/>
+				<rect x="215.4" y="255.2" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+				<rect x="218.9" y="256.1" width="1" height="4.2"/>
+				
+					<rect x="218.9" y="256.1" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+			</g>
+			<line style="fill:none;stroke:#000000;stroke-width:0.6001;" x1="219.4" y1="263" x2="219.4" y2="269.5"/>
+		</g>
+	</g>
+	<g id="_x30_5-对接插头向上_1_">
+		<rect x="271.9" y="251.2" style="fill:#FFFFFF;" width="8.5" height="18.8"/>
+		<g>
+			<g>
+				<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="276.1" y1="259.4" x2="276.1" y2="251.2"/>
+				<path style="fill:#FFFFFF;" d="M276,262.5c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+					C279.2,261.1,277.8,262.5,276,262.5"/>
+				<path d="M276.1,263.1c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V263.1z
+					 M276.1,255.6v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7S278.3,255.6,276.1,255.6"/>
+				<rect x="272.1" y="255.2" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+				<rect x="275.6" y="256.1" width="1" height="4.2"/>
+				
+					<rect x="275.6" y="256.1" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+			</g>
+			<line style="fill:none;stroke:#000000;stroke-width:0.6001;" x1="276.1" y1="263" x2="276.1" y2="269.5"/>
+		</g>
+	</g>
+	<g id="_x30_5-对接插头向上_4_">
+		<rect x="351.6" y="502.7" style="fill:#FFFFFF;" width="8.5" height="18.8"/>
+		<g>
+			<g>
+				<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="355.8" y1="510.9" x2="355.8" y2="502.7"/>
+				<path style="fill:#FFFFFF;" d="M355.7,514c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+					C358.9,512.6,357.5,514,355.7,514"/>
+				<path d="M355.8,514.6c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V514.6z
+					 M355.8,507.1v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C359.6,508.8,358,507.1,355.8,507.1"
+					/>
+				<rect x="351.8" y="506.7" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+				<rect x="355.3" y="507.6" width="1" height="4.2"/>
+				
+					<rect x="355.3" y="507.6" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+			</g>
+			<line style="fill:none;stroke:#000000;stroke-width:0.6001;" x1="355.8" y1="514.5" x2="355.8" y2="521"/>
+		</g>
+	</g>
+	<g id="_x30_5-对接插头向上_3_">
+		<rect x="408.3" y="502.7" style="fill:#FFFFFF;" width="8.5" height="18.8"/>
+		<g>
+			<g>
+				<line style="fill:none;stroke:#000000;stroke-width:0.6;stroke-linejoin:round;" x1="412.5" y1="510.9" x2="412.5" y2="502.7"/>
+				<path style="fill:#FFFFFF;" d="M412.4,514c-1.7,0-3-1.4-3-3c0-1.8,1.4-3.2,3-3.2c1.8,0,3.2,1.4,3.2,3.2
+					C415.6,512.6,414.2,514,412.4,514"/>
+				<path d="M412.5,514.6c-2,0-3.7-1.6-3.7-3.7c0-2.2,1.7-3.8,3.7-3.8v1.2c-1.4,0-2.5,1.1-2.5,2.7c0,1.3,1.1,2.5,2.5,2.5V514.6z
+					 M412.5,507.1v1.2c1.5,0,2.7,1.1,2.7,2.7c0,1.3-1.1,2.5-2.7,2.5v1.1c2.2,0,3.8-1.6,3.8-3.7C416.3,508.8,414.7,507.1,412.5,507.1
+					"/>
+				<rect x="408.5" y="506.7" style="fill:#FFFFFF;" width="8.1" height="4.1"/>
+				<rect x="412" y="507.6" width="1" height="4.2"/>
+				
+					<rect x="412" y="507.6" style="fill:none;stroke:#000000;stroke-width:0.72;stroke-linecap:round;stroke-linejoin:round;" width="1" height="4.2"/>
+			</g>
+			<line style="fill:none;stroke:#000000;stroke-width:0.6001;" x1="412.5" y1="514.5" x2="412.5" y2="521"/>
+		</g>
+	</g>
+</g>
+<g id="图层_2_00000025434183138664028880000003677398479456754344_">
+	<g>
+		<text transform="matrix(1 0 0 1 367.2752 166.1498)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Left domain control unit</text>
+	</g>
+	<g>
+		<rect x="155.7" y="759.1" style="fill:none;" width="38.3" height="23.3"/>
+		<text transform="matrix(1 0 0 1 155.6521 764.2292)" style="enable-background:new    ;"><tspan x="0" y="0" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Terminal </tspan><tspan x="0" y="7.2" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">resistor 1</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 548.0565 764.2292)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Terminal resistor 2</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 112.5271 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-2</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 245.8003 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-5</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 302.1336 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-1</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 385.1995 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-4</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 361.7313 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">K105(F)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 440.8245 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-5</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 417.3563 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">K105(F)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 91.5688 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G87(A)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 167.7771 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-2</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 146.8188 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G87(A)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 225.9019 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G01_1</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 282.2352 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G01_1</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 382.0747 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-35</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 241.5344 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-31</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 297.8679 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-30</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 113.6988 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-17</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 170.0323 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-1</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 438.5747 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-34</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 361.731 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G64(L)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 225.9016 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Gc07</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 282.235 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Gc07</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 92.6519 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G07(A)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 148.9854 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G07(A)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 418.231 187.1902)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">G64(L)</text>
+	</g>
+	<g>
+		<rect x="425.6" y="754.3" style="fill:none;" width="39.9" height="30.8"/>
+		<text transform="matrix(1 0 0 1 425.5646 759.4792)" style="enable-background:new    ;"><tspan x="0" y="0" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Universal </tspan><tspan x="0" y="7.2" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">domain </tspan><tspan x="0" y="14.4" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">controller</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 565.0055 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-2</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 539.7607 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">KG87(B)</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 508.3389 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-1</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 483.094 745.0904)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">KG87(B)</text>
+	</g>
+	<g>
+		<rect x="155.7" y="159.7" style="fill:none;" width="59.7" height="19.4"/>
+		<text transform="matrix(1 0 0 1 155.6521 164.8292)" style="enable-background:new    ;"><tspan x="0" y="0" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Central control </tspan><tspan x="0" y="7.2" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">touchscreen unit</tspan></text>
+	</g>
+	<g>
+		<rect x="290.9" y="160.3" style="fill:none;" width="59.6" height="22.4"/>
+		<text transform="matrix(1 0 0 1 290.9019 165.4386)" style="enable-background:new    ;"><tspan x="0" y="0" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Central control </tspan><tspan x="0" y="7.2" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">touchscreen unit</tspan></text>
+	</g>
+	<g>
+		<rect x="290.9" y="759.1" style="fill:none;" width="38.5" height="15.9"/>
+		<text transform="matrix(1 0 0 1 290.9019 764.2295)" style="enable-background:new    ;"><tspan x="0" y="0" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">Instrument </tspan><tspan x="0" y="7.2" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">panel cluster</tspan></text>
+	</g>
+	<text transform="matrix(1 0 0 1 225.9014 255.1951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">GcJG01</text>
+	<text transform="matrix(1 0 0 1 225.9014 262.3951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">GJGc01</text>
+	<text transform="matrix(1 0 0 1 225.9014 269.5952)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-2</text>
+	<text transform="matrix(1 0 0 1 282.2352 255.1951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">GcJG01</text>
+	<text transform="matrix(1 0 0 1 282.2352 262.3951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">GJGc01</text>
+	<text transform="matrix(1 0 0 1 282.2352 269.5952)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-1</text>
+	<text transform="matrix(1 0 0 1 362.2671 506.6951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">GJK02</text>
+	<text transform="matrix(1 0 0 1 362.2671 513.8951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">KJG02</text>
+	<text transform="matrix(1 0 0 1 362.2671 521.0952)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-10</text>
+	<text transform="matrix(1 0 0 1 418.6008 506.6951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">GJK02</text>
+	<text transform="matrix(1 0 0 1 418.6008 513.8951)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">KJG02</text>
+	<text transform="matrix(1 0 0 1 418.6008 521.0952)" style="fill:#005EAD; font-family:'FZLTHJW--GB1-0'; font-size:6px;">-11</text>
+</g>
+</svg>

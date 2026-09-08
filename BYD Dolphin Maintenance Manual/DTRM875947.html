@@ -1,0 +1,502 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection and adjustment of headlights (dimming test paper)"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175123"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection and adjustment of headlights (dimming test paper)</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175123">
+         
+         
+         <h3 class="topictitletopic1 title">Inspection and adjustment of headlights (dimming test paper)</h3>
+         
+         <div class="body">
+            <p class="p"><span class="ph b">Repair tools and equipment required</span></p>
+            <ul name="contents" class="ul">
+               <li>
+                  <p class="p-inline">VDS</p>
+               </li>
+               <li>
+                  <p class="p-inline">Dimming test paper</p>
+               </li>
+            </ul>
+            
+            <div>
+               <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d56317e19">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">It is essential to adjust the headlight cluster assembly in case of lighting deviation, or removal/installation and replacement.</div>
+               </div>
+               
+            </div>
+            <div>
+               <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d56317e21">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">The following are traditional inspection methods. If the dealer has a headlight adjustment tool, prioritize using this tool.
+                     Please refer to the instructions on using this tool for inspection and adjustment.
+                  </div>
+               </div>
+               
+            </div>
+            <div class="section">
+               <h3 class="title topictitle1">Preparation of test screen</h3>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Use a 1.2 m (height) × 2 m (width) wall or whiteboard to make the test screen. Draw a longitudinal centerline (corresponding
+                        to the vehicle) and test paper position boxes on the wall or whiteboard.
+                     </p>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G071248.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">The requirements for dimensions of the centerline and the test paper position box are as follows:</p>
+                     <table width="100%" border="1" frame="box" rules="all">
+                        <thead style="font-weight: bold">
+                           <tr>
+                              <th width="16.666666666666664%" align="center" valign="middle">S/N</th>
+                              <th width="33.33333333333333%" align="center" valign="middle">Name</th>
+                              <th width="16.666666666666664%" align="center" valign="middle">S/N</th>
+                              <th width="33.33333333333333%" align="center" valign="middle">Name</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td width="16.666666666666664%" align="center" valign="middle">a</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Left position box</td>
+                              <td width="16.666666666666664%" align="center" valign="middle">c</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Vehicle centerline</td>
+                           </tr>
+                           <tr>
+                              <td width="16.666666666666664%" align="center" valign="middle">b</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Right position box</td>
+                              <td width="16.666666666666664%" align="center" valign="middle">d</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Ground</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G071249.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Preparation of test paper</h3>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Print the test paper on an A2 (420 mm × 594 mm) paper in a professional print shop.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Cut the printed test paper along the dotted line and laminate it.</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d56317e84">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">The methods for the left and right sides are the same. Take the left one as an example.</p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">Make sure that the test paper is printed at 1:1 scale, with the dotted line box for left or right headlight cluster being
+                                       400 mm × 350 mm. Please check that dimensions are correct after printing.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">Attach the test paper to the corresponding position box of the test screen. After use, put it in a folder or file bag, and
+                                       properly keep it in the spare parts warehouse.
+                                    </p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G174720.png" alt="G174720"></img></div>
+                        </div>
+                     </p>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Preparation of inspection site</h3>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Make sure that the inspection site is flat and spacious, and avoid the influence of strong light irradiation on dimming.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Draw a straight line parallel to the test screen on the ground 3 m away from the test screen, draw the vehicle centerline
+                        on the ground, and make sure that the centerline is perpendicular to the 3 m line and the test screen.
+                     </p>
+                     <table width="100%" border="1" frame="box" rules="all">
+                        <thead style="font-weight: bold">
+                           <tr>
+                              <th width="16.666666666666664%" align="center" valign="middle">S/N</th>
+                              <th width="33.33333333333333%" align="center" valign="middle">Name</th>
+                              <th width="16.666666666666664%" align="center" valign="middle">S/N</th>
+                              <th width="33.33333333333333%" align="center" valign="middle">Name</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td width="16.666666666666664%" align="center" valign="middle">a</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Vehicle centerline</td>
+                              <td width="16.666666666666664%" align="center" valign="middle">c</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Right position box</td>
+                           </tr>
+                           <tr>
+                              <td width="16.666666666666664%" align="center" valign="middle">b</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Left position box</td>
+                              <td width="16.666666666666664%" align="center" valign="middle">d</td>
+                              <td width="33.33333333333333%" align="center" valign="middle">Vehicle centerline</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G052630.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Preparation of vehicle to be inspected</h3>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Check and make sure that there is no damage or deformation of the vehicle and around the headlights.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Ensure the headlight glass is not damaged or dirty, and the reflector and lights are normal.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Make sure that the vehicle lubricating oil level and the coolant level meet the design requirements.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Make sure that the tire pressure meets the standard inflation pressure requirement.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Never place other articles in the vehicle, but be sure to place the tools delivered with the vehicle at the specified positions.</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Have a person weighing 75 kg seated in the driver's seat (counterweight method is allowed if the weight is below 75 kg).</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Place the vehicle on a horizontal plane and shake the vehicle body from side to side to make the chassis suspension of the
+                        vehicle stay in a stable state.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">For a vehicle equipped with a dimmer switch, turn the headlight adjustment switch to "0" position before dimming; for a vehicle
+                        without a dimmer switch (i.e. automatic dimming), check whether the light MIL on the instrument panel cluster illuminates
+                        before dimming. If it illuminates or flashes, conduct repair, make a record and provide feedback; if it does not illuminate
+                        or flash, complete initialization with the VDS.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Connect the VDS and enter the diagnostic system interface.</p>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G120153.png"></img></div>
+                        </div>
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Power on the vehicle (OK mode).</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Go to: Model diagnosis/(corresponding model code)/Body module/Headlight adjustment unit/Headlight initialization.</p>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Adjustment steps</h3>
+               <div>
+                  <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d56317e189">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content"> 
+                        
+                        <ul name="contents" class="ul">
+                           <li> 
+                              
+                              <p class="p-inline">For a model with joint adjustment of high and low beams, only low beams need to be adjusted.</p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">There are two light patterns of low beams, namely "<img src="image/G071253.png"></img>" and "<img src="image/G071254.png"></img>". The lower inflection point of cut-off line is taken as the light pattern center of low beams, while the brightest spot
+                                 is taken as the light pattern center of high beams.
+                              </p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">If low beams need to be shielded for adjusting high beams, headlight surfaces cannot be directly shielded or the shielding
+                                 time cannot exceed 2 minutes as headlight covers are made of plastic, so as to avoid gathering of heat that may cause burn-out
+                                 of headlight covers.
+                              </p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">During light adjustment, observe beam positions while rotating the adjusting bolt. Make proper adjustment at one time whenever
+                                 possible. Refrain from continuous and prolonged rotation of the adjusting bolt with an electric screwdriver to prevent need
+                                 for subsequent readjustment caused by excessive adjustment.
+                              </p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">Adjust the light inflection point to the test box center whenever possible.</p> 
+                              
+                           </li>
+                        </ul>
+                        
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">
+                  <li>
+                     <p class="p-inline">Attach the test paper of the corresponding model to the position box (for a wall, it is recommended to use a paper tape; for
+                        a whiteboard, it is recommended to use a magnet).
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Park the vehicle in front of the 3 m line, that is, the low beam reference center (the intersection point between the low
+                        beam bulb axis and the light cover) is 3 m away from the test screen. In addition, keep the vehicle centerline overlapping
+                        with the vehicle centerline drawn on the ground and vertically aligned with the centerline on the test wall.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Check that the light pattern centers of headlights are in the corresponding test boxes. If so, headlights are normal. If not,
+                        adjust headlights.
+                     </p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Adjust the headlight cluster assembly.</p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d56317e235">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">The adjustment methods of left and right headlight clusters are the same. Take the left one as an example.</p>
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">Remove the left trim panel assembly of front compartment before adjustment.</p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Adjust the light source in horizontal direction.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Adjust the light source in vertical direction.</p>
+                        </li>
+                     </ol>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G052689.png"></img></div>
+                        </div>
+                     </p>
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d56317e252">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">Adjustment of light sources in horizontal and vertical directions refers to adjusting the irradiation range and distance of
+                                 light sources of the headlight cluster assembly.
+                              </p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <table width="100%" border="1" frame="box" rules="all">
+                        <thead style="font-weight: bold">
+                           <tr>
+                              <th width="25%" align="center" valign="middle">Letter</th>
+                              <th width="25%" align="center" valign="middle">Description</th>
+                              <th width="25%" align="center" valign="middle">Letter</th>
+                              <th width="25%" align="center" valign="middle">Description</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td width="25%" align="center" valign="middle">L</td>
+                              <td width="25%" align="center" valign="middle">Left</td>
+                              <td width="25%" align="center" valign="middle">U</td>
+                              <td width="25%" align="center" valign="middle">Up</td>
+                           </tr>
+                           <tr>
+                              <td width="25%" align="center" valign="middle">R</td>
+                              <td width="25%" align="center" valign="middle">Right</td>
+                              <td width="25%" align="center" valign="middle">D</td>
+                              <td width="25%" align="center" valign="middle">Down</td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </li>
+               </ol>
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Dimming parameter table</h3>
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="20%" align="center" valign="middle">A</th>
+                        <th width="20%" align="center" valign="middle">B</th>
+                        <th width="20%" align="center" valign="middle">H</th>
+                        <th width="20%" align="center" valign="middle">Adjustment form</th>
+                        <th width="20%" align="center" valign="middle">Type of cut-off line</th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="20%" align="center" valign="middle">1166</td>
+                        <td width="20%" align="center" valign="middle">1166</td>
+                        <td width="20%" align="center" valign="middle">806</td>
+                        <td width="20%" align="center" valign="middle">Manual, joint adjustment</td>
+                        <td width="20%" align="center" valign="middle">
+                           <div class="imagetable"><img width="26mm" style="width:26mm;" onclick="showOrHideImg(event,'show')" src="image/G071256.png"></img></div>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">A: distance between centers of low beams</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">B: distance between centers of high beams</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">H: height of the low beam reference center above the ground</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Manual: manual adjustment of high and low beams</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Automatic: automatic adjustment of low beams and manual adjustment of high beams</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Joint adjustment: low and high beams moving simultaneously during adjustment</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Independent: low or high beams can be moved independently during adjustment</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Unit: mm.</p>
+                  </li>
+               </ul>
+               
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

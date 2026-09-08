@@ -1,0 +1,350 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Fault diagnosis and troubleshooting"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA055056"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Fault diagnosis and troubleshooting</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA055056">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Fault diagnosis and troubleshooting</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Diagnostic basis and troubleshooting method</p>  
+                     
+                     
+                     <table width="100%" border="1" frame="box" rules="all">  
+                        
+                        
+                        
+                        
+                        <thead style="font-weight: bold"> 
+                           
+                           <tr> 
+                              
+                              <th width="1" align="center" valign="middle"> 
+                                 
+                                 <p>Procedure type</p> 
+                                 
+                              </th>  
+                              
+                              <th width="1" align="center" valign="middle"> 
+                                 
+                                 <p>Detailed information</p> 
+                                 
+                              </th>  
+                              
+                              <th width="1" align="center" valign="middle"> 
+                                 
+                                 <p>Troubleshooting method</p> 
+                                 
+                              </th> 
+                              
+                           </tr> 
+                           
+                        </thead>  
+                        
+                        <tbody> 
+                           
+                           <tr> 
+                              
+                              <td width="1" align="left" valign="middle"> 
+                                 
+                                 <p>DTC-based diagnosis</p> 
+                                 
+                              </td>  
+                              
+                              <td width="1" align="left" valign="middle"> 
+                                 
+                                 <p>The diagnostic procedure is based on stored DTCs.</p> 
+                                 
+                              </td>  
+                              
+                              <td width="1" align="left" valign="middle"> 
+                                 
+                                 <p>1. Use the method of exclusion to determine the faulty parts according to DTC setting conditions.</p>  
+                                 
+                                 <p>2. Check the data of relevant parts using a VDS and exclude possible faults one by one.</p> 
+                                 
+                              </td> 
+                              
+                           </tr>  
+                           
+                           <tr> 
+                              
+                              <td width="1" align="left" valign="middle"> 
+                                 
+                                 <p>Symptom-based diagnosis (DTCs not stored)</p> 
+                                 
+                              </td>  
+                              
+                              <td width="1" align="left" valign="middle"> 
+                                 
+                                 <p>The diagnostic procedure is based on fault symptoms.</p> 
+                                 
+                              </td>  
+                              
+                              <td width="1" align="left" valign="middle"> 
+                                 
+                                 <p>1. Use the method of exclusion to determine the faulty parts according to fault symptoms. Check the relevant parts using a
+                                    VDS and exclude possible faults one by one.
+                                 </p>  
+                                 
+                                 <p>2. Check the data of relevant parts using a VDS and exclude possible faults one by one.</p> 
+                                 
+                              </td> 
+                              
+                           </tr> 
+                           
+                        </tbody> 
+                        
+                     </table> 
+                     
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Specific steps for troubleshooting</p>  
+                     
+                     
+                     <table width="100%" border="1" frame="box" rules="all">  
+                        
+                        
+                        
+                        <thead style="font-weight: bold"> 
+                           
+                           <tr> 
+                              
+                              <th width="25%" align="center" valign="middle"> 
+                                 
+                                 <p>Step</p> 
+                                 
+                              </th>  
+                              
+                              <th width="75%" align="center" valign="middle"> 
+                                 
+                                 <p>Description</p> 
+                                 
+                              </th> 
+                              
+                           </tr> 
+                           
+                        </thead>  
+                        
+                        <tbody> 
+                           
+                           <tr> 
+                              
+                              <td width="25%" align="center" valign="middle"> 
+                                 
+                                 <p>Step 1</p> 
+                                 
+                              </td>  
+                              
+                              <td width="75%" align="left" valign="middle"> 
+                                 
+                                 <p>Get the detailed information when an electrical fault occurs.</p> 
+                                 
+                              </td> 
+                              
+                           </tr>  
+                           
+                           <tr> 
+                              
+                              <td width="25%" align="center" valign="middle"> 
+                                 
+                                 <p>Step 2</p> 
+                                 
+                              </td>  
+                              
+                              <td width="75%" align="left" valign="middle"> 
+                                 
+                                 <p>1. Operate the affected system and conduct a road test if necessary.</p>  
+                                 
+                                 <p>2. Confirm the fault parameters.</p>  
+                                 
+                                 <p>3. If recurrence of the fault is impossible, refer to "Circuit simulation test".</p> 
+                                 
+                              </td> 
+                              
+                           </tr>  
+                           
+                           <tr> 
+                              
+                              <td width="25%" align="center" valign="middle"> 
+                                 
+                                 <p>Step 3</p> 
+                                 
+                              </td>  
+                              
+                              <td width="75%" align="left" valign="middle"> 
+                                 
+                                 <p>1. Collect appropriate diagnostic data, including:</p>  
+                                 
+                                 <p>a. system circuit diagram</p>  
+                                 
+                                 <p>b. schematic diagram of the system</p>  
+                                 
+                                 <p>c. corresponding chapters of the maintenance manual</p>  
+                                 
+                                 <p>d. other relevant information</p>  
+                                 
+                                 <p>2. Perform diagnosis according to the knowledge about system operation and the customer's feedback.</p> 
+                                 
+                              </td> 
+                              
+                           </tr>  
+                           
+                           <tr> 
+                              
+                              <td width="25%" align="center" valign="middle"> 
+                                 
+                                 <p>Step 4</p> 
+                                 
+                              </td>  
+                              
+                              <td width="75%" align="left" valign="middle"> 
+                                 
+                                 <p>1. Check the system for adhesion, loose connectors, damaged wiring harness or other faults.</p>  
+                                 
+                                 <p>2. Confirm the circuits and parts involved, and perform diagnosis according to the system circuit diagram and the wiring harness
+                                    layout diagram.
+                                 </p> 
+                                 
+                              </td> 
+                              
+                           </tr>  
+                           
+                           <tr> 
+                              
+                              <td width="25%" align="center" valign="middle"> 
+                                 
+                                 <p>Step 5</p> 
+                                 
+                              </td>  
+                              
+                              <td width="75%" align="left" valign="middle"> 
+                                 
+                                 <p>Repair the circuit and replace faulty parts if necessary.</p> 
+                                 
+                              </td> 
+                              
+                           </tr>  
+                           
+                           <tr> 
+                              
+                              <td width="25%" align="center" valign="middle"> 
+                                 
+                                 <p>Step 6</p> 
+                                 
+                              </td>  
+                              
+                              <td width="75%" align="left" valign="middle"> 
+                                 
+                                 <p>Operate the system in all modes and ensure that the system can work normally under all conditions. Make sure that no other
+                                    new faults are caused by negligence during the diagnosis or maintenance.
+                                 </p> 
+                                 
+                              </td> 
+                              
+                           </tr> 
+                           
+                        </tbody> 
+                        
+                     </table> 
+                     
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

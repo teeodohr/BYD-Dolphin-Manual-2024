@@ -1,0 +1,209 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Precautions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Precautions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         <h3 class="topictitletopic1 title">Precautions</h3>
+         
+         <div class="body">
+            <div>
+               <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d2396e9">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">ACC is a system to enhance comfort, rather than a safety system, nor an obstacle detector or collision warning system. The
+                              driver must maintain control of the vehicle at all times, and is fully responsible for the vehicle's operation.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">The ACC function can assist the driver, but it cannot replace the driver in driving. The driver must always maintain control
+                              of the vehicle and be fully responsible for the vehicle, following traffic regulations at all times.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">For safety, ACC cannot be activated when ESC is not turned on.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">ACC is suitable for use on expressways and roads in good conditions, but unsuitable for use on complex urban roads or mountain
+                              roads.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Maintaining a proper distance from a vehicle ahead is the responsibility of the driver. The following distance of the ACC
+                              system shall meet the minimum distance requirements as stipulated by various countries for the specific driving environment.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">When the ACC is active, if the driver presses the accelerator pedal or brake pedal, the control of the vehicle will be handed
+                              over to the driver, and the ACC system will no longer keep a safe distance from the vehicle ahead.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">If a vehicle ahead brakes suddenly (emergency stop), ACC may fail to react or be slow in reacting to the vehicle ahead, resulting
+                              in the risk of late braking. In this case, the driver does not receive a take-over request.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">In some cases (a vehicle ahead running slowly, the vehicle changing lanes too suddenly, or keeping excessively short safety
+                              distance), ACC may not have enough time to reduce the relative speed. In such cases, the driver must react appropriately.
+                              ACC cannot provide an audio or visual alarm in each case.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">When ACC is activated while the vehicle is stationary, it may identify any stationary obstacle in front as a vehicle, so it
+                              may then keep the vehicle stationary to ensure a safe starting and avoid collision with the stationary target caused by unexpected
+                              starting. However, this function cannot identify all obstacles, so the driver must ensure that there are no obstacles or other
+                              traffic participants in front of the vehicle.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">If the vehicle with ACC activated runs too close to an adjacent lane (or another vehicle on an adjacent lane runs too close
+                              to the lane on which the vehicle with ACC activated is running), ACC may apply braking in response to the corresponding vehicle.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">If another vehicle changes to the lane on which the vehicle with ACC activated is running and falls within the detection range
+                              of the front mmWave radar, it may be identified as a target vehicle, and a response may be made correspondingly. In this event,
+                              forced braking or late braking may occur.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">In some circumstances, detection may be affected or delayed. If the front mmWave radar reflection cross-sectional area of
+                              the target is too small (e.g., a bicycle, carriage, or pedestrian), there is a risk that ACC may be unable to identify the
+                              distance from the target ahead, resulting in late response or no response to these targets. In such cases, the driver needs
+                              to control the vehicle speed. Moreover, the detection may be affected by noise or electromagnetic interference, resulting
+                              in delay or interference.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">When the overlap between the vehicle and the vehicle ahead is too small, the ACC system may be unable to identify the vehicle
+                              ahead as the target. In this event, the driver needs to keep control of the vehicle.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">When the vehicle follows a vehicle ahead to stop, ACC is unable to identify the end of the target vehicle ahead and instead
+                              identifies its lower end (e.g. the rear axle of a truck with high chassis or the bumper of a vehicle) in very few cases. Should
+                              these occur, ACC is unable to ensure a proper stopping distance, and the driver must stay vigilant and ready to brake at any
+                              time.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Structural retrofitting of the vehicle, such as lowering the chassis or changing the front license plate frame, may compromise
+                              the ACC system.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Do not use the ACC system when driving on roads with poor visibility, ramps, or multiple curves, or on slippery and wet roads
+                              with snow, ice, or water gathered.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">In the following situations, professional calibration and checking of the front mmWave radar and multi-purpose camera must
+                              be performed by a BYD authorized dealer or service provider:
+                           </p>
+                           <ol class="num">
+                              <li>
+                                 <p class="p-inline">Remove the front mmWave radar, front bumper and front windshield.</p>
+                              </li>
+                              <li>
+                                 <p class="p-inline">Four wheels have been re-aligned due to wheel deviation;</p>
+                              </li>
+                              <li>
+                                 <p class="p-inline">A collision happens;</p>
+                              </li>
+                              <li>
+                                 <p class="p-inline">The ACC system performance degrades or the instrument panel cluster indicates a system abnormality.</p>
+                              </li>
+                           </ol>
+                        </li>
+                     </ul>
+                     
+                  </div>
+               </div>
+               
+            </div>
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

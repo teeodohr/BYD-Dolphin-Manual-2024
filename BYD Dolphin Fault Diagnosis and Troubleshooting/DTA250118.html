@@ -1,0 +1,360 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnostic instructions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA106835"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnostic instructions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA106835">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnostic instructions</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Introduction</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">　　For the diagnosis of any fault of the IPB system, it is necessary to understand and get familiar with its operating principle.
+                     Go to description and operation overview. Before diagnosis, determine the fault symptom described by the customer, and then
+                     analyze the fault cause of the IPB system, which are helpful to determine the correct fault diagnosis steps. During the inspection
+                     and measurement of circuits and components of the IPB system, the data flow and action test functions are preferred to improve
+                     diagnosis efficiency and shorten maintenance time. After confirming the fault, understand the precautions and warnings of
+                     the IPB system and implement standard operating procedures during maintenance. After maintenance, check the IPB system and
+                     confirm its working status.
+                  </p> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">General-purpose equipment</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ul name="contents" class="ul"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Multimeter</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">VDS</p> 
+                        
+                     </li> 
+                     
+                  </ul>
+                  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d62173e50">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When measuring the voltage with a multimeter, select the range that is closest to the voltage.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When measuring the resistance with a multimeter, select the range that is closest to the resistance.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T003"> 
+            
+            <h3 class="topictitletopic2 title">Precautions</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">The IPB system is a safety-related component. Therefore, in addition to general safety and preventive measures, the following
+                     diagnostic precautions must also be observed during its maintenance and diagnosis.
+                  </p>  
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">The IPB system must be maintained by technicians who have received professional training and mastered maintenance skills,
+                           and only original parts are allowed to be used for replacement.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Before diagnosis of the IPB system, any fault of the basic brake system must be eliminated, such as:</p>  
+                        
+                        <ol class="num"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Brake system noise.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Excessively hard brake pedal.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Brake pedal or vehicle vibration during normal braking.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Vehicle off-tracking during braking.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">EPB system fault.</p> 
+                              
+                           </li> 
+                           
+                        </ol> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">The IPB system assembly (referring to the electronic control unit and hydraulic adjuster assembly of the IPB system, excluding
+                           auxiliary devices such as brake pipes and sensors) can only be replaced as a whole and cannot be disassembled for inspection
+                           or partially replaced/interchanged.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Both of the following conditions indicate that a fault of the IPB system is detected:</p>  
+                        
+                        <ol class="num"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The MIL remains illuminating after the vehicle is powered ON.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The MIL remains illuminating during driving.</p> 
+                              
+                           </li>
+                        </ol> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Note the following when connecting the IPB system and sensor wiring harness:</p>  
+                        
+                        <ol class="num"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Before unplugging the IPB system and sensor wiring harness, be sure to power OFF the vehicle.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Make sure that the connectors are dry and clean and avoid ingression of any foreign matters.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Fit the wiring harness connector of IPB system in place horizontally and vertically to avoid connector damage.</p> 
+                              
+                           </li> 
+                           
+                        </ol> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Noise will be generated in the IPB system in the following conditions:</p>  
+                        
+                        <ol class="num"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">After the vehicle is powered on, it is normal to hear a short "buzzing" sound, which is generated by the self-inspection of
+                                 the IPB system.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">When the vehicle accelerates to about 15 km/h, it is normal to hear a short "buzzing" sound, which is generated by the dynamic
+                                 self-inspection of the IPB system.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Action sound produced by the motor, solenoid valve and reflux pump in the hydraulic unit of IPB system.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Sound caused by brake pedal rebound.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Sound caused by the impact between suspension and vehicle body due to emergency braking.</p> 
+                              
+                           </li> 
+                           
+                        </ol> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

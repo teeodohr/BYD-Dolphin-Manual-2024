@@ -1,0 +1,208 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnosis and testing"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA055066"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnosis and testing</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA055066">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnosis and testing</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Inspection</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Operate the vehicle to allow recurrence of the fault, and confirm the problem described by the customer.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Perform visual inspection to identify any obvious cause of fault.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If any obvious cause is identified through visual inspection or based on the customer's problem description, eliminate the
+                           cause (if possible) before proceeding with the next step.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">The road test and the customer's detailed description can provide the relevant information that helps to confirm the problem
+                           and the direction for starting the diagnosis correctly.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">If the problem still exists after inspection, eliminate it according to the fault symptoms.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">Inspection</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Noise and vibration usually occur in the following 4 areas:</p>  
+                        
+                        <ol class="num"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Tire</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Suspension</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Drive system</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Interior trims</p> 
+                              
+                           </li> 
+                           
+                        </ol> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">The locations of problems related to noise, vibration and comfort shall be determined as soon as possible. The simplest and
+                           fastest way is to conduct a road test, with appropriately approved noise, vibration and comfort diagnostic detectors being
+                           used to support the diagnosis and testing procedures.
+                        </p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

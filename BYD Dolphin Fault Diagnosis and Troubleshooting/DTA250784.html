@@ -1,0 +1,352 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC list"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA066431"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC list</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA066431">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC list</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="1" align="center" valign="middle"> 
+                           
+                           <p>DTC</p> 
+                           
+                        </th>
+                        <th width="1" align="center" valign="middle"> 
+                           
+                           <p>Descriptions</p> 
+                           
+                        </th>
+                        <th width="1" align="center" valign="middle"> 
+                           
+                           <p>Diagnosis process</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1F1C31</td>
+                        <td width="1" align="left" valign="middle">Internal fault of ECU</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250781.html">B1F1C31 Internal fault of ECU</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U01F387</td>
+                        <td width="1" align="left" valign="middle">Abnormal display screen communication</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250601.html">U01F387 Abnormal display screen communication</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U024987</td>
+                        <td width="1" align="left" valign="middle">Network signal fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250620.html">U024987 Network signal fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AB700</td>
+                        <td width="1" align="left" valign="middle">Network registration fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250616.html">B1AB700 Network registration fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC500</td>
+                        <td width="1" align="left" valign="middle">vin format incorrect</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250613.html">B1AC500 vin format incorrect</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E7407</td>
+                        <td width="1" align="left" valign="middle">WIFI\BT antenna fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250607.html">B2E7407 WIFI\BT antenna fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E8800</td>
+                        <td width="1" align="left" valign="middle">Rotating shaft motor drive chip fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250734.html">B2E8800 Rotating shaft motor drive chip fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U019480</td>
+                        <td width="1" align="left" valign="middle">TI954 image chip communication fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250732.html">U019480 TI954 image chip communication fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B12C800</td>
+                        <td width="1" align="left" valign="middle">Power amplifier short-circuited</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250733.html">B12C800 Power amplifier short-circuited</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1A1600</td>
+                        <td width="1" align="left" valign="middle">Abnormal DSP</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250731.html">B1A1600 Abnormal DSP</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC100</td>
+                        <td width="1" align="left" valign="middle">Key not existing</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250729.html">B1AC100 Key not existing</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E7A00</td>
+                        <td width="1" align="left" valign="middle">Interior camera video input fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250730.html">B2E7A00 Interior camera video input fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2F5109</td>
+                        <td width="1" align="left" valign="middle">Right camera video input fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250727.html">B2F5109 Right camera video input fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U019380</td>
+                        <td width="1" align="left" valign="middle">Data communication fault of ACCEL gravity induction gyroscope</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250736.html">U019380 Data communication fault of ACCEL gravity induction gyroscope</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1A1500</td>
+                        <td width="1" align="left" valign="middle">A2B not connected</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250737.html">B1A1500 A2B not connected</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1ABC00</td>
+                        <td width="1" align="left" valign="middle">General data configuration fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250742.html">B1ABC00 General data configuration fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC800</td>
+                        <td width="1" align="left" valign="middle">Failed to obtain GPS data</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250743.html">B1AC800 Failed to obtain GPS data</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2F5009</td>
+                        <td width="1" align="left" valign="middle">Left camera video input fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250741.html">B2F5009 Left camera video input fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U019580</td>
+                        <td width="1" align="left" valign="middle">TI964 image chip communication fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250740.html">U019580 TI964 image chip communication fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U029D87</td>
+                        <td width="1" align="left" valign="middle">Loss of communication with ESP</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250754.html">U029D87 Loss of communication with ESP</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1A1700</td>
+                        <td width="1" align="left" valign="middle">Abnormal radio</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250739.html">B1A1700 Abnormal radio</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC200</td>
+                        <td width="1" align="left" valign="middle">Key set in blacklist</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250738.html">B1AC200 Key set in blacklist</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U011087</td>
+                        <td width="1" align="left" valign="middle">Loss of communication with motor control unit</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250757.html">U011087 Loss of communication with motor control unit</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U019680</td>
+                        <td width="1" align="left" valign="middle">ADV7282 image chip communication fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250748.html">U019680 ADV7282 image chip communication fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U024787</td>
+                        <td width="1" align="left" valign="middle">Fault in communication with TCP server</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250747.html">U024787 Fault in communication with TCP server</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1A1800</td>
+                        <td width="1" align="left" valign="middle">Abnormal iFLYTEK</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250758.html">B1A1800 Abnormal iFLYTEK</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC300</td>
+                        <td width="1" align="left" valign="middle">vin bound with another key</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250759.html">B1AC300 vin bound with another key</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E8100</td>
+                        <td width="1" align="left" valign="middle">4G auxiliary antenna fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250664.html">B2E8100 4G auxiliary antenna fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U019280</td>
+                        <td width="1" align="left" valign="middle">4G chip communication fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250663.html">U019280 4G chip communication fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U024B87</td>
+                        <td width="1" align="left" valign="middle">Fault in communication with communication module</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250755.html">U024B87 Fault in communication with communication module</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AB900</td>
+                        <td width="1" align="left" valign="middle">Key invalid</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250668.html">B1AB900 Key invalid</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC700</td>
+                        <td width="1" align="left" valign="middle">IMSI bound</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250669.html">B1AC700 IMSI bound</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E7800</td>
+                        <td width="1" align="left" valign="middle">GPS antenna fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250666.html">B2E7800 GPS antenna fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2F4F09</td>
+                        <td width="1" align="left" valign="middle">Rear camera video input fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250667.html">B2F4F09 Rear camera video input fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U01E487</td>
+                        <td width="1" align="left" valign="middle">Data communication fault of GYRO gravity induction gyroscope</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250665.html">U01E487 Data communication fault of GYRO gravity induction gyroscope</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U024887</td>
+                        <td width="1" align="left" valign="middle">Fault in communication with SIM card</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250672.html">U024887 Fault in communication with SIM card</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1A1B00</td>
+                        <td width="1" align="left" valign="middle">Built-in power amplifier fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250673.html">B1A1B00 Built-in power amplifier fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC400</td>
+                        <td width="1" align="left" valign="middle">Key correctly bound with another VIN</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250670.html">B1AC400 Key correctly bound with another VIN</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E7100</td>
+                        <td width="1" align="left" valign="middle">4G antenna fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250698.html">B2E7100 4G antenna fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E8700</td>
+                        <td width="1" align="left" valign="middle">Data communication fault of acceleration sensor LIS2DH12</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250684.html">B2E8700 Data communication fault of acceleration sensor LIS2DH12</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1F2100</td>
+                        <td width="1" align="left" valign="middle">OTA vehicle upgrade channel fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250687.html">B1F2100 OTA vehicle upgrade channel fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">U024A87</td>
+                        <td width="1" align="left" valign="middle">Fault in communication with GPS module</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250679.html">U024A87 Fault in communication with GPS module</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AB800</td>
+                        <td width="1" align="left" valign="middle">Abnormal or empty frame number</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250703.html">B1AB800 Abnormal or empty frame number</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B1AC600</td>
+                        <td width="1" align="left" valign="middle">Key format incorrect</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250704.html">B1AC600 Key format incorrect</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2E7507</td>
+                        <td width="1" align="left" valign="middle">WIFI\BT drive loading fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250702.html">B2E7507 WIFI\BT drive loading fault</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">B2F4E09</td>
+                        <td width="1" align="left" valign="middle">Front camera video input fault</td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250719.html">B2F4E09 Front camera video input fault</a></td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

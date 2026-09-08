@@ -1,0 +1,647 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Inspection and adjustment of four-wheel alignment"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM83199"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Inspection and adjustment of four-wheel alignment</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM83199">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Inspection and adjustment of four-wheel alignment</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Wheel alignment parameter value</h3> 
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d21711e14">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li> 
+                              
+                              <p class="p-inline">If the caster angle and inclination angle of the front wheel kingpin are not within the specified range, check suspension
+                                 components for bending or damage. If the suspension components are bent or damaged, replace the damaged components. Do not
+                                 try to repair them by tapping or other methods.
+                              </p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">If camber angles of front and rear wheels are not within the specified range, check suspension components for bending or damage.
+                                 If the suspension components are bent or damaged, replace the damaged components. Do not try to repair them by tapping or
+                                 other methods.
+                              </p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">If the front wheel toe-in is correct, but the steering angle is not within the specified range or the left inner steering
+                                 angle is different from the right one, check suspension components for bending or damage. If the suspension components are
+                                 bent or damaged, replace the damaged components. Do not try to repair them by tapping or other methods.
+                              </p> 
+                              
+                           </li>
+                           <li> 
+                              
+                              <p class="p-inline">The suspension device can be used to adjust the front wheel toe-in and rear wheel toe-in.</p> 
+                              
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>      
+               
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <tbody>
+                     <tr>
+                        <td width="33.33333333333333%" rowspan="2" valign="top"> 
+                           
+                           <p>Wheel alignment specifications</p> 
+                           
+                        </td>
+                        <td width="33.33333333333333%" colspan="2" valign="top"> 
+                           
+                           <p>Suspension</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="33.33333333333333%" valign="top"> 
+                           
+                           <p>Front</p> 
+                           
+                        </td>
+                        <td width="33.33333333333333%" valign="top"> 
+                           
+                           <p>Rear</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>Front wheel camber (°)</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top"> 
+                           
+                           <p>-0.82±0.75</p> 
+                           
+                        </td>
+                        <td width="33.33333333333333%" valign="top"> 
+                           
+                           <p>/</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>Front wheel toe-in (mm)</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>1.3±1.82</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>/</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>Kingpin inclination angle (°)</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>11.3±0.75</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>/</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>Kingpin caster angle (°)</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>3.16±0.75</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>/</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>Rear wheel camber (°)</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>/</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>-1.38±0.5 (torsion beam)</p>
+                           <p>-1.07±0.5 (four-link)</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>Rear wheel toe-in (mm)</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>/</p>
+                        </td>
+                        <td width="33.33333333333333%" valign="top">
+                           <p>1.1±3 (torsion beam)</p>
+                           <p>1.56±3.56 (four-link)</p>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Toe-in angle of front wheel</h3> 
+               
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d21711e145">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">In this model, only the toe-in value of the front wheel can be adjusted through the steering rod,&nbsp;and other parameters of
+                        wheel alignment cannot be adjusted.
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <ol class="num">
+                  <li> 
+                     
+                     <p class="p-inline">Inspection before four-wheel alignment:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Release the parking brake to avoid incorrect measurement.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Make sure that the suspension device is not changed.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Make sure that the 4 tires are of the same specification, and that the tire pressure is within the specified range.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Make sure that there are no people or extra loads in the vehicle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check whether each fixing point of suspension is loose and deformed, and check the clearance of suspension ball heads to ensure
+                              it is not too large.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the wheels for vibration.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check to confirm that both sides of the vehicle are level with each other.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The steering wheel alignment tolerance is 0°±0.2°.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Carry out a dynamic balance test on wheels, and install them back on the vehicle after the test.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Make the wheels bounce up and down several times to stabilize the suspension.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The test bench is in normal condition.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Adjust the rear wheels first and then the front wheels.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>
+                  <li> 
+                     
+                     <p class="p-inline">Test:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the wheel alignment according to the operating instructions of the four-wheel aligner.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjust the front wheel toe-in.</p>  
+                     
+                     <ol class="num">
+                        <li>
+                           <p class="p-inline">Loosen the steering link lock nut.</p>
+                        </li>
+                        <li> 
+                           
+                           <p class="p-inline">Place 1 open-end wrench at the hexagonal position of the steering links, and adjust the front wheel toe-in to the standard
+                              value by rotating the left or right link.
+                           </p> 
+                           
+                           <ul name="contents" class="ul">
+                              <li>
+                                 <p class="p-inline">Front wheel toe-in value: 1.3±1.82mm</p>
+                              </li>
+                           </ul>
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Tighten the lock nut.</p>  
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Tightening torque: 70 N•m</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d21711e281">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">The adjustment methods of the rear left and rear right wheel total toe-ins are the same.</p>
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p>
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G116492.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Adjustment of rear wheel toe-in</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d21711e295">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">The adjustment methods of the rear left and rear right wheel total toe-ins are the same.</p>
+                           </div>
+                        </div>
+                        
+                     </div>     
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fix the eccentric bolt with a tool.</p>  
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the lock nut.</p>  
+                           
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rotate the rear wheel toe-in adjusting eccentric bolt until the toe-in is correct.</p>
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Rear wheel toe-in value: 1.56±3.56mm</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                           
+                        </li>  
+                        
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After adjustment, fix the eccentric bolt and tighten the lock nut.</p> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Tightening torque: 70 N•m</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                        </li>
+                     </ol> 
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d21711e341">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li> 
+                                    
+                                    <p class="p-inline">The connection points of camber eccentric bolts can only be installed and removed once after sales. After this, nuts need
+                                       to be replaced with new ones.
+                                    </p> 
+                                    
+                                 </li>
+                                 <li> 
+                                    
+                                    <p class="p-inline">Bolts and gaskets should be replaced as needed. In case of rust, it is recommended to replace them with new ones.</p> 
+                                    
+                                 </li>
+                                 <li> 
+                                    
+                                    <p class="p-inline">Make sure that the gasket and eccentric bolt gasket are both properly seated in the limit groove.</p> 
+                                    
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G116499.png"></img></div>
+                        </div> 
+                        
+                     </p>
+                  </li>
+                  <li> 
+                     
+                     <p class="p-inline">Adjustment of rear wheel camber angle.</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d21711e368">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <p class="p">The adjustment methods of the rear left and rear right wheel camber angles are the same.</p>
+                           </div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fix the eccentric bolt with a tool.</p>  
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the lock nut.</p>  
+                           
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rotate the eccentric bolt for adjusting the rear wheel camber angle until the camber angle is correct.</p>  
+                           
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Rear wheel camber angle: -1.07±0.5°</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After adjustment, fix the eccentric bolt and tighten the lock nut.</p> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Tightening torque: 70 N•m</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d21711e416">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li> 
+                                    
+                                    <p class="p-inline">The connecting points of camber eccentric bolts can only be removed and installed twice after sales. After this, nuts need
+                                       to be replaced with new ones.
+                                    </p> 
+                                    
+                                 </li>
+                                 <li> 
+                                    
+                                    <p class="p-inline">Bolts and gaskets should be replaced as needed. In case of rust, it is recommended to replace them with new ones.</p> 
+                                    
+                                 </li>
+                                 <li> 
+                                    
+                                    <p class="p-inline">Make sure that the gasket and eccentric bolt gasket are both properly seated in the limit groove.</p> 
+                                    
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G116512.png"></img></div>
+                        </div> 
+                        
+                     </p>
+                  </li>
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

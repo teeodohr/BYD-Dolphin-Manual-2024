@@ -1,0 +1,328 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA093056"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA093056">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="tas63ebd853"> 
+            
+            <h3 class="topictitletopic2 title">DTC list</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">DTC</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Descriptions</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Diagnosis process</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB000</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Overcurrent of front drive motor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250506.html">P1BB000 Front drive motor overcurrent</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB200</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Generally high temperature alarm of front drive motor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250508.html">P1BB200 Generally high temperature alarm of front drive motor</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB298</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Seriously high temperature alarm of front drive motor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250515.html">P1BB298 Seriously high temperature alarm of front drive motor</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BF200</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Abnormal sampling of front drive motor winding temperature sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250517.html">P1BF200 Abnormal sampling of front drive motor winding temperature sensor</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB300</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Generally high temperature alarm of front drive motor control unit IGBT-NTC</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250513.html">P1BB300 Generally high temperature alarm of front drive motor control unit IGBT-NTC</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB319</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Seriously overtemperature alarm of front drive motor control unit IGBT-NTC (cut-off wave)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250514.html">P1BB319 Seriously overtemperature alarm of rear drive motor control unit IGBT-NTC (cut-off wave)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BAC00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Generally overtemperature alarm of front drive motor control unit IGBT core</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250251.html">P1BAC00 General overtemperature alarm of front drive motor control unit IGBT core</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BAC19</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Seriously overtemperature alarm of front drive motor control unit IGBT core (cut-off wave)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250249.html">P1BAC19 Serious overtemperature alarm of front drive motor control unit IGBT core (cut-off wave)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC800</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">IGBT three-phase temperature calibration fault alarm of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250250.html">P1BC800 IGBT three-phase temperature check fault alarm of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB600</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">High-voltage overvoltage of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle">P1BB600 High-voltage overvoltage of front drive motor control unit</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB500</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">High-voltage undervoltage of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle">P1BB500 High-voltage undervoltage of front drive motor control unit</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB700</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor control unit voltage sampling fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250253.html">P1BB700 Front drive motor control unit voltage sampling fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BBA00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor control unit EEPROM error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250255.html">P1BBA00 Front drive motor control unit EEPROM error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BBC00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">DSP reset fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250268.html">P1BBC00 DSP reset fault of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BF100</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Abnormal IPM temperature sampling of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250269.html">P1BF100 Abnormal IPM temperature sampling of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BCF00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Torque limit in case of fault of front drive motor temperature sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250264.html">P1BCF00 Torque limit due to fault of front drive motor temperature sensor</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB100</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">IPM fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250102.html">P1BB100 IPM fault of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC900</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Fault of Hall current sensor A of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250069.html">P1BC900 Fault of Hall current sensor A of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC500</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Fault of Hall current sensor B of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250070.html">P1BC500 Fault of Hall current sensor B of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC600</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Fault of Hall current sensor C of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250068.html">P1BC600 Fault of Hall current sensor C of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">U015229</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Abnormal SRS hardwire signal received by motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA292865.html">U015229 Abnormal SRS hardwire signal received by motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB800</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Collision signal fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250073.html">P1BB800 Collision signal fault of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC200</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor phase A loss</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250074.html">P1BC200 Front drive motor phase A loss</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC300</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor phase B loss.</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250071.html">P1BC300 Front drive motor phase B loss</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC400</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor phase C loss.</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250072.html">P1BC400 Front drive motor phase C loss</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BBD00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Active bleed-off fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250078.html">P1BBD00 Active bleed-off fault of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">U011100</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Fault in communication with BMC</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250148.html">U011100 Fault in communication with BMC</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">U014187</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Fault in communication with vehicle controller</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250149.html">U014187 Fault in communication with vehicle controller</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BD119</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Drive CPLD overcurrent of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250127.html">P1BD119 Drive CPLD overcurrent of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BD117</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Drive CPLD overvoltage of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250128.html">P1BD117 Drive CPLD overvoltage of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BD000</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Drive DSP1 crash of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250124.html">P1BD000 Drive DSP1 crash of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BD400</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Drive CPLD operation fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250126.html">P1BD400 Drive CPLD operation fault of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BD200</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Drive CPLD detection IGBT upper bridge error reporting fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250131.html">P1BD200 Drive CPLD detection IGBT upper bridge error reporting fault of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BD300</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Drive CPLD detection IGBT lower bridge error reporting fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250132.html">P1BD300 Drive CPLD detection IGBT lower bridge error reporting fault of front drive motor control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1B2516</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Low-voltage supply voltage too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250129.html">P1B2516 Low-voltage supply voltage too low</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1B2517</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Low-voltage supply voltage too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250130.html">P1B2517 Low-voltage supply voltage too high</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC700</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">IPM radiator overtemperature fault of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250123.html">P1BC700 Front drive motor control unit IPM radiator overtemperature</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">U015129</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Abnormal SRS CAN signals received by motor control unit</td>
+                           <td width="1" align="left" valign="middle">U015129 SRS CAN signal received by motor control unit abnormal</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC000</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor resolver fault - abnormal angle</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250122.html">P1BC000 Front drive motor resolver fault - angle abnormal</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BBF00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor resolver fault - signal lost</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250120.html">P1BBF00 Front drive motor resolver fault - signal lost</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BC100</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front drive motor resolver fault - signal amplitude decreased</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250119.html">P1BC100 Front drive motor resolver fault - signal amplitude decreased</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">P1BB900</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Cover protection of front drive motor control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250121.html">P1BB900 Cover opening protection of front drive motor control unit enabled</a></td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

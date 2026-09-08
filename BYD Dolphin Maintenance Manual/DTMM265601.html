@@ -1,0 +1,256 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System descriptions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System descriptions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System descriptions</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Overview</h3> 
+               
+               
+               <p class="p">Based on conventional cruise control, the adaptive cruise control (ACC) is designed to actively control the vehicle speed
+                  for auto follow-up while cruising. This is done via a front mmWave radar and a multi-purpose&nbsp;camera which detect the vehicle's
+                  distance and speed relative to the vehicle ahead. The ACC system can automatically switch between fixed-speed cruise and follow-up
+                  cruise depending on whether there is a vehicle ahead.
+               </p>
+               <p class="p">The intelligent cruise control (ICC) incorporates adaptive cruise control (ACC) and lane centering control (LCC). It provides
+                  the driver with longitudinal and lateral auxiliary control within the speed range of 0 to 125 km/h, reduces the driving burden
+                  of the driver and provides a safe and comfortable driving environment.
+               </p>
+               <p class="p">The predictive collision warning (PCW) system and autonomous emergency braking (AEB) system use the front mmWave radar and
+                  multi-purpose&nbsp;camera to detect vehicles and pedestrians ahead. Once a collision risk is detected, the system emits audible
+                  and visual alarms to urge the driver to take avoidance measures, while also increasing the potential braking pressure to provide
+                  sufficient reaction time for the driver. If the system determines that the possibility of collision continues to increase,
+                  it automatically engages the brake to assist the driver in avoiding or mitigating the collision impact.
+               </p>
+               <p class="p">The Front Cross Traffic Alert/Brake (FCTA/FCTB) detects vehicles crossing in front of the vehicle through front mmWave radars
+                  on the left and right sides of the vehicle's front bumper to remind the driver and automatically brake the vehicle if necessary.
+                  When the vehicle is running at a low speed and FCTA/FCTB detects that there is a risk of collision with the front crossing
+                  vehicle, the system will remind the driver in visual and audible form. When a collision is about to occur, the vehicle will
+                  stop automatically to avoid collision.
+               </p>
+               <p class="p">The high&nbsp;beam&nbsp;assist (HMA) judges the current driving environment through a multi-purpose&nbsp;camera sensor, and automatically
+                  activates or deactivates the high beam within the speed range of 35 to 145 km/h.
+               </p>
+               <p class="p">The lane departure warning (LDW) system detects lane lines ahead through a multi-purpose camera. When the vehicle speed is
+                  60 to 150 km/h and the driver unintentionally drifts out of the lane, the LDW system will warn the driver by steering wheel
+                  vibration, audible alarm and/or instrument display. The lane departure prevention (LDP) system detects lane lines ahead through
+                  a multi-purpose&nbsp;camera. When the vehicle speed is 60 to 150 km/h and the driver unintentionally drifts out of the lane towards
+                  the line, the LDP system activates and turns the steering wheel gently by providing reverse torque through the electric power
+                  steering (EPS) system, to prevent the vehicle from moving out of its lane. When the LDP system is activated, an alarm will
+                  be given at the same time to prompt the driver to take over the steering wheel to control the steering. The alarm lasts until
+                  the LDP deactivates and can be given in an acoustic or optical manner and through steering wheel vibration. If the system
+                  is activated twice or more within a continuous period of 180 seconds and the driver does not turn the steering wheel during
+                  activation, the system will send an alarm in the second activation or any further intervention. From the third intervention
+                  (and subsequent interventions), the alarm duration will be at least 15 seconds longer than that of the previous alarm.
+               </p>
+               <p class="p">The emergency lane keeping assist (ELKA) system detects the lane lines ahead through a multi-purpose&nbsp;camera and detects the
+                  vehicles on the adjacent lane approaching from behind through a rear corner front mmWave radar. It works at vehicle speeds
+                  of 60 to 150 km/h when the driver unconsciously deviates from the lane or begins to change lanes. If another vehicle in an
+                  adjacent lane enters into a blind spot from the rear, and the system judges that it poses a collision risk, it will activate
+                  and control the electronic steering system (EPS) to provide reverse torque, keeping the vehicle in the current lane.
+               </p>
+               <p class="p">The blind spot assist system includes blind spot detection (BSD), lane change warning (LCW), rear cross traffic alert (RCTA),
+                  rear cross traffic brake (RCTB), rear collision warning (RCW) and door open warning (DOW). The system detects the environment
+                  behind the vehicle through rear corner mmWave radars on the left and right sides of the vehicle's rear bumper, to timely remind
+                  the driver to drive carefully and pay attention to driving safety.
+               </p>
+               <p class="p">The traffic sign recognition (TSR) system recognizes speed limit signs through the multi-purpose&nbsp;camera. It displays relevant
+                  speed limit signs of the current road on the instrument and sends alarms when the vehicle speed exceeds the detected speed
+                  limit.
+               </p>
+               <p class="p">The intelligent speed limit control (ISLC) system incorporates the adaptive cruise control (ACC) and traffic sign recognition
+                  (TSR) functions. After the system is activated, when a speed limit sign is identified and the vehicle is speeding, the system
+                  will issue a prompt to ask whether to adjust the ACC cruise speed to the recognized speed limit value. After receiving confirmation
+                  from the driver, the system will automatically set the ACC cruise speed to the recognized speed limit value, so that the vehicle
+                  will not overspeed.
+               </p>
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component position view</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G122550.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="25%" valign="top">
+                           <p>1</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Rear right corner mmWave radar</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>4</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Front left corner mmWave radar</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top">
+                           <p>2</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Rear left corner mmWave radar</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>5</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Front mmWave radar</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>3</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Multi-purpose camera assembly</p>
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>6</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Front right corner mmWave radar</p>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3>
+               <p class="p">
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G172686.png" alt="G172686"></img></div>
+                  </div>
+               </p>
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

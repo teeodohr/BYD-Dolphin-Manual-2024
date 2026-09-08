@@ -1,0 +1,368 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA119138"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA119138">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">DTC list</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">DTC</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Descriptions</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Diagnosis process</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">C1C5D17</td>
+                           <td width="1" align="left" valign="middle">12 V battery voltage too low</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA293333.html">C1C5D17 12 V battery voltage too low</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">C1C5E16</td>
+                           <td width="1" align="left" valign="middle">12 V battery voltage too high</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250145.html">C1C5E16 12 V battery voltage too high</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01D588</td>
+                           <td width="1" align="left" valign="middle">Private CAN bus off</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA292887.html">U01D588 Private CAN bus off</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01D688</td>
+                           <td width="1" align="left" valign="middle">Common CAN bus off</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250031.html">U01D688 Common CAN bus off</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6B0A</td>
+                           <td width="1" align="left" valign="middle">MPC camera temporarily blind</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250033.html">C1C6B0A Temporary blindness of MPC</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C4E97</td>
+                           <td width="1" align="left" valign="middle">MPC camera blind</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250034.html">C1C4E97 Blindness of MPC</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C4F4B</td>
+                           <td width="1" align="left" valign="middle">ECU temperature above maximum value</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250035.html">C1C4F4B ECU temperature above maximum value</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C504B</td>
+                           <td width="1" align="left" valign="middle">ECU temperature above operating value</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250036.html">C1C504B ECU temperature above operating value</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5117</td>
+                           <td width="1" align="left" valign="middle">ECU internal voltage low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250038.html">C1C5117 ECU internal voltage low</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5216</td>
+                           <td width="1" align="left" valign="middle">ECU internal voltage high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250039.html">C1C5216 ECU internal voltage high</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5304</td>
+                           <td width="1" align="left" valign="middle">ECU internal hardware fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250041.html">C1C5304 ECU internal hardware fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5491</td>
+                           <td width="1" align="left" valign="middle">Parameter flashing error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250043.html">C1C5491 Parameter flashing error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5552</td>
+                           <td width="1" align="left" valign="middle">ECU software fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250045.html">C1C5552 ECU software fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5652</td>
+                           <td width="1" align="left" valign="middle">Temporary ECU software fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249948.html">C1C5652 Temporary ECU software fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5700</td>
+                           <td width="1" align="left" valign="middle">ECU self-test fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249952.html">C1C5700 ECU self-check fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5855</td>
+                           <td width="1" align="left" valign="middle">MPC not calibrated</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249954.html">C1C5855 MPC not calibrated</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5991</td>
+                           <td width="1" align="left" valign="middle">MPC online calibration out of range</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249959.html">C1C5991 MPC online calibration out of range</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5A91</td>
+                           <td width="1" align="left" valign="middle">MPC initial calibration out of range</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249961.html">C1C5A91 MPC initial calibration out of range</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5B92</td>
+                           <td width="1" align="left" valign="middle">MPC calibration input parameter fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249963.html">C1C5B92 MPC calibration input parameter fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5C92</td>
+                           <td width="1" align="left" valign="middle">MPC calibration execution timeout</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249965.html">C1C5C92 MPC calibration timeout</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01A887</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with left body domain control unit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249964.html">U01A887 Loss of communication with left body domain control unit</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6586</td>
+                           <td width="1" align="left" valign="middle">Left_BCM signal value invalid</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249966.html">C1C6586 Left_BCM signal value invalid</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6602</td>
+                           <td width="1" align="left" valign="middle">Left_BCM signal timer error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249967.html">C1C6602 Left_BCM signal timer error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6762</td>
+                           <td width="1" align="left" valign="middle">Left_BCM signal check error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249929.html">C1C6762 Left_BCM signal check error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6286</td>
+                           <td width="1" align="left" valign="middle">IPB signal value invalid</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249930.html">C1C6286 IPB signal value invalid</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6302</td>
+                           <td width="1" align="left" valign="middle">IPB timer error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249933.html">C1C6302 IPB timer error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6462</td>
+                           <td width="1" align="left" valign="middle">IPB signal check error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249934.html">C1C6462 IPB signal check error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U029D87</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with IPB</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250860.html">U029D87 Loss of communication with IPB</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U019780</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with IPB</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250859.html">U019780 Loss of communication with IPB</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C5F86</td>
+                           <td width="1" align="left" valign="middle">CS signal value invalid (multi-function switch signal value invalid)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249936.html">C1C5F86 CS signal value invalid (multi-function switch signal value invalid)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6002</td>
+                           <td width="1" align="left" valign="middle">CS timer error (multi-function switch timer error)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249937.html">C1C6002 CS timer error (multi-function switch timer error)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">C1C6162</td>
+                           <td width="1" align="left" valign="middle">CS signal check error (multi-function switch signal check error)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249938.html">C1C6162 CS signal check error (multi-function switch signal check error)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01E287</td>
+                           <td width="1" align="left" valign="middle">CS message lost (multi-function switch communication timeout)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250862.html">U01E287 CS message lost (multi-function switch communication timeout)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U024500</td>
+                           <td width="1" align="left" valign="middle">Media message lost (infotainment communication timeout)</td>
+                           <td width="1" align="left" valign="middle">U024500 Media message lost (infotainment communication timeout)</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U024586</td>
+                           <td width="1" align="left" valign="middle">Media signal value invalid (infotainment signal invalid)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250863.html">U024586 Media signal invalid (infotainment signal invalid)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U042083</td>
+                           <td width="1" align="left" valign="middle">EPS check error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249992.html">U042083 EPS check error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U042082</td>
+                           <td width="1" align="left" valign="middle">EPS counter error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249995.html">U042082 EPS counter error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U101786</td>
+                           <td width="1" align="left" valign="middle">EPS signal invalid (EPS signal value invalid)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249997.html">U101786 EPS signal invalid (invalid EPS signal value)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U013400</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with EPS module (Plan I)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA293332.html">U013400 Loss of communication with EPS module (Plan I)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U013400</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with EPS module (Plan II)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250869.html">U013400 Loss of communication with EPS module (Plan II)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U013400</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with EPS module (Plan III)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250870.html">U013400 Loss of communication with EPS module (Plan III)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2CE655</td>
+                           <td width="1" align="left" valign="middle">No configuration information for offline NVM</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250000.html">B2CE655 No configuration information for offline NVM</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U127183</td>
+                           <td width="1" align="left" valign="middle">VCU check error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250003.html">U127183 VCU check error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U127182</td>
+                           <td width="1" align="left" valign="middle">VCU counter error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250004.html">U127182 VCU counter error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01D529</td>
+                           <td width="1" align="left" valign="middle">VCU signal invalid (VCU signal value invalid)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250005.html">U01D529 VCU signal invalid (invalid VCU signal value)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01B087</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with VCU module</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA293334.html">U01B087 Loss of communication with VCU module</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01EF83</td>
+                           <td width="1" align="left" valign="middle">SWS check error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249980.html">U01EF83 SWS check error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01EF82</td>
+                           <td width="1" align="left" valign="middle">SWS counter error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249982.html">U01EF82 SWS counter error</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01E187</td>
+                           <td width="1" align="left" valign="middle">Loss of communication with SWS module</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250874.html">U01E187 Loss of communication with SWS module</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U01EF87</td>
+                           <td width="1" align="left" valign="middle">SWS signal invalid (SWS signal value invalid)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249984.html">U01EF87 SWS signal invalid (invalid SWS signal value)</a></td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

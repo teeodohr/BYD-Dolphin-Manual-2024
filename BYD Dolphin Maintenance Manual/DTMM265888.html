@@ -1,0 +1,1009 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System descriptions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System descriptions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System descriptions</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Overview</h3> 
+               
+               
+               <p class="p">The instrument panel cluster is located right in front of the driver and at the upper part of the steering column, providing
+                  the driver with required vehicle operation parameters, faults, mileage and other information.
+               </p>  
+               
+               <p class="p">The lighting of the instrument panel cluster is realized through adjustable LEDs located behind it, so as to illuminate the
+                  meters to achieve the necessary visibility. Each indicator on the instrument panel cluster is also illuminated through special
+                  LEDs. Each LED is integrally welded to the circuit board behind the instrument panel cluster housing. The connecting circuits
+                  connect the instrument panel cluster to the electrical system of the vehicle. They are integrated in the vehicle wiring harness,
+                  routed to different positions and fixed in many different ways.
+               </p>  
+               
+               <p class="p">Meters:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="16.666666666666668%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                        <th width="83.33333333333334%" valign="top"> 
+                           
+                           <p>Working logic</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="16.666666666666668%" valign="top"> 
+                           
+                           <p>Speedometer</p> 
+                           
+                        </td>
+                        <td width="83.33333333333334%" valign="top"> 
+                           
+                           <p>Based on the wheel speed sensor, the ABS converts the wheel speed signal into vehicle speed signal and transmits it to the
+                              instrument panel cluster through CAN.
+                           </p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="16.666666666666668%" valign="top"> 
+                           
+                           <p>Power meter</p> 
+                           
+                        </td>
+                        <td width="83.33333333333334%" valign="top"> 
+                           
+                           <p>The BMS transmits the voltage/current signal to the instrument panel cluster through CAN bus.</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="16.666666666666668%" valign="top"> 
+                           
+                           <p>SOC indicator</p> 
+                           
+                        </td>
+                        <td width="83.33333333333334%" valign="top"> 
+                           
+                           <p>The BMS transmits SOC to the instrument panel cluster through CAN bus.</p> 
+                           
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+               <p class="p">Warnings and indicators:</p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr align="center" valign="middle">
+                        <th width="25%" class="greenCell" align="center" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                        <th width="10%" class="greenCell" align="center" valign="top"> 
+                           
+                           <p>Icon</p> 
+                           
+                        </th>
+                        <th width="65%" class="greenCell" align="center" valign="top"> 
+                           
+                           <p>Working logic</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Turn signal indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014939.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The instrument panel cluster collects the turn signal of multi-function switch through hardwire.</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>High beam indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014940.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>When the instrument panel cluster receives CAN information that the high beam is turned on, this indicator will illuminate
+                              and stay on; when the instrument panel cluster receives CAN information that the high beam is turned off, this indicator will
+                              go out. This indicator work simultaneously with the high beam.
+                           </p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Clearance light indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014941.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The clearance light switch signal (CAN) is received from the multi-function switch.</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Main cruise control indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014942.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>After operation of the cruise button on the steering wheel, the instrument panel cluster will receive the information sent
+                              by the gateway and control the indicator to illuminate or go out.
+                           </p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Cruise control indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014943.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>When the instrument panel cluster receives a gateway signal, it will control the indicator to illuminate or go out, which
+                              can indicate whether the vehicle is under cruise control.
+                           </p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>ECO indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014944.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The ECO mode signal is received from the TCU (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>SPORT indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014945.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The SPORT mode signal is received from the TCU (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>OK indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014946.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The OK indicator signal is received from the VCM controller (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Discharge indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014947.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The discharge indicator signal is received from the BMS (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>ABS MIL</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014948.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The ABS system fault information is received from the gateway and illuminates.</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Main MIL</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014949.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>Fault information and prompt information (except backlight adjustment, door and trunk status information) is received.</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>ESP MIL</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014950.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The ESP fault signal is received from the ESP system (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>ESC OFF warning indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014951.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The ESP OFF signal is received (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Drive power limit indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014952.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The drive power limit indicator signal is received from the VTOG/VCM controller (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Driver's seat belt indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014953.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The seat belt switch signal is received from the BCM (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>SRS MIL</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014954.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The airbag fault signal is received from the SRS.</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>Charging system warning indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014955.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The charging system fault information is received from the charging system (hardwire).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>High-voltage battery charging connection indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014956.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The high-voltage battery charging connection indicator signal is received from the BMS (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr align="center" valign="middle">
+                        <td width="25%" align="center" valign="top"> 
+                           
+                           <p>High-voltage battery overheat warning indicator</p> 
+                           
+                        </td>
+                        <td width="10%" align="center" valign="top"> 
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="16mm" style="width:16mm;" onclick="showOrHideImg(event,'show')" src="image/G014957.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </td>
+                        <td width="65%" align="center" valign="top"> 
+                           
+                           <p>The high-voltage battery overheat warning indicator signal is received from the BMS (CAN).</p> 
+                           
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component position view</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G122785.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <tbody>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>1</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>2</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Multi-function display screen bracket assembly</p> 
+                           
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G020959.png" alt="G020959"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               <p class="p"><span class="ph b">Information sheet</span></p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Sending node</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Receiving node</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Information</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Transmission type</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Body control module</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Front left door status</p>  
+                           
+                           <p>Front right door status</p>  
+                           
+                           <p>Rear left door status</p>  
+                           
+                           <p>Rear right door status</p>  
+                           
+                           <p>Driver's seat belt switch signal</p>  
+                           
+                           <p>Vehicle status</p>  
+                           
+                           <p>Trunk signal</p>  
+                           
+                           <p>Smart key warning indicator signal</p>  
+                           
+                           <p>Buzzer control signal</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>CAN</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>SRS electronic control unit</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>High beam switch signal</p>  
+                           
+                           <p>Clearance light</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>CAN</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Infotainment System</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>EPB switch signal</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>CAN</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Gateway</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Coolant temperature</p>  
+                           
+                           <p>Vehicle speed signal</p>  
+                           
+                           <p>ABS fault signal</p>  
+                           
+                           <p>Gear signal</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>CAN</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Power generation system</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Charging system indicator</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Hardwire</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Lighting system</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Left turn signal indicator</p>  
+                           
+                           <p>Right turn signal indicator</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Hardwire</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Interior light system</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Backlight drive signal</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Hardwire</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Tire pressure monitoring system</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>MIL</p>  
+                           
+                           <p>Tire pressure information</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>CAN</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>A/C System</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Exterior temperature</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>CAN</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Infotainment System</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Instrument panel cluster</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Time</p>  
+                           
+                           <p>altitude, direction</p>  
+                           
+                           <p>GPS</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>CAN</p> 
+                           
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

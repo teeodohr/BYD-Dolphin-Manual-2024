@@ -1,0 +1,1200 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="U011087 Fault in communication with MCU"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA083525"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>U011087 Fault in communication with MCU</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA083525">
+         
+         
+         
+         <h3 class="topictitletopic1 title">U011087 Fault in communication with MCU</h3>
+         
+         
+         <div class="nested1 topic task" id="tasd3e89dd0"> 
+            
+            <h3 class="topictitletopic2 title">DTC description</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <tbody>
+                        <tr align="center" valign="middle">
+                           <td width="23%" colspan="2" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>U011087 Fault in communication with MCU</p>
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          ">Fault symptoms</td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          ">-</td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          ">Possible causes of the fault</td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <ol class="num"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Internal fault of integrated controller</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">Internal fault of EPB controller</p> 
+                                    
+                                 </li> 
+                                 
+                              </ol> 
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          ">Fault setting conditions</td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          ">-</td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          ">Fault triggering conditions</td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          ">-</td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="tas4e28a613"> 
+            
+            <h3 class="topictitletopic2 title">Schematic Circuit Diagram</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G119655.png" alt="G119655"></img></div>
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="tas11e3e6ae"> 
+            
+            <h3 class="topictitletopic2 title">Terminal definition</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="54%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Connector</p>
+                           </th>
+                           <th width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">Terminal number</th>
+                           <th width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">Terminal definition</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td width="54%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Front compartment fuse box
+                                 <div class="bottomNoTable">
+                                    <div class="imagetable"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110582.png"></img></div>
+                                 </div>
+                              </p>
+                           </td>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>25</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Constant power</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="54%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Front compartment fuse box
+                                 <div class="bottomNoTable">
+                                    <div class="imagetable"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110584.png"></img></div>
+                                 </div>
+                              </p>
+                           </td>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>20</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Constant power</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="54%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">  
+                              
+                              <p>Integrated controller
+                                 <div class="bottomNoTable">
+                                    <div class="imagetable"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110585.png"></img></div>
+                                 </div>
+                              </p>
+                           </td>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>21</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Energy network CAN-H</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>27</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Energy network CAN-L</p>
+                           </td>
+                        </tr>
+                        <tr align="center" valign="middle">
+                           <td width="54%" rowspan="8" align="center" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>Integrated controller</p>  
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagetable"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110586.png"></img></div>
+                              </div> 
+                              
+                           </td>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">8</td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">GND</td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">9</td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>GND</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">14</td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>GND</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">15</td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">GND</td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>20</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Constant power</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>21</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Constant power</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>26</p>
+                           </td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Constant power</p>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="12.666666666666668%" align="center" valign="&#xA;            top&#xA;          ">27</td>
+                           <td width="33.33333333333333%" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>Constant power</p>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" xml:lang="en-US" lang="en-US" id="tas4361bc37"> 
+            
+            <h3 class="topictitletopic2 title">Diagnosis steps<button type="button" id="dtcbutton1" class="button" onclick="expandAll();butSwitch();"><samp>Expand all</samp></button><button type="button" id="dtcbutton2" onclick="gotoFirstDtcStep('step01');butSwitch();" class="button dtc-inactive"><samp>Diagnostic guidance</samp></button></h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div> 
+                  <a name="step01"></a><div class="otherclass1 dtcprocess otherclass2" data-step="step01">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e225">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">1</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the communication network.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Connect the VDS to the DLC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Perform network detection with VDS.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the intelligent brake control module passes network detection.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="next-step02"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="next-step02"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1"><a class="xrefstep xref" href="javascript:;" onclick="jumptoDtcStep('step01','step09')" aasd="">Go to Step 8.</a><a class="xref stepXref dtc-inactive" href="#step09">Go to Step 8.</a></span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step02"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step02">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e271">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">2</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the fuse of front compartment fuse box.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the fuses F1/33(15A) and F1/09(15A) of front compartment fuse box are normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="next-step03"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="next-step03"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Replace the fuse.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step03"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step03">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e297">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">3</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the wiring harness and connector of integrated controller.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to OFF position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Disconnect the wiring harness connectors BK45 (A) and BK45 (B) from the integrated controller.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the wiring harness connector of integrated controller is normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step03" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step03" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step03" value="next-step04"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step03" value="next-step04"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Repair or replace the wiring harness.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step04"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step04">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e335">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">4</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the power supply of the integrated controller.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepimage">
+                              <div>
+                                 <div class="prespace postspace scalable-width"> 
+                                    
+                                    <p class="p"> 
+                                       
+                                       <div class="bottomNoTable">
+                                          <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110588.png"></img></div>
+                                       </div> 
+                                       
+                                    </p> 
+                                    
+                                 </div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Measure the voltage between wiring harness connector BK45 (B) -20/21/26/27 of integrated controller and GND.</span></span>  
+                                    
+                                    
+                                    
+                                    <table width="100%" border="1" frame="box" rules="all">
+                                       <tbody>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" colspan="2" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>Connector</p>
+                                             </td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Condition</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Voltage</td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(+)</td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(-)</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-20</p>
+                                             </td>
+                                             <td width="25%" rowspan="4" align="center" valign="&#xA;            top&#xA;          ">GND</td>
+                                             <td width="25%" rowspan="4" align="center" valign="&#xA;            top&#xA;          ">Always</td>
+                                             <td width="25%" rowspan="4" align="center" valign="&#xA;            top&#xA;          ">11~14 V</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-21</p>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-26</p>
+                                             </td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-27</p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table> 
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the result is normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step04" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step04" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step04" value="next-step05"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step04" value="next-step05"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1"><a class="xrefstep xref" href="javascript:;" onclick="jumptoDtcStep('step04','step07')" aasd="">Go to Step 6.</a><a class="xref stepXref dtc-inactive" href="#step07">Go to Step 6.</a></span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step05"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step05">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e432">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">5</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check whether the power supply of integrated controller is open-circuited.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepimage">
+                              <div>
+                                 <div class="prespace postspace scalable-width">
+                                    <div class="bottomNoTable">
+                                       <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110591.png"></img></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to OFF position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Disconnect the wiring harness connector B1C from front compartment fuse box.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check the resistance between wiring harness connector B1C-25 of front compartment fuse box and wiring harness connectors BK45
+                                          (B) -20, 26 of integrated controller.</span></span>  
+                                    
+                                    
+                                    
+                                    <table width="100%" border="1" frame="box" rules="all">
+                                       <tbody>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" colspan="2" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>Connector</p>
+                                             </td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Condition</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Resistance</td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(+)</td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(-)</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>B1C-25</p>
+                                             </td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-20</p>
+                                             </td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Always</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Below 1 Ω</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-26</p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table> 
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the result is normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step05" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step05" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step05" value="next-step06"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step05" value="next-step06"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Repair or replace the wiring harness.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div><a name="step06"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step06">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e519">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">6</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check whether the power supply of integrated controller is open-circuited.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepimage">
+                              <div>
+                                 <div class="prespace postspace scalable-width">
+                                    <div class="bottomNoTable">
+                                       <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110592.png"></img></div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Disconnect the wiring harness connector B1C from front compartment fuse box.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check the resistance between wiring harness connector B1D-20 of front compartment fuse box and wiring harness connectors BK45
+                                          (B) -21, 27 of integrated controller.</span></span>  
+                                    
+                                    
+                                    
+                                    <table width="100%" border="1" frame="box" rules="all">
+                                       <tbody>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" colspan="2" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>Connector</p>
+                                             </td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Condition</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Resistance</td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(+)</td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(-)</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>B1D-20</p>
+                                             </td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-21</p>
+                                             </td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">&nbsp;</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">&nbsp;</td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-27</p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table> 
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the result is normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step06" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step06" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step06" value="option2"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step06" value="option2"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Repair or replace the wiring harness.</span> 
+                                       </span><span><span class="dtcstep dtc-inactive" data-option="option2">Replace the front compartment fuse box.</span> 
+                                       </span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step07"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step07">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA083525__ste82478e40">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">7</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the GND of integrated controller.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepimage">
+                              <div>
+                                 <div class="prespace postspace scalable-width"> 
+                                    
+                                    <p class="p"> 
+                                       
+                                       <div class="bottomNoTable">
+                                          <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110593.png"></img></div>
+                                       </div> 
+                                       
+                                    </p> 
+                                    
+                                 </div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Measure the resistance between the wiring harness connector BK45 (B) -8/9/14/15 of integrated controller and GND.</span></span>  
+                                    
+                                    
+                                    
+                                    <table width="100%" border="1" frame="box" rules="all">
+                                       <tbody>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" colspan="2" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>Connector</p>
+                                             </td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Condition</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Resistance</td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(+)</td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(-)</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-8</p>
+                                             </td>
+                                             <td width="25%" rowspan="4" align="center" valign="&#xA;            top&#xA;          ">GND</td>
+                                             <td width="25%" rowspan="4" align="center" valign="&#xA;            top&#xA;          ">Always</td>
+                                             <td width="25%" rowspan="4" align="center" valign="&#xA;            top&#xA;          ">Below 1 Ω</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-9</p>
+                                             </td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-14</p>
+                                             </td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(B)-15</p>
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                    </table> 
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the result is normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step07" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step07" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step07" value="next-step08"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step07" value="next-step08"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Repair or replace the wiring harness.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step08"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step08">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e692">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">8</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the CAN circuit of the integrated controller.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepimage">
+                              <div>
+                                 <div class="prespace postspace scalable-width"> 
+                                    
+                                    <p class="p"> 
+                                       
+                                       <div class="bottomNoTable">
+                                          <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G110596.png"></img></div>
+                                       </div> 
+                                       
+                                    </p> 
+                                    
+                                 </div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Measure the voltage between the wiring harness connector BK45 (A) -21/27 of the integrated controller and the GND.</span></span>  
+                                    
+                                    
+                                    
+                                    <table width="100%" border="1" frame="box" rules="all">
+                                       <tbody>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" colspan="2" align="center" valign="&#xA;            top&#xA;          ">Connector</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Condition</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Voltage</td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(+)</td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">(-)</td>
+                                          </tr>
+                                          <tr>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(A)-21</p>
+                                             </td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">GND</td>
+                                             <td width="25%" rowspan="2" align="center" valign="&#xA;            top&#xA;          ">Always</td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>2.5~3.5 V</p>
+                                             </td>
+                                          </tr>
+                                          <tr align="center" valign="middle">
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">
+                                                <p>BK45(A)-27</p>
+                                             </td>
+                                             <td width="25%" align="center" valign="&#xA;            top&#xA;          ">1.5~2.5 V</td>
+                                          </tr>
+                                       </tbody>
+                                    </table> 
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether the result is normal.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step08" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step08" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step08" value="option2"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step08" value="option2"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Go to "Gateway system" diagnosis.</span> 
+                                       </span><span><span class="dtcstep dtc-inactive" data-option="option2">Replace the integrated controller.</span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  
+                  <a name="step09"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step09">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA083525__stee6c77a65">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">9</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the DTC of the front drive motor control unit</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Read the DTC of front drive motor control unit with a diagnostic device.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether there is any DTC in the result.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step09" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step09" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step09" value="next-step10"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step09" value="next-step10"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Go to <a class="xref" href="DTA250511.html">"Front drive motor control unit"</a> diagnosis.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step10"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step10">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA083525__stefa5c4ea1">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">10</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the DTC of EPB controller.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Read the DTC of EPB controller with the VDS.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check whether there is any DTC in the result.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step10" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step10" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step10" value="next-step11"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step10" value="next-step11"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Go to <a class="xref" href="DTA250852.html">"EPB system"</a> diagnosis.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>  
+                  <a name="step11"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step11">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d105520e859">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">11</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the DTCs of other modules.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Is any fault in communication with MCU read from other modules?<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step11" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step11" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step11" value="option2"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step11" value="option2"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Replace the integrated controller.</span> 
+                                       </span><span><span class="dtcstep dtc-inactive" data-option="option2">Replace the EPB.</span> 
+                                       </span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div> 
+                  
+               </div> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Operation tips"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA055060"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Operation tips</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA055060">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Operation tips</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Clothing</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Please wear clean work clothes that meet the workshop standards.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Be sure to wear personal protective equipment, and wear a safety helmet when working under the vehicle.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Vehicle protection</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Prepare radiator grille cover, fender cover, seat cover, floor mat, etc. before starting the operation.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Safe operation</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When two or more technicians work together, they must check each other for safety.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Be sure to wear necessary protective equipment and be careful not to hurt yourself or others when working in a high-temperature
+                              and high-pressure environment or performing operations on rotating, moving or vibrating parts.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When jacking the vehicle with a jack, be sure to support the designated par with a safety bracket.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use appropriate safety equipment to lift the vehicle.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preparation of tools and measuring equipment</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Prepare tool supports, special tools, measuring tools, oil/fluid and parts for replacement before starting the operation.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Removal and installation, disassembly and assembly operations</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Perform diagnosis after fully understanding the correct steps and the problems reported.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the general condition, deformation and damage of the assembly before disassembling its parts.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When the assembly structure is complex, keep records. For example, record the total number of all electrical connectors and
+                              bolts, or the total number of hoses disassembled. Apply mating marks for reassembling the components in place, and if necessary,
+                              temporarily mark the hoses and their joints.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If necessary, clean the disassembled parts, and thoroughly inspect them before installation.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Parts taken out</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Place the removed parts in separate boxes to avoid confusion with or contaminating new parts.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Replace all removed parts that cannot be reused, such as gaskets, O-rings and self-locking nuts.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Keep the removed parts for inspection if required by the customer.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection after completion of work</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Ensure that the parts for replacement are properly installed and fastened.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Ensure that the tools and materials used are not left inside the front compartment, vehicle or trunk.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check and confirm for no liquid leakage.</p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d186607e187">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content"> 
+                              
+                              <p class="p">After completing the work, be sure to carry out the above-mentioned inspections correctly; Failure to correctly perform these
+                                 inspections may lead to serious accidents or injuries.
+                              </p> 
+                              
+                           </div>
+                        </div>
+                        
+                     </div> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Pre-coated parts</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Pre-coated parts refer to bolts and nuts coated with locking sealant in the plant.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If a pre-coated part is retightened, loosened or moved by any means, it must be recoated with the specified locking sealant.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Before using a pre-coated part again, be sure to remove the old locking sealant, dry the part with compressed air, and apply
+                              a proper amount of new locking sealant to the part.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Some locking sealants cure slowly and may require waiting for a certain time.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Pads</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">If necessary, apply sealant to pads to prevent leakage.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Bolts, nuts and screws</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Strictly abide by all torque requirements for fasteners, and always use a torque wrench.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Make sure that no foreign matters (burrs, paint, etc.) are deposited under the bolts and nuts when tightening them.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Please follow the following basic principles when removing nuts or bolts: diagonally loosen them several times from outside
+                              to inside; in case of any special regulations, please operate according to such regulations.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Please follow the following basic principles when tightening nuts or bolts: diagonally pre-tighten them several times from
+                              inside to outside; in case of any special regulations, please operate according to such regulations.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Fuse</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">For fuse inspection, check and confirm that the fuse wire is not blown.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">For fuse replacement, carry out a short-circuit test first, and then replace the fuse after confirming that there is no short-circuit
+                              fault in the circuit.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fuses with the same rated current must be used.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

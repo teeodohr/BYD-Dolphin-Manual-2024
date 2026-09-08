@@ -1,0 +1,369 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System descriptions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System descriptions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System descriptions</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Overview</h3> 
+               
+               
+               <p class="p">The IPB system includes a brake booster and a brake adjustment module, which replaces the traditional EVP+ESC module, greatly
+                  reducing the weight of the whole system. The decoupled brake system is used to solve the problem of vehicle brake feedback.
+               </p>  
+               
+               <p class="p">The IPB system consists of the following functions:</p>  
+               
+               <p class="p">The anti-lock brake system (ABS) can control the brakeforce in a real-time manner during emergency braking to prevent deviation
+                  and sideslip, so that the vehicle can always maintain good directional stability and operability, and the safety of vehicle
+                  braking can be improved.
+               </p>  
+               
+               <p class="p">The electronic brakeforce distribution (EBD) system is used to balance the effective grip force of each wheel before ABS action
+                  in case that the wheels are locked during emergency braking. This can prevent drifting and side shifting and shorten the braking
+                  distance.
+               </p>  
+               
+               <p class="p">The traction control system (TCS) enables the vehicle to obtain the best traction under various driving conditions. The system
+                  receives the driver's steering intention through the steering wheel angle sensor, and then detects the speed difference between
+                  the left and right wheels with the left and right wheel speed sensors, so as to judge whether the vehicle steering conforms
+                  to the driver's steering intention. If understeer (or oversteer) is detected, the system immediately judges that the drive
+                  force of the drive wheel is too large, and issues an instruction to reduce the drive force, so as to realize the driver's
+                  steering intention.
+               </p>  
+               
+               <p class="p">The hill-start hold control (HHC) system is derived from the ESP system. It allows the vehicle to keep braking for seconds
+                  when the driver's right foot leaves the brake pedal if the vehicle starts on a hill when the handbrake is not applicable,
+                  so that the driver can easily move his/her foot from the brake pedal to the accelerator pedal, and accidents due to sliding
+                  can be avoided. Therefore, the system makes the driver operate more easily.
+               </p>  
+               
+               <p class="p">The hydraulic brake assist (HBA) system can help the driver to apply emergency braking. It judges whether there is a need
+                  for full braking based on the speed at which the driver depresses the brake pedal. As long as the driver keeps depressing
+                  the pedal to the floor, the system will automatically increase the brakeforce until the threshold of ABS starting is reached.
+                  If the driver releases the brake pedal, the system will reduce the brakeforce to the specified value.
+               </p>  
+               
+               <p class="p">Controller deceleration parking (CDP): Nowadays, the vehicle is generally equipped with the EPB instead of traditional handbrake,
+                  and there is an EPB switch on the vehicle. The CDP can enable the EPB switch to act as a traditional handbrake (the EPB switch
+                  can be pulled to brake the vehicle dynamically when the vehicle is running).
+               </p>  
+               
+               <p class="p">The vehicle dynamic control (VDC) system is used to improve the driving stability, but it cannot prevent accidents caused
+                  by rapid sharp turns or careless or dangerous driving operations.
+               </p>  
+               
+               <p class="p">The automatic vehicle hold (AVH) system has the function of automatically pulling the handbrake. After this function is activated,
+                  for example, when the vehicle stops at traffic lights, the driver does not need to pull the handbrake. This function is especially
+                  suitable for going up and down hills and frequently starting and stopping the vehicle.
+               </p>  
+               
+               <p class="p">The electronic stability system (ESS) is a braking system that prevents the vehicle from slipping under emergency driving
+                  conditions. Activeness is one of its main characteristics. Unlike the ABS which reacts passively, it can nip trouble in the
+                  bud.
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component position view</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G123501.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>1</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Brake fluid reservoir mounting bracket assembly</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>2</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Brake fluid reservoir connecting hose assembly</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>3</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>IPB system assembly</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>4</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Brake fluid reservoir assembly</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>5</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Front right brake hose</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>6</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Front right brake pipe assembly</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>7</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Front left brake hose</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>8</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Front left brake pipe assembly</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>9</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Rear left brake pipe I assembly</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>10</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Rear right brake pipe I assembly</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>11</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Rear left brake hose</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>12</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Rear right brake hose</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>13</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Rear right brake pipe II assembly</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>14</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Rear left brake pipe II assembly</p> 
+                           
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G128352.png" alt="G128352"></img></div>
+                  </div> 
+                  
+               </p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

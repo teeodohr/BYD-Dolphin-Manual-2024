@@ -1,0 +1,90 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html><head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Dolphin Circuit Atlas - RHD</title>
+  <link rel="stylesheet" type="text/css" href="htmlCustom.css">
+
+  <script type="text/javascript" src="js/index.js"></script>
+  <!-- svg-pan-zoom: used to enable drag-pan + wheel-zoom inside SVG pages -->
+  <script type="text/javascript" src="svg-pan-zoom.js" charset="UTF-8"></script>
+
+  <script type="text/javascript">
+function ontreeload(){
+	var id=geturlValueByKey_index("id");
+	var selectstr=geturlValueByKey_index("selectstr");
+	if(id!=null&&id!=""){
+		if(selectstr!=null&&selectstr!=""){
+			document.getElementById("framec1").src=id+".html?selectstr="+selectstr;
+		}else{
+			document.getElementById("framec1").src=id+".html";
+		}
+	}
+	// NOTE: we don't auto-resize the frame height here, because we want
+	// the content frame to behave like a viewport for pan/zoom.
+}
+
+function initPanZoomInFrame(frameEl) {
+	try {
+		var win = frameEl && frameEl.contentWindow;
+		var doc = frameEl && (frameEl.contentDocument || (win && win.document));
+		if (!doc) return;
+
+		// Only apply when the page contains an SVG.
+		var svg = doc.querySelector('svg');
+		if (!svg || typeof window.svgPanZoom !== 'function') return;
+
+		// Make the iframe act like a viewport (no scrollbars).
+		if (!doc.getElementById('pz-style')) {
+			var style = doc.createElement('style');
+			style.id = 'pz-style';
+			style.textContent = [
+				'html,body{margin:0;height:100%;overflow:hidden;}',
+				'svg{width:100%!important;height:100%!important;display:block;}'
+			].join('\n');
+			doc.head.appendChild(style);
+		}
+
+		// Ensure a viewBox exists so zooming behaves nicely.
+		if (!svg.getAttribute('viewBox')) {
+			var w = parseFloat(svg.getAttribute('width')) || svg.clientWidth || 1000;
+			var h = parseFloat(svg.getAttribute('height')) || svg.clientHeight || 1000;
+			svg.setAttribute('viewBox', '0 0 ' + w + ' ' + h);
+			// Let CSS control sizing.
+			svg.removeAttribute('width');
+			svg.removeAttribute('height');
+		}
+
+		// If we previously initialized on this frame, destroy first.
+		if (frameEl._svgPanZoom && typeof frameEl._svgPanZoom.destroy === 'function') {
+			frameEl._svgPanZoom.destroy();
+			frameEl._svgPanZoom = null;
+		}
+
+		frameEl._svgPanZoom = svgPanZoom(svg, {
+			zoomEnabled: true,
+			panEnabled: true,
+			mouseWheelZoomEnabled: true,
+			dblClickZoomEnabled: false,
+			controlIconsEnabled: false,
+			fit: true,
+			center: true,
+			minZoom: 0.1,
+			maxZoom: 20,
+			zoomScaleSensitivity: 0.2,
+			preventMouseEventsDefault: true
+		});
+	} catch (e) {
+		// Keep the manual usable even if a specific page fails to init.
+		if (window && window.console) console.error(e);
+	}
+}
+</script>
+</head><frameset onload="ontreeload()" cols="20%,*">
+  <frame name="tocwin" src="tocnav.html">
+  <frame name="contentwin" src="DT363304.html" id="framec1" scrolling="no" onload="initPanZoomInFrame(this)">
+</frameset>
+<div style="position: fixed; bottom: 0; right: 0; padding: 5px; background: white; font-size: 10px;">
+<a href="https://cardiagn.com/" target="_blank">Скачано с https://cardiagn.com/</a>
+</div>
+</html>

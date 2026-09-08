@@ -1,0 +1,532 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA115894"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA115894">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="tas47669e31"> 
+            
+            <h3 class="topictitletopic2 title">DTC list</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">DTC</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Descriptions</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Diagnosis process</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">
+                              <p>C113017</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Left actuator power supply overvoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250641.html">C113017 Left actuator power supply overvoltage</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">
+                              <p>C11600B</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Abnormal voltage of motor driver chip</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250582.html">C11600B Abnormal voltage of motor driver chip</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">
+                              <p>C117009</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>EPB switch fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250580.html">C117009 EPB switch fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B112</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Right caliper motor circuit fault (short-circuited to power supply)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250612.html">C11B112 Right caliper motor circuit fault (short-circuited to power supply)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11BA29</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Abnormal left current detection circuit signal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250735.html">C11BA29 Abnormal left current detection circuit signal</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C110017</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Voltage too high - ECU overvoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250761.html">C110017 Voltage too high - ECU overvoltage</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U011087</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Fault in communication with MCU</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250427.html">U011087 Fault in communication with MCU</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C113117</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Right actuator power supply overvoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250399.html">C113117 Right actuator power supply overvoltage fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B010</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left actuator overload</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250411.html">C11B010 Left actuator overload</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B272</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Abnormal MOSFET voltage of left motor driver</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250410.html">C11B272 Abnormal voltage of MOSFET driven by left motor</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11BC00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left EPB not initialized or initialization failed</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250578.html">C11BC00 Left EPB not initialized or initialization failed</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>B225B00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Internal fault of ECU</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250563.html">B225B00 Internal fault of ECU</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U041181</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Invalid data received from MCU</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250568.html">U041181 Invalid data received from MCU</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C115009</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left drive circuit or actuator fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250567.html">C115009 Left drive circuit or actuator fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B011</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left caliper motor circuit fault (short-circuited to GND)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250523.html">C11B011 Left caliper motor circuit fault (short-circuited to GND)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B372</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Abnormal MOSFET voltage of right motor driver</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250211.html">C11B372 Right motor driver MOSFET voltage abnormal</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11BD00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Right EPB not initialized or initialization failed</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250196.html">C11BD00 Right EPB not initialized or initialization failed</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>B225D00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Internal fault of ECU</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA251041.html">B225D00 Internal fault of ECU</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U041681</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Invalid data received from ESP</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA251050.html">U041681 Invalid data received from ESP</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C115109</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Right drive circuit or actuator fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250780.html">C115109 Right drive circuit or actuator fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B012</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left caliper motor circuit fault (short-circuited to power supply)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250787.html">C11B012 Left caliper motor circuit fault (short-circuited to power supply)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B41D</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left motor overcurrent</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250788.html">C11B41D Left motor overcurrent</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U012287</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Fault in communication with ESP</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250785.html">U012287 Fault in communication with ESP</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U007388</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BUS-OFF fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250763.html">U007388 BUS-OFF fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U042281</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Invalid data received from BCM</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250774.html">U042281 Invalid data received from BCM</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C116006</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left/right motor status mode fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250776.html">C116006 Left/right motor status mode fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B013</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Left caliper motor circuit fault (open-circuited)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250777.html">C11B013 Left caliper motor circuit fault (open-circuited)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B51D</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Right motor overcurrent</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250775.html">C11B51D Right motor overcurrent</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U110187</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Loss of communication with multi-function switch</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA293324.html">U110187 Loss of communication with multi-function switch</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C112054</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Offline detection fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250824.html">C112054 Offline detection fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C116009</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ECU hardware fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250395.html">C116009 ECU hardware fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C117006</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPB switch lockup prohibited</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250393.html">C117006 EPB switch lockup prohibited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B110</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Right actuator overload</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250396.html">C11B110 Right actuator overload</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B617</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Left motor working for a long time</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250379.html">C11B617 Left motor working for a long time</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>U014087</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Fault in communication with BCM</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250380.html">U014087 Fault in communication with BCM</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C113016</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Left actuator power supply undervoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250297.html">C113016 Left actuator power supply undervoltage</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11600A</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Internal fault of motor driver chip</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250167.html">C11600A Motor driver chip internal fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C117007</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>EPB switch stuck</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250156.html">C117007 EPB switch stuck</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B111</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Right caliper motor circuit fault (short-circuited to GND)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250154.html">C11B111 Right caliper motor circuit fault (short-circuited to GND)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B717</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Right motor working for a long time</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250186.html">C11B717 Right motor working for a long time</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C110016</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Voltage too low - ECU low voltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250728.html">C110016 Voltage too low - ECU low voltage</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C113116</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Right actuator power supply undervoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250191.html">C113116 Right actuator power supply undervoltage</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11600C</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Abnormal SPI communication of motor driver chip</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250175.html">C11600C SPI communication of motor driver chip abnormal</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C117498</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Abnormal temperature of motor driver chip</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250177.html">C117498 Motor driver chip temperature abnormal</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11B113</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Right caliper motor circuit fault (open-circuited)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250172.html">C11B113 Right caliper motor circuit fault (open-circuited)</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>C11BB29</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Right current detection circuit signal abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250181.html">C11BB29 Right current detection circuit signal abnormal</a></td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

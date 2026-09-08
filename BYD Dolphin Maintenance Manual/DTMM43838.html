@@ -1,0 +1,843 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Safe Maintenance"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Safe Maintenance</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Safe Maintenance</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Personnel Requirements</h3> 
+               
+               
+               <p class="p">Personnel allocation</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Maintenance technicians:</p>  
+                     
+                     <p>Maintenance operators with qualifications for the maintenance of pure electric and hybrid models are responsible for vehicle
+                        inspection and maintenance as described below:
+                     </p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Routine maintenance</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Inspection and maintenance of non-high voltage components;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Inspection and maintenance of non-high voltage circuits;</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Supervisors:</p>  
+                     
+                     <p>Maintenance technicians with qualifications for the maintenance of pure electric and hybrid models are responsible for supervising
+                        the whole process of maintenance as described below:
+                     </p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Supervise whether the composition of maintenance personnel, use of tools, wearing of PPE, safety protection of spare parts,
+                              and the maintenance safety warning signs meet the requirements;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the emergency maintenance switch on and off (if equipped) / check the vehicle power on and off;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Check the safety maintenance operation procedures in the maintenance process, and guide the operators according to the safety
+                              maintenance operation procedures; the maintenance personnel must inform the supervisor after completing an operation, and
+                              the supervisor must make marks in the operation flow sheet;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The supervisors must take responsibility seriously to ensure the safety of the maintenance process and avoid safety liability
+                              accidents.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">In addition to the maintenance technician, a supervisor must be provided for the inspection and maintenance of the high voltage
+                        circuits.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Personnel qualification</p>  
+               
+               <p class="p">Maintenance technicians for new energy vehicles must have the following qualifications:</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Special Appliance Operation Certificate (Electrician) recognized by the state.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Junior (and above) Electrician's Certificate for (vocational qualification)</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The corresponding maintenance qualification certificate for pure electric and hybrid models granted by BYD Auto Sales Co.,
+                        Ltd.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">And other requirements of local regulations, if any.</p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Equipment Inspection</h3> 
+               
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Insulation equipment and safety protection equipment must be inspected for damage, metal puncture, etc. before each use, and
+                        if any, they must not be used;
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Insulation equipment and safety protection equipment must be tested for moisture, water and dirt before each use, and if any,
+                        they must be restored to performance before use;
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the megohmmeter to 1000VDC to detect the insulation resistance of the weakest part of the insulation equipment every month.
+                        If the resistance is less than 2MΩ, the insulation equipment must not be used.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">High Voltage Identification</h3> 
+               
+               
+               <p class="p">high voltage line:</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The orange harnesses of the vehicle are high voltage wires.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The power battery is connected to the red voltage sampling harness of the power manager.</p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">high voltage components:</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">All modules connected to the high voltage harness of the vehicle.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">High voltage components include (but are not limited to): power battery, high voltage distribution box, OBC, solar charger
+                        (if equipped), MCU assembly, charging and distribution assembly, DC and A/C driver assembly, electric powertrain, electric
+                        compressor assembly, PTC, A/C distribution box, DC/AC charging port, etc.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Maintenance Preparation</h3> 
+               
+               
+               <p class="p">Personnel and protection equipment</p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Insulating shoes</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Insulating gloves</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Acid and alkali resistant gloves</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Insulation pad</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <p class="p">Allocate personnel according to maintenance items and provide them with protection equipment.</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Maintenance and inspection of non-high voltage circuits:</p>  
+                     
+                     <p>Maintenance technicians can work independently, and follow the operating specifications consistent with those for fuel vehicles,
+                        as well as the maintenance specifications as specified in the service manual.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection of high voltage circuits:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">No power battery leakage:</p>  
+                           
+                           <p>Personnel allocation: Maintenance technicians + supervisors.</p>  
+                           
+                           <p>Protection equipment: insulating shoes + insulating gloves + insulating pads.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">power battery leakage found:</p>  
+                           
+                           <p>Personnel allocation: Maintenance technicians + supervisors.</p>  
+                           
+                           <p>power battery busbar disconnection: insulating shoes + insulating gloves + insulating pads.</p>  
+                           
+                           <p>power battery removal: insulating shoes + acid and alkali resistant gloves + protective goggles + insulating pads.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Maintenance tools</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Maintenance and inspection of non-high voltage circuits:</p>  
+                     
+                     <p>Select basic tools + special tools according to maintenance items.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection of high voltage circuits</p>  
+                     
+                     <p>Select basic tools + special tools + insulation tools according to the maintenance items.</p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Maintenance site</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Please take safety isolation measures (use guard fences for isolation) before maintenance operations, and set up high voltage
+                        warning signs to warn relevant personnel and avoid safety accidents.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Operate at the new energy maintenance station when conditions permit, and connect the body to the protective ground wire.</p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Inspection of High Voltage Circuits</h3> 
+               
+               
+               <p class="p">Non-live inspection</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power off the vehicle.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Set the vehicle to OFF and keep it stationary for 5min.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Power off the low voltage electrical system. See &nbsp;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Disconnect the power maintenance switch (if equipped);</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Disconnect the positive and negative busbars of the power battery;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Insulate and seal the positive and negative busbar connectors of the power battery and the harness connectors to prevent short
+                              circuits and foreign objects.
+                           </p>  
+                           
+                           <p>Note: Operators in steps 3, 4, and 5, and e must wear insulating shoes, insulating gloves and insulating pads.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection of high voltage circuits other than power battery.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">3 min after the completion of the power-off link of the vehicle, use a multimeter to measure the voltage between the positive
+                              and negative terminals (one-handed operation) before testing the peripheral high voltage parts, which must be less than 60V
+                              DC.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">When the measurement voltage is less than 60V DC, the high voltage circuits and components other than the power battery can
+                              be detected normally. When the measured voltage is greater than 60V DC, do not perform any operation until the voltage drops
+                              to within 60V DC.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">During removal of the high voltage connector, it is necessary to insulate and seal the high voltage connector with insulating
+                              tape to prevent short circuit and foreign objects.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection of high voltage battery.</p>  
+                     
+                     <p>Refer to live maintenance below.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power up the vehicle.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the high voltage harness connectors well, and the supervisor must review it;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect all low-voltage harness connectors well;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Power on the low voltage electrical system. See &nbsp;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Power up the vehicle.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Live inspection</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Charging fault inspection.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Wear protective equipment according to personnel and protective equipment.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the body to the protective ground wire;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Refer to the service manual to measure the corresponding parameters depending on the faults. During the measurement process,
+                              the following principles must be observed:
+                           </p>  
+                           
+                           <p>When using a multimeter to measure high voltage, it is necessary to select the correct range. The accuracy of the multimeter
+                              used for testing must not be lower than 0.5. It is required to set the multimeter to AC/DC voltage, the AC range must be greater
+                              than 400V AC for AC input detection of charging equipment, and the selected test range for DC output side must be greater
+                              than that when the multimeter is set to DC of the total voltage of the power battery of the vehicle under test.
+                           </p>  
+                           
+                           <p>Ⅱ. The multimeter and other testing equipment used are equipped with insulated alligator clips on one probe (required with
+                              a withstand voltage of 3kV and an overcurrent capability greater than 5A). When measuring, first clip the alligator clip to
+                              one terminal of the circuit, and then connect another probe to the terminal to be measured to measure the reading. Hold the
+                              probe with only one hand at each measurement. During the measurement process, it is strictly forbidden to operate and touch
+                              the metal part of the probe with both hands.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">During replacement of high voltage components and harness connectors, the disconnected connectors must be insulated and sealed
+                              to prevent short circuit and foreign objects;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">It is strictly forbidden to disconnect the high/low-voltage connectors when the load is live, otherwise it may cause personal
+                              injury and damage to the vehicle.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">It is strictly forbidden to disconnect the low-voltage connectors when the power is ON, otherwise the vehicle may be damaged.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">For models that require tooling for high voltage detection, live measurement is strictly prohibited when there is no tooling.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection of high voltage circuits and components.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Wear protective equipment according to personnel and protective equipment.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Refer to the service manual to measure the corresponding parameters depending on the faults. During the measurement process,
+                              the following principles must be observed:
+                           </p>  
+                           
+                           <p>When using a multimeter to measure high voltage, it is necessary to select the correct range. The accuracy of the multimeter
+                              used for testing must not be lower than 0.5. It is required to set the multimeter to DC voltage, and the selected range must
+                              be greater than that when the multimeter is set to DC of the total voltage of the power battery of the vehicle under test.
+                           </p>  
+                           
+                           <p>Ⅱ. The multimeter and other testing equipment used are equipped with insulated alligator clips on one probe (required with
+                              a withstand voltage of 3kV and an overcurrent capability greater than 5A). When measuring, first clip the alligator clip to
+                              one terminal of the circuit, and then connect another probe to the terminal to be measured to measure the reading. Hold the
+                              probe with only one hand at each measurement. During the measurement process, it is strictly forbidden to operate and touch
+                              the metal part of the probe with both hands.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">During replacement of high voltage components and harness connectors, the disconnected connectors must be insulated and sealed
+                              to prevent short circuit and foreign objects;
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">It is strictly forbidden to disconnect the high/low-voltage connectors when the load is live, otherwise it may cause personal
+                              injury and damage to the vehicle.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">It is strictly forbidden to disconnect the low-voltage connectors when the power is ON, otherwise the vehicle may be damaged.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">For models that require tooling for high voltage detection, live measurement is strictly prohibited when there is no tooling.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Inspection of power battery.</p>  
+                     
+                     <p>Set the vehicle to OFF and keep it stationary for 5min.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Wear protective equipment according to personnel and protective equipment.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Power off the low voltage electrical system. See &nbsp;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Disconnect the power maintenance switch (if equipped);</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Disconnect the positive and negative busbars of the power battery;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Insulate and seal the positive and negative busbar connectors of the power battery and the harness connectors to prevent short
+                              circuits and foreign objects.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Leakage, deformation, water ingress and damage of the power battery must be handled in accordance with Chapter V Battery Safety.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The power battery must be lifted up and down with a forklift with a load-bearing rating 1.5 times higher than the total weight
+                              of the power battery, and placed without skew to ensure safety.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Sheet Metal Maintenance</h3> 
+               
+               
+               <p class="p">Welder required</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power off the vehicle.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Set the vehicle to OFF and keep it stationary for 5min.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Power off the low voltage electrical system. See &nbsp;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Disconnect the power maintenance switch (if equipped);</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Disconnect the positive and negative busbars of the power battery;</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Insulate and seal the positive and negative busbar connectors of the power battery and the harness connectors to prevent short
+                              circuits and foreign objects.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <p>Operators in steps 3, 4, and 5, and e must wear insulating shoes, insulating gloves and insulating pads.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">The power battery and high voltage components will be stressed during the body sheet metal calibration process. The stressed
+                        power battery or high voltage components must be removed for safe storage and correction.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">No welder required</p>  
+               
+               <p class="p">The power battery and high voltage components will be stressed during the body sheet metal calibration process. The stressed
+                  power battery or high voltage components must be removed for safe storage and correction.
+               </p>  
+               
+               <p class="p">Surface grinding</p>  
+               
+               <p class="p">Surface grinding must be done by dry grinding process, and water grinding is strictly prohibited.</p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

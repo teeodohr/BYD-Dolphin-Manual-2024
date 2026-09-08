@@ -1,0 +1,547 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="P1A4200 Cathode contactor burnt-out"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA074474"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>P1A4200 Cathode contactor burnt-out</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA074474">
+         
+         
+         
+         <h3 class="topictitletopic1 title">P1A4200 Cathode contactor burnt-out</h3>
+         
+         
+         <div class="nested1 topic task" id="tasdffad60d"> 
+            
+            <h3 class="topictitletopic2 title">DTC description</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="23%" colspan="2" align="center" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>P1A4200 Cathode contactor burnt-out</p>   
+                              
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>Fault symptoms</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>The instrument displays "EV function limited", and charging/discharging is prohibited.</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>Possible causes of the fault</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>Main contactor of high-voltage battery pack burnt-out</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr>
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>Fault setting conditions</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>Failure to open cathode contactor normally</p> 
+                              
+                           </td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="23%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>Fault triggering conditions</p> 
+                              
+                           </td>
+                           <td width="77%" align="left" valign="&#xA;            top&#xA;          "> 
+                              
+                              <p>After the vehicle is powered on, the system detects that the cathode contactor cannot be opened normally, and a DTC is generated.</p> 
+                              
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="tas0317a0ad"> 
+            
+            <h3 class="topictitletopic2 title">Diagnosis steps<button type="button" id="dtcbutton1" class="button" onclick="expandAll();butSwitch();"><samp>Expand all</samp></button><button type="button" id="dtcbutton2" onclick="gotoFirstDtcStep('step01');butSwitch();" class="button dtc-inactive"><samp>Diagnostic guidance</samp></button></h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div> 
+                  <a name="step01"></a><div class="otherclass1 dtcprocess otherclass2" data-step="step01">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d25020e89">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">1</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Read the voltage of high-voltage battery pack and check for any system software version for update.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol">
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Connect the VDS to the DLC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Scan the ECU module.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Enter the battery execution and sampling unit interface.</span></span> 
+                                    
+                                 </li>
+                                 <div></div> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Read the data flow "Current total voltage of battery pack" and record it as V0.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Check for any software version available for update of the battery execution and sampling unit.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step01" value="next-step02"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step01" value="next-step02"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1"><a class="xrefstep xref" href="javascript:;" onclick="jumptoDtcStep('step01','step04')" aasd="">Go to Step 3.</a><a class="xref stepXref dtc-inactive" href="#step04">Go to Step 3.</a></span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div><a name="step02"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step02">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d25020e141">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">2</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Replace the battery execution and sampling unit, and check the DTC.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Update the battery execution and sampling unit with the VDS.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Clear the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to OFF position and wait for a few seconds.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position again and read the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check for the same DTC.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step02" value="next-step03"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step02" value="next-step03"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">The system is normal.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div><a name="step03"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step03">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA074474__sted1312e3b">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">3</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Measure the voltage of high-voltage battery pack and check the high-voltage wiring harness and connector.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol"> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to OFF position and wait for 5 min.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Wear insulating gloves and disconnect all high-voltage connectors except the high-voltage battery pack (the rear electric
+                                          control bus shall also be disconnected for 4WD models).</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Measure the voltage between positive and negative poles of high-voltage battery with a multimeter, and record it as V1.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Check the high-voltage connector for corrosion, damage, or water ingress.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step03" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step03" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step03" value="next-step04"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step03" value="next-step04"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Repair or replace the wiring harness.</span> 
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>         
+                  <a name="step04"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step04">
+                     <table width="100%" border="solid 1pt" class="postspace" id="DTA074474__sted1312e3b">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">4</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Measure the voltage of high-voltage battery pack when the main contactor is closed.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol">
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div> 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Use a VDS to enter the battery execution and sampling unit interface, and then the maintenance mode interface.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Tap the active control of cathode contactor to perform closing action (Do not connect the high-voltage connector during closing
+                                          of contactor).</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Read the data information and confirm that the main contactor is closed.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Measure the voltage between positive and negative poles of high-voltage battery with a multimeter, and record it as V2.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Stop reading the data information and open the main contactor.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>
+                                 <li class="li substep"> 
+                                    <span><span>Check whether V1 is slightly lower than 10% of high-voltage battery pack voltage V0, and whether V2 is approximate to V0.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step04" value="option1"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step04" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step04" value="next-step05"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step04" value="next-step05"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 35.5,1 35.5,15 18,19.5 1,15 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="18" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">The cathode contactor is burnt out. Replace the high-voltage battery pack.</span>    
+                                       </span><span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div><a name="step05"></a><div class="otherclass1 dtcprocess dtc-inactive otherclass2" data-step="step05">
+                     <table width="100%" border="solid 1pt" class="postspace" id="d25020e288">
+                        <tr>
+                           <td border="solid 1pt" class="stepnub">
+                              <div class="step_process">5</div>
+                           </td>
+                           <td border="solid 1pt">
+                              <div class="step_process"><span><span>Check the DTC of battery execution and sampling unit.</span></span></div>
+                           </td>
+                        </tr>
+                     </table>
+                     <table width="100%">
+                        <tr>
+                           <td class="stepnub">
+                              <div>
+                                 <div class="prespace postspace scalable-width"></div>
+                              </div>
+                           </td>
+                           <td valign="top">
+                              <ol class="ol">
+                                 <li class="li substep"> 
+                                    <span><span>Restore the vehicle.</span></span> 
+                                    
+                                 </li>
+                                 <div></div> 
+                                 
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Enter the battery execution and sampling unit interface, and read and clear the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to OFF position and wait for a few seconds.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Turn the Start/Stop switch to ON position again and read the DTC.</span></span> 
+                                    
+                                 </li>
+                                 <div></div>  
+                                 
+                                 <li class="li substep"> 
+                                    <span><span>Check for the same DTC.<button onclick="showDtcOptionOfStep(this);" class="select" data-current="step05" value="option1"><samp>No</samp></button><div class="selectdiv dtc-inactive" data-current="step05" value="option1"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">No</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div><button onclick="showDtcOptionOfStep(this);" class="select" data-current="step05" value="option2"><samp>Yes</samp></button><div class="selectdiv dtc-inactive" data-current="step05" value="option2"><span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:vf="http://www.megalinkware.com" xmlns:cms="http://www.w3.org/ime/cms" width="36" height="20" version="1.1" style="vertical-align: middle;">
+                                                   <polyline fill="none" stroke="black" stroke-width="1px" points="1,1 24,1 36.25,10 24,19.5 1,19.5 0.5,0.5"></polyline>
+                                                   <text>
+                                                      <tspan x="15" y="14" font-size="1em" text-align="center" text-anchor="middle">Yes</tspan>
+                                                   </text>
+                                                </svg></span><span class="selectdivtext"></span></div></span></span>  
+                                    
+                                    
+                                    
+                                 </li>
+                                 <div><span><span class="dtcstep dtc-inactive" data-option="option1">Check for "intermittent and occasional fault".</span> 
+                                       </span><span><span class="dtcstep dtc-inactive" data-option="option2">Replace the high-voltage battery pack.</span></span></div> 
+                                 
+                              </ol>
+                              <div class="stepbtn"><button type="button" onclick="gotoPreviousDtcStep()"><samp>Previous step</samp></button><button type="button" onclick="gotoFirstDtcStep('step01');" class="button"><samp>Restart</samp></button></div>
+                           </td>
+                        </tr>
+                     </table>
+                  </div>
+               </div> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

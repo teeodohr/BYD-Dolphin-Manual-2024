@@ -1,0 +1,314 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Replacement of coolant"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM175130"></meta>
+      
+      <meta name="DC.Language" content="en-us"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Replacement of coolant</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM175130">
+         
+         
+         <h3 class="topictitletopic1 title">Replacement of coolant</h3>
+         
+         <div class="body">
+            <p class="p"><span class="ph b">Every 48 months or 100,000 kilometres</span></p>     
+            <div class="section">
+               <h3 class="title topictitle1">Drainage</h3>
+               <p class="p"><span class="ph b">Tools and equipment required for repair</span></p>
+               <ul name="contents" class="ul">
+                  <li>
+                     <p class="p-inline">Liquid collecting container</p>
+                  </li>
+                  <li>
+                     <p class="p-inline">Spring clamp pliers/water pipe pliers</p>
+                  </li>
+               </ul>
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d59627e26">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">When the vehicle is in a warm-up state, there is a high pressure in the cooling system. High-temperature steam and high-temperature
+                           coolant may cause burns. It may cause burns to hands and other parts of the body.
+                        </p>
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Wear protective gloves.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Wear protective glasses.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Unloading pressure: Cover the coolant sub-tank sealing cap with a rag and carefully open it.</p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>                
+               <div>
+                  <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d59627e42">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">Refer to the time and mileage recommended by the scheduled maintenance schedule, completely drain the coolant, and then refill
+                                 a new coolant, which needs to be filled with the coolant designated by BYD or of the same level. Using a different grade of
+                                 coolant or adding water directly may cause corrosion and deposits in the cooling system.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">The drain of coolant is carried out under the vehicle. Therefore, unless you have sufficient knowledge and tools, this job
+                                 should be done by a skilled technician.
+                              </p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d59627e50">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <p class="p">Strictly comply with local waste disposal regulations on coolant!</p>
+                     </div>
+                  </div>
+                  
+               </div>
+               <ol class="num">         
+                  <li>           
+                     <p class="p-inline">Set the vehicle power supply to OK and let the electric coolant pump assembly I run for about 5 minutes, and then set the
+                        vehicle power supply to OFF.Repeat this step for 2-3 times.
+                     </p>         
+                  </li>                         
+                  <li> 
+                     
+                     <p class="p-inline">Remove the front bumper assembly. Refer to <a class="xref" href="DTRM265641.html">Removal and installation of front bumper assembly</a>&nbsp;    
+                        
+                     </p> 
+                     
+                  </li>                    
+                  <li> 
+                     
+                     <p class="p-inline">Unscrew the expansion tank cover.</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable"> 
+                           
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G013954.jpg"></img></div> 
+                           
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>
+                  <li> 
+                     
+                     <p class="p-inline">Loosen 1 fixing clamp, detach coolant pipe assembly 1 and motor radiator assembly I, and drain the coolant.</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d59627e89">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">Collect the coolant in the collecting container at the junction between the cooling pipe assembly 1 and the motor radiator
+                              assembly I until the coolant is drained.
+                           </div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable"> 
+                           
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G013955.jpg"></img></div> 
+                           
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>
+                  <li> 
+                     
+                     <p class="p-inline">Install the coolant pipe assembly 1 to its original position.</p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable"> 
+                           
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G013956.jpg"></img></div> 
+                           
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li> 
+               </ol>     
+            </div>
+            
+            <div class="section">
+               <h3 class="title topictitle1">Filling</h3>               
+               <ol class="num">         
+                  <li>
+                     <p class="p-inline">Fill with qualified new coolant.</p>
+                  </li>
+                  <li>           
+                     <p class="p-inline">Install the expansion tank lid and tighten it. Set the vehicle power supply to OK and let the electric coolant pump assembly
+                        I run for about 5 minutes then set the vehicle power supply to OFF.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">After the coolant temperature down, open the expansion tank lid, and then fill coolant till its liquid level reach the mark
+                        of the upper limit (MAX) of the expansion tank.
+                     </p>         
+                  </li>          
+                  <li>           
+                     <p class="p-inline">Repeat “Step 1” and “Step 2” till the expansion tank liquid level unchanging in the middle of “MAX” and ”MIN”,then install
+                        the expansion tank lid.
+                     </p>                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d59627e143">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">
+                              <ul name="contents" class="ul">
+                                 <li>
+                                    <p class="p-inline">Set the vehicle power supply to OK, observe the coolant level in the&nbsp;expansion tank&nbsp;assembly I. If the coolant is lower than
+                                       the "Min" mark, add coolant until it reaches between the "Max" and "Min" marks.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">The capacity of the coolant of the cooling system of this vehicle is platform A power: 3.3 ± 0.2. Platform B power: 3.1±0.2
+                                       （BYD DOLPHIN Active） 。
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">Do not dilute coolant at will, do not reuse or mix the coolant, and do not replace it with one of a different color.</p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">Coolant can prevent frost, corrosion damage, and scaling. In addition, it can also raise the boiling point, so coolant must
+                                       be filled according to standards.
+                                    </p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">The coolant must be recovered in accordance with relevant national regulations.</p>
+                                 </li>
+                                 <li>
+                                    <p class="p-inline">After the installation, check joints between cooling pipe assembly I and motor radiator assembly I to make sure there is no
+                                       leakage. If any, the overhaul shall be carried out again.
+                                    </p>
+                                 </li>
+                              </ul>
+                              
+                           </div>
+                        </div>
+                        
+                     </div>   
+                     <p>             
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G013957.jpg"></img></div>                            
+                        </div>           
+                     </p>         
+                  </li>         
+                  <li> 
+                     
+                     <p class="p-inline">Install front bumper assembly. Refer to <a class="xref" href="DTRM265641.html">Removal and installation of front bumper assembly</a>&nbsp;        
+                     </p> 
+                     
+                  </li>        
+               </ol>     
+            </div>
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

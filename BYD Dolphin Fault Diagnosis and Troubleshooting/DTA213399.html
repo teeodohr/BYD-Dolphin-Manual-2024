@@ -1,0 +1,386 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC list"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA114379"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC list</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA114379">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC list</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">DTC list</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">DTC</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Descriptions</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Diagnosis process</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">B2AD616</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">12 V power supply undervoltage (below 9 V)</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250710.html">B2AD616 12 V power supply undervoltage (below 9 V)</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">B2AD617</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">12 V power supply overvoltage</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213402.html">B2AD617 12 V power supply overvoltage</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">B2A2013</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Interior temperature sensor open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250717.html">B2A2013 Interior temperature sensor open-circuited</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">B2A2111</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Interior temperature sensor short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250720.html">B2A2111 Interior temperature sensor short-circuited to GND</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">B2A2213</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Exterior temperature sensor open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213406.html">B2A2213 Exterior temperature sensor open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2311</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Exterior temperature sensor short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">B2A2311 Exterior temperature sensor short-circuited to GND</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2413</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Evaporator temperature sensor open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250725.html">B2A2413 Evaporator temperature sensor open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2511</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Evaporator temperature sensor short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250721.html">B2A2511 Evaporator temperature sensor short-circuited to GND</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A5813</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Driver's face level vent temperature sensor open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250685.html">B2A5813 Driver's face level vent temperature sensor open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A5811</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Driver's face level vent temperature sensor short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">B2A5811 Driver's face level vent temperature sensor short-circuited to GND</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A5913</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Driver's footwell vent temperature sensor open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250680.html">B2A5913 Driver's footwell vent temperature sensor open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A511</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Driver's footwell vent temperature sensor short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250682.html">B2A5811 Driver's footwell vent temperature sensor short-circuited to GND</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A0813</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Evaporator outlet refrigerant temperature sensor open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250696.html">B2A0813 Evaporator outlet refrigerant temperature sensor open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A0811</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Evaporator outlet refrigerant temperature sensor short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250699.html">B2A0811 Evaporator outlet refrigerant temperature sensor short-circuited to GND</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134613</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Compressor outlet refrigerant temperature sensor T1 open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250691.html">B134613 Refrigerant temperature sensor 1 open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134611</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Compressor outlet refrigerant temperature sensor T1 short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250694.html">B134611 Refrigerant temperature sensor 1 short-circuited to GND</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133413</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Battery cooling outlet refrigerant temperature sensor T2 open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250700.html">B133413 Refrigerant temperature sensor 2 open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133511</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Battery cooling outlet refrigerant temperature sensor T2 short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250701.html">B133511 Refrigerant temperature sensor 2 short-circuited to GND</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133613</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Battery heating outlet refrigerant temperature sensor T3 open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250439.html">B133613 Refrigerant temperature sensor 3 open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133711</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Battery heating outlet refrigerant temperature sensor T3 short-circuited to GND</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250445.html">B133711 Refrigerant temperature sensor 3 short-circuited to GND</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>B2A0801</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Evaporator outlet refrigerant pressure sensor open-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250447.html">B2A0803 Evaporator outlet refrigerant pressure sensor open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="&#xA;            top&#xA;          ">
+                              <p>B2A0803</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Evaporator outlet refrigerant pressure sensor short-circuited to power supply</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250442.html">B2A0801 Evaporator outlet refrigerant pressure sensor short-circuited to power supply</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134713</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Compressor outlet refrigerant pressure sensor P1 open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250444.html">B134713 A/C pressure sensor open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134711</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Compressor outlet refrigerant pressure sensor P1 short-circuited to power supply</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">B134711 A/C pressure sensor short-circuited to power supply</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2A14</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Mode control motor short-circuited to GND or open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213427.html">B2A2A14 Mode control motor short-circuited to GND or open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2A12</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Mode control motor short-circuited to power supply</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213429.html">B2A2A12 Mode control motor short-circuited to power supply</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2A92</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Failure of mode control motor to rotate into position</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213431.html">B2A2A92 Failure of mode control motor to rotate into position</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A4B14</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Circulation control motor short-circuited to GND or open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213431.html">B2A4B14 Circulation control motor short-circuited to GND or open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A4B12</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Circulation control motor short-circuited to power supply</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250432.html">B2A4B12 Circulation control motor short-circuited to power supply</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A4B92</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Failure of circulation control motor to rotate into position</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250429.html">B2A4B92 Failure of circulation control motor to rotate into position</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2B14</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Cooling/heating control motor on the driver's side short-circuited to GND or open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">B2A2B14 Cooling/heating control motor short-circuited to GND or open-circuited</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2B12</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Cooling/heating control motor on the driver's side short-circuited to power supply</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250436.html">B2A2B12 Cooling/heating control motor short-circuited to power supply</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2B92</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Failure of cooling/heating control motor on the driver's side to rotate into position</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250437.html">B2A2B92 Failure of cooling/heating control motor to rotate into position</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134111</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Electric three-way coolant valve control motor short-circuited to GND or open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250433.html">B134111 Three-way coolant valve control motor short-circuited to GND or open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134211</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Electric three-way coolant valve control motor short-circuited to power supply</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250435.html">B134211 Three-way coolant valve control motor short-circuited to power supply</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134392</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Failure of electric three-way coolant valve control motor to rotate into position</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250454.html">B134392 Failure of three-way coolant valve control motor to rotate into position</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A3214</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front-row blower short-circuited to GND or open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250452.html">B2A3214 Front-row blower short-circuited to GND or open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A3314</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Front-row blower adjustment signal short-circuited to GND or open-circuited</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250453.html">B2A3314 Front-row blower adjustment signal short-circuited to GND or open-circuited</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133800</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Solenoid valve 1 status fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250457.html">B133800 Solenoid valve 1 status fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133900</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Solenoid valve 2 status fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250458.html">B133900 Solenoid valve 2 status fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133A00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Solenoid valve 3 status fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250455.html">B133A00 Solenoid valve 3 status fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133B00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Solenoid valve 4 status fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250456.html">B133B00 Solenoid valve 4 status fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133C00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Solenoid valve 5 status fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250459.html">B133C00 Solenoid valve 5 status fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133D00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Solenoid valve 6 status fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">B133D00 Solenoid valve 6 status fault</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133E00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Low-voltage PTC relay 1 fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213450.html">B133E00 Low-voltage PTC relay 1 fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B133F00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Low-voltage PTC relay 2 fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213452.html">B133F00 Low-voltage PTC relay 2 fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B134000</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Low-voltage PTC relay 3 fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213454.html">B134000 Low-voltage PTC relay 3 fault</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2712</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Sunlight sensor short-circuited to power supply</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213456.html">B2A2712 Sunlight sensor short-circuited to power supply</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B1CAF00</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Humidity sensor fault</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">B1CAF00 Humidity sensor fault</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U02B087</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Loss of communication with humidity sensor</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">U02B087 Loss of communication with humidity sensor</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">U025387</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">Loss of communication with compressor</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">U025387 Loss of communication with compressor</td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">B2A2F09</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">A/C piping in high-pressure or low-pressure status</td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250394.html">B2A2F09 A/C piping in high-pressure or low-pressure status</a></td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

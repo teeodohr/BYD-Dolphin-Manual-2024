@@ -1,0 +1,2129 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA115894"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section class="1" id="DTA115894">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC diagnosis</h3>
+         
+         
+         <div class="nested1 topic task" id="tasd19543e2"> 
+            
+            <h3 class="topictitletopic2 title">DTC list</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">DTC</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Descriptions</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Diagnosis process</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C061A00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_pedal position sensor "2" compensation over learning limit</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250779.html">C061A00 OBD_pedal position sensor "2" compensation over learning limit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U043208</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>IPB private network IMU signal byte length, CRC, counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250783.html">U043208 IPB private network IMU signal byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059505</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x241 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250782.html">U059505 VCU 0x241 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U100004</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>CAN bus abnormal (private CAN)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA293331.html">U100004 CAN bus abnormal (private CAN)</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U012604</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPS 0x11F message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250745.html">U012604 EPS 0x11F message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C004460</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Pressure sensor_signal fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250756.html">C004460 Pressure sensor_signal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006302</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>IPB 0x222 message Yaw signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250671.html">C006302 IPB 0x222 message Yaw signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U300600</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Control module input voltage error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250690.html">U300600 Control module input voltage error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163489</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1FA signal check code error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250693.html">B163489 0x1FA signal check code error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1C3F08</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Indicated yaw rate invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250716.html">C1C3F08 Indicated yaw rate invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2C00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>RCTB signal length error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250726.html">C1E2C00 RCTB signal length error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E3400</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Coasting feedback target torque failure</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250229.html">C1E3400 Coasting feedback target torque failure</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C002100</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake booster module pipeline hydraulic pressure lower than normal value - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250237.html">C002100 Brake booster module pipeline hydraulic pressure lower than normal value - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P0562FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_ECU low voltage_other cycles</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250338.html">P0562FC OBD_ECU low voltage_other cycles</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05DE00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensor "B" circuit high</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249887.html">P05DE00 OBD_brake pedal position sensor "B" circuit high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U014608</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BCM 0x294 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249888.html">U014608 BCM 0x294 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006382</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>IPB 0x222 message Counter value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249900.html">C006382 IPB 0x222 message Counter value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C050CFC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_rear left wheel speed sensor: open-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250019.html">C050CFC OBD_rear left wheel speed sensor: open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C053C76</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Wrong installation direction of wheel speed sensor</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250018.html">C053C76 Wrong installation direction of wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C058E00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_CRB signal invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250017.html">C058E00 OBD_CRB signal invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C059300</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake booster motor 2_current too low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250014.html">C059300 OBD_brake booster motor 2_current too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C05B000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake hydraulic circuit L2 leakage - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250049.html">C05B000 Brake hydraulic circuit L2 leakage - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C104400</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Hydraulic unit exhaust not completed - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250057.html">C104400 Hydraulic unit exhaust not completed - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U042008</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPS 0x27F byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250857.html">U042008 EPS 0x27F byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059208</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x251 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250873.html">U059208 VCU 0x251 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059604</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BCM 0x3B4 message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250871.html">U059604 BCM 0x3B4 message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C000000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Internal fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250840.html">C000000 Internal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006202</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>IPB 0x223 message Ax signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250848.html">C006202 IPB 0x223 message Ax signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U01F287</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SRS signal communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250849.html">U01F287 SRS signal communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163402</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1FA signal length error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250855.html">B163402 0x1FA signal length error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U02D886</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SCU system fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250856.html">U02D886 SCU system fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2A00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>RCTB signal counter error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250854.html">C1E2A00 RCTB signal counter error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E3200</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTC signal length error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250853.html">C1E3200 DTC signal length error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C000A08</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ACC 0x32E byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250916.html">C000A08 ACC 0x32E byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05CB00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_hardware incompatible between ECU and HU</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250812.html">P05CB00 OBD_hardware incompatibille between ECU and HU</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P060200</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ECU_SW control module programming error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250813.html">P060200 ECU_SW control module programming error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C053CFC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_general wheel speed fault_other faults</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250804.html">C053CFC OBD_general wheel speed fault_other faults</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0072FB</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake overtemperature_other cycles</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250805.html">C0072FB Brake overtemperature_other cycles</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0512FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_rear left wheel speed sensor: open-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250803.html">C0512FC OBD_rear left wheel speed sensor: open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C053B00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Power circuit of ABS valve open-circuited - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250802.html">C053B00 Power circuit of ABS valve open-circuited - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C056C00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_pressure sensor 2_unstable</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250815.html">C056C00 OBD_pressure sensor 2_unstable</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C059200</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake booster motor 2_current too low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250625.html">C059200 OBD_brake booster motor 2_current too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C059700</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Exhaust not completed</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250630.html">C059700 Exhaust not completed</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U000500</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_CAN bus overvoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250640.html">U000500 OBD_CAN bus overvoltage</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C13FC08</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BCM 0x13B message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250632.html">C13FC08 BCM 0x13B message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U162308</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPS 0x11F message SAS signal status bit invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250631.html">U162308 EPS 0x11F message SAS signal status bit invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U011000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x241 message communication timeout - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250650.html">U011000 VCU 0x241 message communication timeout - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C101008</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ECU software fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250645.html">C101008 ECU software fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059509</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x356 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250646.html">U059509 VCU 0x356 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U013104</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPS 0x27F message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250587.html">U013104 EPS 0x27F message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C2A2000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Hydraulic circuit C overcompensation</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250588.html">C2A2000 Hydraulic circuit C overcompensation</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163302</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1CC signal length error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250586.html">B163302 0x1CC signal length error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163589</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SRS_counter error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250585.html">B163589 SRS_counter error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2089</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Lateral channel status invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250584.html">C1E2089 Lateral channel status invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2F00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Target deceleration requested by ACC invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250579.html">C1E2F00 Target deceleration requested by ACC invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C200004</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Rollerbench misuse</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250589.html">C200004 Rollerbench misuse</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P057C00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensor "A" circuit low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250590.html">P057C00 OBD_brake pedal position sensor "A" circuit low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05E009</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake pedal position sensors "A" and "B" check error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250597.html">P05E009 Brake pedal position sensors "A" and "B" check error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006B00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ESP system runtime abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250595.html">C006B00 ESP system runtime abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C009100</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>MW_MPU detected inactive</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250600.html">C009100 MW_MPU detected inactive</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055600</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Front right wheel speed sensor signal protocol error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250598.html">C055600 Front right wheel speed sensor signal protocol error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C056300</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_ABS control implausible</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250599.html">C056300 OBD_ABS control implausible</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0590FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake booster motor 1_current too high</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250605.html">C0590FC OBD_brake booster motor 1_current too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C059500</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Electrical booster power supply abnormal - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250606.html">C059500 Electrical booster power supply abnormal - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C05D300</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake pedal pressure greater than expected value - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250604.html">C05D300 Brake pedal pressure greater than expected value - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C102001</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ECU hardware error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250603.html">C102001 ECU hardware error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U05950A</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTCS - FMCU 0x2A9 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250618.html">U05950A DTCS - FMCU 0x2A9 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006108</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Lateral acceleration sensor: signal fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250619.html">C006108 Lateral acceleration sensor: signal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U01F087</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1CC signal communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250615.html">U01F087 0x1CC signal communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163308</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1CC signal counter error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250617.html">B163308 0x1CC signal counter error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2108</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Longitudinal acceleration invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250614.html">C1E2108 Longitudinal acceleration invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E3000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTC signal counter error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250468.html">C1E3000 DTC signal counter error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P056023</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>UBVR(PIN14) power supply circuit open-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250470.html">P056023 UBVR(PIN14) power supply circuit open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P057D00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensor "A" circuit high</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250461.html">P057D00 OBD_brake pedal position sensor "A" circuit high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05FF00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_BSM check error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250197.html">P05FF00 OBD_BSM check error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C007200</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake system overtemperature/brake pedal accelerator pedal signal implausible</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250195.html">C007200 Brake system overtemperature/brake pedal accelerator pedal signal implausible</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C009200</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>MW_spillage during movement</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250194.html">C009200 MW_spillage during movement</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0500FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_front left wheel speed sensor: open-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250193.html">C0500FC OBD_front left wheel speed sensor: open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C052801</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPS 0x11F message SAS signal and wheel speed check abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250192.html">C052801 EPS 0x11F message SAS signal and wheel speed check abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055700</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Rear left wheel speed sensor signal protocol error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250200.html">C055700 Rear left wheel speed sensor signal protocol error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C056364</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ABS system runtime abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250199.html">C056364 ABS system runtime abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C059592</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Electrical booster power supply abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250198.html">C059592 Electrical booster power supply abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C05C300</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake booster motor_power supply circuit fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250201.html">C05C300 OBD_brake booster motor_power supply circuit fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U01000E</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTCS - FMCU 0x2A9 message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250209.html">U01000E DTCS - FMCU 0x2A9 message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C062D00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_solenoid valve VRG abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249905.html">C062D00 OBD_solenoid valve VRG abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1066FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SAS calibration error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249904.html">C1066FC SAS calibration error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U044700</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_data received from gateway invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249903.html">U044700 OBD_data received from gateway invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059506</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x242 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250187.html">U059506 VCU 0x242 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U100304</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPB 0x218 message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250188.html">U100304 EPB 0x218 message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U012608</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPS 0x11F byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250189.html">U012608 EPS 0x11F byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006308</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>IPB 0x222 message Yaw signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250190.html">C006308 IPB 0x222 message Yaw signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163502</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SRS data length error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250169.html">B163502 SRS data length error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1C3F89</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Yaw rate sensor calibration status invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250171.html">C1C3F89 Yaw rate sensor calibration status invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2D00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>RCTB signal communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250170.html">C1E2D00 RCTB signal communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05DF00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensor "B" circuit intermittent/unstable</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250173.html">P05DF00 OBD_brake pedal position sensor "B" circuit intermittent/unstable</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C053CFC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_general wheel speed fault_other faults</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250176.html">C053CFC OBD_general wheel speed fault_other faults</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055164</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>IPB 0x223 message Ax signal status bit error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250174.html">C055164 IPB 0x223 message Ax signal status bit error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055FFB</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Hydraulic unit pressure build-up fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250179.html">C055FFB Hydraulic unit pressure build-up fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C057E00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_booster temperature abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250180.html">C057E00 OBD_booster temperature abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U058F00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x410 message coasting feedback signal error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250103.html">U058F00 VCU 0x410 message coasting feedback signal error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0593FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake booster motor 2_current too low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250183.html">C0593FC OBD_brake booster motor 2_current too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C190004</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ECU_voltage high</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250104.html">C190004 ECU_voltage high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U01000B</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x240 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250106.html">U01000B VCU 0x240 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C061900</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_pedal position sensor "1" compensation over learning limit</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250901.html">C061900 OBD_pedal position sensor "1" compensation over learning limit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C104C04</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>AVH switch fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250709.html">C104C04 AVH switch fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059504</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x241 message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250712.html">U059504 VCU 0x241 message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059608</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BCM 0x3B4 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250714.html">U059608 BCM 0x3B4 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006208</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Longitudinal acceleration sensor: signal fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250674.html">C006208 Longitudinal acceleration sensor: signal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163408</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1FA signal counter error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250676.html">B163408 0x1FA signal counter error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U02D887</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SCU 0x35C message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250677.html">U02D887 SCU 0x35C message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1C3F02</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Yaw rate channel status invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250438.html">C1C3F02 Yaw rate channel status invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2B00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>RCTB signal check code error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250440.html">C1E2B00 RCTB signal check code error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E3300</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTC signal communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250441.html">C1E3300 DTC signal communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U025900</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU message communication timeout - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250443.html">U025900 VCU message communication timeout - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C000B04</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ACC 0x32E message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250446.html">C000B04 ACC 0x32E message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P056216</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>System voltage too low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250222.html">P056216 System voltage too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05DD00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensor "B" circuit low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250223.html">P05DD00 OBD_brake pedal position sensor "B" circuit low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U014604</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BCM 0x294 message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250225.html">U014604 BCM 0x294 message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0072FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>General valve fault_other cycles</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250226.html">C0072FC General valve fault_other cycles</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C053C00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Wheel speed sensor signal cross-check error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250230.html">C053C00 Wheel speed sensor signal cross-check error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055F00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Hydraulic unit abnormal - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250232.html">C055F00 Hydraulic unit abnormal - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C058AFC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_MPS1_Performance_other cycles</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250233.html">C058AFC OBD_MPS1_Performance_other cycles</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C059900</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake booster module not calibrated - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250234.html">C059900 Brake booster module not calibrated - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C05CC00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Master cylinder position sensor A abnormal - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250235.html">C05CC00 Master cylinder position sensor A abnormal - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U007300</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>CAN bus abnormal (common CAN) - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250294.html">U007300 CAN bus abnormal (common CAN) - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C13FC04</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BCM 0x13B message CRC check error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250323.html">C13FC04 BCM 0x13B message CRC check error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1000FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ECU error - other cycles</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250324.html">C1000FC ECU error - other cycles</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059508</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>FM data corrupted 5</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250325.html">U059508 FM data corrupted 5</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U100308</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPB 0x218 byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250326.html">U100308 EPB 0x218 byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U012682</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SAS counter error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250327.html">U012682 SAS counter error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C004C04</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ESP OFF switch fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250334.html">C004C04 ESP OFF switch fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163300</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Yaw rate sensor signal counter error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250331.html">B163300 Yaw rate sensor signal counter error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163508</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SRS_CRC check error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249892.html">B163508 SRS_CRC check error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2008</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Lateral acceleration invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250013.html">C1E2008 Lateral acceleration invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P057B00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensor "A" circuit range/performance</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250015.html">P057B00 OBD_brake pedal position sensor "A" circuit range/performance</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05E000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensors "A" and "B" check error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250059.html">P05E000 OBD_brake pedal position sensors "A" and "B" check error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C009000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>MW_eeprom reading or writing out of limit</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250026.html">C009000 MW_eeprom reading or writing out of limit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U014887</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTCS - FMCU input signal invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250028.html">U014887 DTCS-FMCU input signal invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C009000</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>MW_eeprom reading or writing out of limit</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250026.html">C009000 MW_eeprom reading or writing out of limit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C046008</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>EPS 0x11F message SAS signal value unreliable/error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250032.html">C046008 EPS 0x11F message SAS signal value unreliable/error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0506FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_front right wheel speed sensor: open-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250037.html">C0506FC OBD_front right wheel speed sensor: open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055500</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Front left wheel speed sensor signal protocol error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249947.html">C055500 Front left wheel speed sensor signal protocol error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055FFC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_hydraulic unit pressure build-up fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249956.html">C055FFC OBD_Hydraulic unit pressure build-up fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C05CF00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Master cylinder position sensor B abnormal - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250872.html">C05CF00 Master cylinder position sensor B abnormal - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C190104</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>ECU_voltage low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250875.html">C190104 ECU_voltage low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U01000C</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x240 message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250876.html">U01000C VCU 0x240 message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C05D309</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake pedal pressure greater than expected value</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250867.html">C05D309 Brake pedal pressure greater than expected value</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C102A00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>R gear signal check abnormal</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250868.html">C102A00 R gear signal check abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U041100</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x241 byte length, CRC, Counter, signal value error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250837.html">U041100 VCU 0x241 byte length, CRC, Counter, signal value error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U059204</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>VCU 0x251 message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250838.html">U059204 VCU 0x251 message communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U05950B</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTCS - FMCU 0x2BF byte length, CRC, Counter, signal value error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250833.html">U05950B DTCS - FMCU 0x2BF byte length, CRC, Counter, signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C006164</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>IPB 0x223 message Ay signal status bit error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250501.html">C006164 IPB 0x223 message Ay signal status bit error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U01F187</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1FA signal communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250252.html">U01F187 0x1FA signal communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>B163389</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>0x1CC signal check code error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250254.html">B163389 0x1CC signal check code error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U02D883</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>SCU 0x35C message signal damaged</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250256.html">U02D883 SCU 0x35C message signal damaged</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U031800</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Variable input error or null variable</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250259.html">U031800 Variable input error or null variable</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E2189</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Longitudinal channel status invalid</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250262.html">C1E2189 Longitudinal channel status invalid</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C1E3100</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTC signal check code error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249906.html">C1E3100 DTC signal check code error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P06B8FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_ECU hardware error: RAM fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250982.html">P06B8FC OBD_ECU hardware error: RAM fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P056024</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>UBVR(PIN46) power supply circuit open-circuited</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250786.html">P056024 UBVR(PIN46) power supply circuit open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P057E00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake pedal position sensor "A" circuit intermittent/unstable</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA251040.html">P057E00 OBD_brake pedal position sensor "A" circuit intermittent/unstable</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>P05FF09</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>BSM check error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250554.html">P05FF09 BSM check error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C007204</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Brake disc overheating</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250150.html">C007204 Brake disc overheating</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C055800</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Rear right wheel speed sensor signal protocol error - OBD</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250139.html">C055800 Rear right wheel speed sensor signal protocol error - OBD</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0591FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake booster motor 1_current too low</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA251010.html">C0591FC OBD_brake booster motor 1_current too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C0595FC</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_brake booster internal power driver performance</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250997.html">C0595FC OBD_brake booster internal power driver performance</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U000400</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>OBD_CAN bus undervoltage</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250157.html">U000400 OBD_CAN bus undervoltage</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>C121208</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Model variable code error</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249893.html">C121208 Model variable code error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">
+                              <p>U01000F</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>DTCS - FMCU 0x2BF message communication timeout</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250029.html">U01000F DTCS - FMCU 0x2BF message communication timeout</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">P056200</td>
+                           <td width="1" align="left" valign="middle">System voltage too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250030.html">P056200 System voltage too low</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">P056300</td>
+                           <td width="1" align="left" valign="middle">System voltage too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250051.html">P056300 System voltage too high</a></td>
+                        </tr>
+                        <tr align="left" valign="middle">
+                           <td width="1" align="center" valign="middle">C004900</td>
+                           <td width="1" align="left" valign="middle">Brake fluid level lower than normal threshold</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250044.html">C004900 Brake fluid level lower than normal threshold</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050000</td>
+                           <td width="1" align="left" valign="middle">Front left wheel speed sensor open-circuited</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250042.html">C050000 Front left wheel speed sensor open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003200</td>
+                           <td width="1" align="left" valign="middle">Front left wheel speed sensor supply voltage low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250025.html">C003200 Front left wheel speed sensor supply voltage low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050300</td>
+                           <td width="1" align="left" valign="middle">Front left wheel speed sensor signal circuit short-circuited to power supply circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250066.html">C050300 Front left wheel speed sensor signal circuit short-circuited to power supply circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050200</td>
+                           <td width="1" align="left" valign="middle">Front left wheel speed sensor signal circuit short-circuited to GND circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250064.html">C050200 Front left wheel speed sensor signal circuit short-circuited to GND circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003100</td>
+                           <td width="1" align="left" valign="middle">Front left wheel speed sensor signal fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250065.html">C003100 Front left wheel speed sensor signal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050576</td>
+                           <td width="1" align="left" valign="middle">Wrong installation direction of front left wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250062.html">C050576 Wrong installation direction of front left wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050400</td>
+                           <td width="1" align="left" valign="middle">Abnormal air gap of front left wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250063.html">C050400 Abnormal air gap of front left wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050600</td>
+                           <td width="1" align="left" valign="middle">Front right wheel speed sensor open-circuited</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250060.html">C050600 Front right wheel speed sensor open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003500</td>
+                           <td width="1" align="left" valign="middle">Front right wheel speed sensor supply voltage low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250061.html">C003500 Front right wheel speed sensor supply voltage low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050900</td>
+                           <td width="1" align="left" valign="middle">Front right wheel speed sensor signal circuit short-circuited to power supply circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249932.html">C050900 Front right wheel speed sensor signal circuit short-circuited to power supply circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050800</td>
+                           <td width="1" align="left" valign="middle">Front right wheel speed sensor signal circuit short-circuited to GND circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249942.html">C050800 Front right wheel speed sensor signal circuit short-circuited to GND circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003400</td>
+                           <td width="1" align="left" valign="middle">Front right wheel speed sensor signal fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249941.html">C003400 Front right wheel speed sensor signal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050B76</td>
+                           <td width="1" align="left" valign="middle">Wrong installation direction of front right wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249957.html">C050B76 Wrong installation direction of front right wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050A00</td>
+                           <td width="1" align="left" valign="middle">Abnormal air gap of front right wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249950.html">C050A00 Abnormal air gap of front right wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050C00</td>
+                           <td width="1" align="left" valign="middle">Rear left wheel speed sensor open-circuited</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249970.html">C050C00 Rear left wheel speed sensor open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003800</td>
+                           <td width="1" align="left" valign="middle">Rear left wheel speed sensor supply voltage low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249968.html">C003800 Rear left wheel speed sensor supply voltage low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050E00</td>
+                           <td width="1" align="left" valign="middle">Rear left wheel speed sensor signal circuit short-circuited to GND circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249983.html">C050E00 Rear left wheel speed sensor signal circuit short-circuited to GND circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C050F00</td>
+                           <td width="1" align="left" valign="middle">Rear left wheel speed sensor signal circuit short-circuited to power supply circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249969.html">C050F00 Rear left wheel speed sensor signal circuit short-circuited to power supply circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003700</td>
+                           <td width="1" align="left" valign="middle">Rear left wheel speed sensor signal fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249979.html">C003700 Rear left wheel speed sensor signal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051176</td>
+                           <td width="1" align="left" valign="middle">Wrong installation direction of rear left wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249981.html">C051176 Wrong installation direction of rear left wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051000</td>
+                           <td width="1" align="left" valign="middle">Abnormal air gap of rear left wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249974.html">C051000 Abnormal air gap of rear left wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051200</td>
+                           <td width="1" align="left" valign="middle">Rear right wheel speed sensor open-circuited</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249975.html">C051200 Rear right wheel speed sensor open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003B00</td>
+                           <td width="1" align="left" valign="middle">Rear right wheel speed sensor supply voltage low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249988.html">C003B00 Rear right wheel speed sensor supply voltage low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051500</td>
+                           <td width="1" align="left" valign="middle">Rear right wheel speed sensor signal circuit short-circuited to power supply circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249989.html">C051500 Rear right wheel speed sensor signal circuit short-circuited to power supply circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051400</td>
+                           <td width="1" align="left" valign="middle">Rear right wheel speed sensor signal circuit short-circuited to GND circuit</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249986.html">C051400 Rear right wheel speed sensor signal circuit short-circuited to GND circuit</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C003A00</td>
+                           <td width="1" align="left" valign="middle">Rear right wheel speed sensor signal fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA249987.html">C003A00 Rear right wheel speed sensor signal fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051776</td>
+                           <td width="1" align="left" valign="middle">Wrong installation direction of rear right wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250002.html">C051776 Wrong installation direction of rear right wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051600</td>
+                           <td width="1" align="left" valign="middle">Abnormal air gap of rear right wheel speed sensor</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250926.html">C051600 Abnormal air gap of rear right wheel speed sensor</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">U043204</td>
+                           <td width="1" align="left" valign="middle">Yaw rate sensor signal communication timeout</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA293336.html">U043204 Yaw rate sensor signal communication timeout</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C006A01</td>
+                           <td width="1" align="left" valign="middle">Yaw rate sensor parameter configuration error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250923.html">C006A01 Yaw rate sensor parameter configuration error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C051D01</td>
+                           <td width="1" align="left" valign="middle">Yaw rate sensor calibration error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250911.html">C051D01 Yaw rate sensor calibration error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C006A02</td>
+                           <td width="1" align="left" valign="middle">Yaw rate sensor signal error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250913.html">C006A02 Yaw rate sensor signal error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C052901</td>
+                           <td width="1" align="left" valign="middle">Steering angle sensor module lost</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250932.html">C052901 Steering angle sensor module lost</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C106600</td>
+                           <td width="1" align="left" valign="middle">Steering angle sensor not calibrated</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250943.html">C106600 Steering angle sensor not calibrated</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05CB00</td>
+                           <td width="1" align="left" valign="middle">Master cylinder position sensor A circuit voltage too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250944.html">C05CB00 Master cylinder position sensor A circuit voltage too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05CA00</td>
+                           <td width="1" align="left" valign="middle">Master cylinder position sensor A circuit voltage too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250939.html">C05CA00 Master cylinder position sensor A circuit voltage too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C007500</td>
+                           <td width="1" align="left" valign="middle">Master cylinder position sensor A fault/short-circuited</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250941.html">C007500 Master cylinder position sensor A fault/short-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P229900</td>
+                           <td width="1" align="left" valign="middle">Master cylinder position sensor signal check error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250936.html">P229900 Master cylinder position sensor signal check error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05CE00</td>
+                           <td width="1" align="left" valign="middle">Master cylinder position sensor B circuit voltage too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250938.html">C05CE00 Master cylinder position sensor B circuit voltage too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05CD00</td>
+                           <td width="1" align="left" valign="middle">Master cylinder position sensor B circuit voltage too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250934.html">C05CD00 Master cylinder position sensor B circuit voltage too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05D000</td>
+                           <td width="1" align="left" valign="middle">Master cylinder position sensor signal value error</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250935.html">C05D000 Master cylinder position sensor signal value error</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05D200</td>
+                           <td width="1" align="left" valign="middle">Master cylinder stroke greater than expected value</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250931.html">C05D200 Master cylinder stroke greater than expected value</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C000100</td>
+                           <td width="1" align="left" valign="middle">CSV valve 1 fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250945.html">C000100 CSV valve 1 fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C000200</td>
+                           <td width="1" align="left" valign="middle">PSV valve 1 fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250947.html">C000200 PSV valve 1 fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C000300</td>
+                           <td width="1" align="left" valign="middle">CSV valve 2 fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250957.html">C000300 CSV valve 2 fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C000400</td>
+                           <td width="1" align="left" valign="middle">PSV valve 2 fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250958.html">C000400 PSV valve 2 fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05D500</td>
+                           <td width="1" align="left" valign="middle">TSV valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250955.html">C05D500 TSV valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C002400</td>
+                           <td width="1" align="left" valign="middle">SSV valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250956.html">C002400 SSV valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001000</td>
+                           <td width="1" align="left" valign="middle">Front left fluid inlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250953.html">C001000 Front left fluid inlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001100</td>
+                           <td width="1" align="left" valign="middle">Front left fluid outlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250953.html">C001000 Front left fluid inlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001400</td>
+                           <td width="1" align="left" valign="middle">Front right fluid inlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250951.html">C001400 Front right fluid inlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001500</td>
+                           <td width="1" align="left" valign="middle">Front right fluid outlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250952.html">C001500 Front right fluid outlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001800</td>
+                           <td width="1" align="left" valign="middle">Rear left fluid inlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250963.html">C001800 Rear left fluid inlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001900</td>
+                           <td width="1" align="left" valign="middle">Rear left fluid outlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250959.html">C001900 Rear left fluid outlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001C00</td>
+                           <td width="1" align="left" valign="middle">Rear right fluid inlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250960.html">C001C00 Rear right fluid inlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C001D00</td>
+                           <td width="1" align="left" valign="middle">Rear right fluid outlet valve fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250976.html">C001D00 Rear right fluid outlet valve fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P25C600</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of brake booster temperature sensor A too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250977.html">P25C600 Circuit voltage of brake booster temperature sensor A too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P25C700</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of brake booster temperature sensor A too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250974.html">P25C700 Circuit voltage of brake booster temperature sensor A too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C057900</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of brake booster temperature sensor B too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250975.html">C057900 Circuit voltage of brake booster temperature sensor B too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C057A00</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of brake booster temperature sensor B too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250971.html">C057A00 Circuit voltage of brake booster temperature sensor B too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C057F00</td>
+                           <td width="1" align="left" valign="middle">Brake booster motor open-circuited</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250973.html">C057F00 Brake booster motor open-circuited</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05C24B</td>
+                           <td width="1" align="left" valign="middle">Brake booster motor overtemperature</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250969.html">C05C24B Brake booster motor overtemperature</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C059400</td>
+                           <td width="1" align="left" valign="middle">Brake booster motor load abnormal</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250879.html">C059400 Brake booster motor load abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C058200</td>
+                           <td width="1" align="left" valign="middle">Brake booster motor circuit signal abnormal</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250880.html">C058200 Brake booster motor circuit signal abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C059000</td>
+                           <td width="1" align="left" valign="middle">Brake booster motor supply current too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250877.html">C059000 Brake booster motor supply current too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C058900</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of brake booster motor position sensor A too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250878.html">C058900 Circuit voltage of brake booster motor position sensor A too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C058800</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of brake booster motor position sensor A too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250885.html">C058800 Circuit voltage of brake booster temperature sensor B too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C058A00</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of brake booster motor position sensor A abnormal</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250886.html">C058A00 Circuit voltage of brake booster motor position sensor A abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C059100</td>
+                           <td width="1" align="left" valign="middle">Brake booster motor supply current too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250883.html">C059100 Brake booster motor supply current too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05C200</td>
+                           <td width="1" align="left" valign="middle">Brake booster motor A overtemperature</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250884.html">C05C200 Brake booster motor A overtemperature</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C002192</td>
+                           <td width="1" align="left" valign="middle">Brake booster module pipeline hydraulic pressure lower than normal value</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250881.html">C002192 Brake booster module pipeline hydraulic pressure lower than normal value</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C056B00</td>
+                           <td width="1" align="left" valign="middle">Brake booster module pressure sensor fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250882.html">C056B00 Brake booster module pressure sensor fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C053F00</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of pressure sensor A too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250891.html">C053F00 Circuit voltage of pressure sensor A too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C053E00</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of pressure sensor A too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250889.html">C053E00 Circuit voltage of pressure sensor A too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C053D00</td>
+                           <td width="1" align="left" valign="middle">Pressure sensor B signal abnormal</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250890.html">C053D00 Pressure sensor B signal abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C054100</td>
+                           <td width="1" align="left" valign="middle">Pressure sensor B signal abnormal</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250887.html">C054100 Pressure sensor B signal abnormal</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C054200</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of pressure sensor B too low</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250888.html">C054200 Circuit voltage of pressure sensor B too low</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C054300</td>
+                           <td width="1" align="left" valign="middle">Circuit voltage of pressure sensor B too high</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250895.html">C054300 Circuit voltage of pressure sensor B too high</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C12F909</td>
+                           <td width="1" align="left" valign="middle">Brake hydraulic circuit blocked</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250896.html">C12F909 Brake hydraulic circuit blocked</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C055E00</td>
+                           <td width="1" align="left" valign="middle">Brake hydraulic circuit A leakage</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250893.html">C055E00 Brake hydraulic circuit A leakage</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C05B001</td>
+                           <td width="1" align="left" valign="middle">Brake hydraulic circuit L1 leakage</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250894.html">C05B001 Brake hydraulic circuit L1 leakage</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C2A1700</td>
+                           <td width="1" align="left" valign="middle">Brake hydraulic circuit L1 overcompensation (air present)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250892.html">C2A1700 Brake hydraulic circuit L1 overcompensation (air present)</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P060B00</td>
+                           <td width="1" align="left" valign="middle">ECU hardware fault (A/D processor)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250902.html">P060B00 ECU hardware fault (A/D processor)</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P060700</td>
+                           <td width="1" align="left" valign="middle">ECU hardware fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250903.html">P060700 ECU hardware fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P06B800</td>
+                           <td width="1" align="left" valign="middle">ECU internal control module fault (NVRAM memory)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250899.html">P06B800 ECU internal control module fault (NVRAM memory)</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P060400</td>
+                           <td width="1" align="left" valign="middle">ECU internal control module fault (RAM)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250900.html">P060400 ECU internal control module fault (RAM)</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P060500</td>
+                           <td width="1" align="left" valign="middle">ECU internal control module fault (ROM)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250897.html">P060500 ECU internal control module fault (ROM)</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P060C00</td>
+                           <td width="1" align="left" valign="middle">ECU internal control module fault (program running)</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250898.html">P060C00 ECU internal control module fault (program running)</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">U030000</td>
+                           <td width="1" align="left" valign="middle">ECU internal control module software fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250906.html">U030000 ECU internal control module software fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">U300000</td>
+                           <td width="1" align="left" valign="middle">Microprocessor error in ECU</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250907.html">U300000 Microprocessor error in ECU</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C055000</td>
+                           <td width="1" align="left" valign="middle">ECU fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250904.html">C055000 ECU fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">P060600</td>
+                           <td width="1" align="left" valign="middle">Control processor fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250905.html">P060600 Control processor fault</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C1A3800</td>
+                           <td width="1" align="left" valign="middle">Failure to completely initialize system</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250909.html">C1A3800 Failure to completely initialize system</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C120700</td>
+                           <td width="1" align="left" valign="middle">Pump failure to return</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250910.html">C120700 Pump failure to return</a></td>
+                        </tr>
+                        <tr align="left">
+                           <td width="1" align="center" valign="middle">C055F92</td>
+                           <td width="1" align="left" valign="middle">Hydraulic unit fault</td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250908.html">C055F92 Hydraulic unit fault</a></td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Instructions and operations"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA055065"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Instructions and operations</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA055065">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Instructions and operations</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">Instructions</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">This section is provided to assist in the diagnosis, testing and maintenance related to noise, vibration and abnormal sound.</p>  
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Noise is defined as the sound that has nothing to do with the equipment in the cab but cannot be accepted by passengers.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Vibration is defined as the fluctuation felt by passengers that is not caused by road surface changes.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Comfort is a matter of riding quality as passengers can clearly feel the reaction from the road.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T002"> 
+            
+            <h3 class="topictitletopic2 title">Principle of diagnosis</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">Diagnosis is not only based on a series of related steps to solve specific problems. It is a method to check a system that
+                     fails to function properly and find out the cause. It should also help to understand how the system works and whether it works
+                     normally. There are some basic rules for diagnosis. If these rules can be observed, the cause of a problem can usually be
+                     found out at the first time.
+                  </p> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T003"> 
+            
+            <h3 class="topictitletopic2 title">Understand the system</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Understand how the parts are assembled.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Understand operations and restrictions of the system, and what will happen if the system goes wrong.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Sometimes, it is necessary to check a possibly faulty system against a known good system.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T004"> 
+            
+            <h3 class="topictitletopic2 title">Understand the history of the system</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">Any clue about the following items can save the diagnostic time:</p>  
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Is the system new or old?</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">What kind of treatment has been done to the system?</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Has the system been repaired previously? Is the current situation related to the previous repair?</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">How about the maintenance records?</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T005"> 
+            
+            <h3 class="topictitletopic2 title">Understand the history of the situation</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">Any clue about the following items can save the diagnostic time:</p>  
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Does the situation occur suddenly or gradually?</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Is the situation related to other events, such as impact or previous replacement of parts?</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Knowing how the situation was discovered may be an important clue to find out the cause.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T006"> 
+            
+            <h3 class="topictitletopic2 title">Understand the development possibility of certain situations</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">Pay attention to simple problems instead of complex ones. For example:</p>  
+                  
+                  <ol class="num"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">A circuit problem usually occurs in the connection, not in the part itself.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Startup failure of the motor is more likely to be caused by loose wires or minor adjustments, rather than mechanical faults.</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">It is necessary to understand the difference between "impossible" and the "unlikely". Faults in some systems, though unlikely,
+                           still happen.
+                        </p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Although parts are new, it does not mean that they function properly.</p> 
+                        
+                     </li> 
+                     
+                  </ol> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T007"> 
+            
+            <h3 class="topictitletopic2 title">Symptoms eliminated but failed to identify fault cause</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">For example, reducing the tire pressure of a front wheel may solve the vehicle's leaning to one side, but this does not eliminate
+                     the real cause.
+                  </p> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" id="T008"> 
+            
+            <h3 class="topictitletopic2 title">Fault cause identified</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <p class="p">Confirm the problem found repeatedly and check what causes the wear of components. For example:</p>  
+                  
+                  <ul name="contents" class="ul"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Looseness of one fixed seat of the powertrain may indicate that other fixed seats also get loose.</p> 
+                        
+                     </li> 
+                     
+                  </ul>
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

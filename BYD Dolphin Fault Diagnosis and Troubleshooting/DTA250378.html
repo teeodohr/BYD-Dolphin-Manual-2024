@@ -1,0 +1,311 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC diagnosis"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA060108"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC diagnosis</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA060108">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC diagnosis</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="1" align="center" valign="middle"> 
+                           
+                           <p>DTC</p> 
+                           
+                        </th>
+                        <th width="1" align="center" valign="middle"> 
+                           
+                           <p>Descriptions</p> 
+                           
+                        </th>
+                        <th width="1" align="center" valign="middle"> 
+                           
+                           <p>Diagnosis process</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>C1B8500</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>BUS OFF (brushless motor)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250634.html">C1B8500 BUS OFF (brushless motor)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>C1B8500</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>BUS OFF (brushless motor of Longrun)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250583.html">C1B8500 BUS OFF (brushless motor of Longrun)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>C1B8500</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>BUS OFF (brushed motor)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250581.html">C1B8500 BUS OFF (brushed motor)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U1F0E87</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Front drive motor control module indicator message lost</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250659.html">U1F0E87 Front drive motor control module indicator message lost</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U019E86</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Front drive motor control module indicator message invalid</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250633.html">U019E86 Front drive motor control module indicator message invalid</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U029D00</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Vehicle speed message lost (brushless motor)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250485.html">U029D00 Vehicle speed message lost (brushless motor)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U029D00</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Vehicle speed message lost (brushless motor of Longrun)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250474.html">U029D00 Vehicle speed message lost (brushless motor of Longrun)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U029D00</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Vehicle speed message lost (brushed motor)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250636.html">U029D00 Vehicle speed message lost (brushed motor)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U029E00</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Wheel speed message lost (brushless motor)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250635.html">U029E00 Wheel speed message lost (brushless motor)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U029E00</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Wheel speed message lost (brushless motor of Longrun)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250518.html">U029E00 Wheel speed message lost (brushless motor of Longrun)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U029E00</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Wheel speed message lost (brushed motor)</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250505.html">U029E00 Wheel speed message lost (brushed motor)</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U01A086</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Vehicle speed message invalid</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250638.html">U01A086 Vehicle speed message invalid</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U01A186</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Vehicle speed message invalid RC and CS</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250637.html">U01A186 Vehicle speed message invalid RC and CS</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>C1B8600</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>EPS configuration missing</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250639.html">C1B8600 EPS configuration missing</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U01A286</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Wheel speed message invalid</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250642.html">U01A286 Wheel speed message invalid</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U111387</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Message lost</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250644.html">U111387 message lost</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U111386</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Message invalid</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250643.html">U111386 Message invalid</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>U111286</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Message invalid</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250591.html">U111286 Message invalid</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>C1B9500</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>LKA request value and slope above defined thresholds</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250594.html">C1B9500 LKA request value and slope above defined thresholds</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>C1B9600</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Incorrect activation environment</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA250593.html">C1B9600 Incorrect activation environment</a></td>
+                     </tr>
+                     <tr>
+                        <td width="1" align="center" valign="middle">
+                           <p>C1B9000</p>
+                        </td>
+                        <td width="1" align="left" valign="middle">
+                           <p>Loss of power supply</p>
+                        </td>
+                        <td width="1" align="left" valign="middle"><a class="xref" href="DTA293335.html">C1B9000 Loss of power supply</a></td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,789 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Bleeding of brake system"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTRM89777"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Bleeding of brake system</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTRM89777">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Bleeding of brake system</h3>
+         
+         
+         <div class="body">
+            <div>
+               <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d37816e11">
+                  <div class="noteheader">
+                     <div class="common tip">
+                        <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                  </div>
+                  <div class="notebody attention-text postspace-s wl-attention-content">
+                     <ul name="contents" class="ul">
+                        <li>
+                           <p class="p-inline">Do not reuse any brake fluid discharged.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">The brake fluid is corrosive to paint. Remove any brake fluid accidentally splashing on the body paint with a cloth as soon
+                              as possible.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Please take caution to avoid skin contact with brake fluid. In the event of accidental splashing into any eye, rinse immediately
+                              with plenty of water and seek medical attention as soon as possible.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Please refrain from discharging brake fluid arbitrarily and ensure that it is recycled in accordance with local regulations.</p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Be sure to use genuine Sinopec HZY6 brake fluid. Using non-specified brake fluid may cause corrosion and shorten the service
+                              life of the brake system.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">Bleeding requires brake fluid pressurizing equipment and VDS. Before bleeding, ensure that the brake fluid of pressurizing
+                              equipment is sufficient (about 2L), and set the filling pressure to 2 bar (0.2 MPa). Check that the filler cap is properly
+                              tightened; otherwise, the brake fluid will spray out.
+                           </p>
+                        </li>
+                        <li>
+                           <p class="p-inline">After bleeding, make up the brake fluid or remove excess brake fluid as required to ensure that the fluid level is between
+                              the MIN and MAX marks of the brake fluid reservoir.
+                           </p>
+                        </li>
+                     </ul>
+                     
+                  </div>
+               </div>
+               
+            </div>      
+            
+            <p class="p">Brake system bleeding methods</p>  
+            
+            <p class="p">Wet-type bleeding</p>  
+            
+            <p class="p">Circumstances requiring wet-type bleeding: after replacing or removing and installing brake calipers, brake hoses, and brake
+               pipes.
+            </p>  
+            
+            <p class="p">Dry-type bleeding</p>  
+            
+            <p class="p">Circumstances requiring dry-type bleeding: after replacing the brake fluid, replacing the IPB system, removing and replacing
+               brake calipers, brake hoses, and brake pipes directly without entering the "installation mode" of the IPB system first, or
+               after failure in wet bleeding.
+            </p>  
+            
+            <div class="section">
+               <h3 class="title topictitle1">Wet-type bleeding</h3> 
+               
+               
+               <div>
+                  <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d37816e56">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">  
+                        
+                        <ul name="contents" class="ul"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Use VDS to set the intelligent power braking system to "installation mode" and then change parts; if this operation isn’t
+                                 preformed before replacement or removal and installation of the brake caliper, brake hose and brake pipe, dry air discharge
+                                 must be carried out.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">After air discharge, the ABS, ESC or braking system alarm must not be issued by the instrument panel of the vehicle, and the
+                                 brake pedal must be depressed normally without producing any abnormal sounds.
+                              </p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">The filling pressure (2 bar) of the brake fluid reservoir must not be increased, otherwise the brake fluid pot may be damaged.</p> 
+                              
+                           </li> 
+                           
+                        </ul>
+                        
+                        
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power on the vehicle.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the IPB system to "installation mode" with the VDS.
+                        <ol class="num"> 
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Connect the VDS and tap "Vehicle diagnosis system" to select "Passenger car".</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Select the corresponding vehicle series.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Select the corresponding vehicle model.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Scan.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Select the "Electro-hydraulic brake (Bosch)" module.</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Select "Calibration".</p> 
+                              
+                           </li>  
+                           
+                           <li> 
+                              
+                              <p class="p-inline">Select "Installation mode" for calibration.</p> 
+                              
+                           </li> 
+                           
+                        </ol> 
+                        
+                     </p>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G120186.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power off the vehicle.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connect the brake fluid pressurizing equipment, and make sure that the pressurizing equipment and the brake fluid reservoir
+                        opening are well sealed and firmly fixed without leakage.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connect the brake fluid collection container with the bleed screw via a clean and transparent exhaust hose.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Turn on the brake fluid pressurizing equipment to increase the pressure to 2 bar, then loosen the brake bleed screw, and press
+                        the brake pedal normally once every 2 s until the brake fluid from the bleed hose is free of air bubbles, indicating that
+                        the air has been completely discharged. Press the brake pedal, and tighten the bleed screw.
+                     </p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d37816e170">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">Air discharge is only required for the removed hydraulic circuit.</div>
+                        </div>
+                        
+                     </div> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power on the vehicle.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Send the command "Write vacuum filling process byte + exit installation (factory mode)" using the VDS, and select the option
+                        "Filling completed, in good condition".
+                     </p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the VDS and tap "Vehicle diagnosis system" to select "Passenger car".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle series.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle model.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Scan.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the "Electro-hydraulic brake (Bosch)" module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Calibration".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Wheel bleeding".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Exit installation mode".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Filling completed, in good condition".</p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G120186.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Read the "Electro-hydraulic brake (Bosch)" DTC using the VDS, and then clear it.</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d37816e255">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">Check and confirm that the ABS, ESC or braking system alarm is not issued by the instrument panel of the vehicle and the brake
+                              pedal is depressed normally without producing abnormal sounds (which indicates that the air discharge is successful).
+                           </div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the VDS and tap "Vehicle diagnosis system" to select "Passenger car".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle series.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle model.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Scan.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the "Electro-hydraulic brake (Bosch)" module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Fault detection".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Clear DTC".</p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G120186.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Turn off the brake fluid pressurizing equipment, and disconnect it after its pressure drops to 0.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">After bleeding, make up the brake fluid or remove excess brake fluid as required to ensure that the fluid level is between
+                        the MIN and MAX marks of the brake fluid reservoir.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Dry-type bleeding</h3> 
+               
+               
+               <div>
+                  <div class="wl-attention prespace postspace note-imgnote" data-attention-type="note" id="d37816e330">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content">
+                        <ul name="contents" class="ul">
+                           <li>
+                              <p class="p-inline">The filling pressure of the brake fluid filling device is 2 bar. Do not increase the pressure; otherwise the brake fluid reservoir
+                                 may be damaged!
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">Bleeding must be carried out as per the specified sequence; otherwise, bleeding is required again.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">During bleeding, do not exit the VDS bleeding operation interface; otherwise, bleeding is required again.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">VDS battery must be kept sufficient during bleeding.</p>
+                           </li>
+                           <li>
+                              <p class="p-inline">During bleeding calibration, the brake pedal surface will push against the foot. In this case, the driver can stabilize the
+                                 pedal, and it is forbidden to press the pedal firmly.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">When the bleeding calibration is terminated by ECU, please restart this round of bleeding; in case of failure for multiple
+                                 times, please wait for 2 min in the failure interface and then restart this round of bleeding.
+                              </p>
+                           </li>
+                           <li>
+                              <p class="p-inline">After successful bleeding, the instrument panel cluster shall have no ABS, ESC or brake system alarm, and the process of pressing
+                                 the brake pedal shall be normal without any abnormal sound.
+                              </p>
+                           </li>
+                        </ul>
+                        
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power on the vehicle.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Set the IPB system to "Installation mode" with the VDS.</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the VDS and tap "Vehicle diagnosis system" to select "Passenger car".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle series.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle model.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Scan.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the "Electro-hydraulic brake (Bosch)" module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Calibration".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Installation mode" for calibration.</p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G120186.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connect the brake fluid collection container with the bleed screw via a clean and transparent exhaust hose.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Connect the brake fluid pressurizing equipment, and make sure that the equipment and the brake fluid reservoir opening are
+                        well sealed and firmly fixed without leakage. Turn on the brake fluid pressurizing equipment and increase the pressure to
+                        2 bar.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Enter the "Dry-type bleeding" operation interface via the VDS for guidance.</p>  
+                     
+                     <div>
+                        <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d37816e437">
+                           <div class="noteheader">
+                              <div class="common tip">
+                                 <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                           </div>
+                           <div class="notebody attention-text postspace-s wl-attention-content">  
+                              
+                              <ul name="contents" class="ul"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">The operations must be performed in the specified air discharge sequence, otherwise air discharge must be restarted.</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">When releasing the bleed screw and stepping on the brake pedal to exhaust, the drive must keep the pedal in the current state
+                                       rather than depressing it forcibly in case of bulge of the pedal surface.
+                                    </p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">If there are still bubbles in the brake fluid coming out of the exhaust hose, repeat the operation until there is no bubble.</p> 
+                                    
+                                 </li> 
+                                 
+                              </ul>
+                              
+                              
+                           </div>
+                        </div>
+                        
+                     </div>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the VDS and tap "Vehicle diagnosis system" to select "Passenger car".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle series.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the corresponding vehicle model.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Scan.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the "Electro-hydraulic brake (Bosch)" module.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Calibration".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Installation mode".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Wheel bleeding".</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Stage I: rear left wheel bleeding</p>  
+                           
+                           <p>Loosen the brake bleed screw and press the brake pedal normally once every 2 s until the calibration is completed, and then
+                              no air bubbles should exist in the brake fluid from the bleed hose, indicating that the air has been completely discharged.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Stage II: front left wheel bleeding</p>  
+                           
+                           <p>Loosen the brake bleed screw and press the brake pedal normally once every 2 s until the calibration is completed, and then
+                              no air bubbles should exist in the brake fluid from the bleed hose, indicating that the air has been completely discharged.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Stage III: front right wheel bleeding</p>  
+                           
+                           <p>Loosen the brake bleed screw and press the brake pedal normally once every 2 s until the calibration is completed, and then
+                              no air bubbles should exist in the brake fluid from the bleed hose, indicating that the air has been completely discharged.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Stage IV: rear right wheel bleeding</p>  
+                           
+                           <p>Loosen the brake bleed screw and press the brake pedal normally once every 2 s until the calibration is completed, and then
+                              no air bubbles should exist in the brake fluid from the bleed hose, indicating that the air has been completely discharged.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">IPB Housing bleeding.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">PFS and TMC2 bleeding.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Exit the installation (factory) mode.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select "Filling completed, in good condition".</p> 
+                           
+                        </li> 
+                        
+                     </ol>  
+                     
+                     <p> 
+                        
+                        <div class="bottomNoTable">
+                           <div class="imagecenterlevel1"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G120186.png"></img></div>
+                        </div> 
+                        
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">After bleeding, press the brake pedal and tighten the bleed screw.</p> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

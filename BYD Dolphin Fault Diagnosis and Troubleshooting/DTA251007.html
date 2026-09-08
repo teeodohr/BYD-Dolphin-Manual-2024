@@ -1,0 +1,276 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Diagnostic instructions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA061104"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Diagnostic instructions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA061104">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Diagnostic instructions</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               <p class="p">When diagnosing the fault of the taillight cluster, understand and get familiar with its control logic. Before diagnosis,
+                  determine the fault symptom described by the customer, and then analyze the fault cause of the taillight cluster, which are
+                  helpful to determine the correct fault diagnosis steps. During the inspection and measurement of the taillight cluster wiring
+                  harness and the taillight cluster, the data flow and action test functions of VDS are preferred to improve diagnosis efficiency
+                  and shorten maintenance time. Implement standard operating procedures after confirming the fault, and check the operation
+                  of the taillight cluster after maintenance.
+               </p>
+               <p class="p">It is more difficult to diagnose intermittent faults than continuous faults. Most intermittent faults are caused by poor electrical
+                  connections or faulty circuits. Therefore, an inspection of the suspected faulty circuit can help avoid replacing a functioning
+                  part.
+               </p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" xml:lang="en-US" lang="en-US" id="DTA066922"> 
+            
+            <h3 class="topictitletopic2 title">General-purpose equipment</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <ul name="contents" class="ul"> 
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Socket wrench set</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Screwdriver</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Pry plate for interior trimming</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Torque wrench</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">VDS</p> 
+                        
+                     </li>  
+                     
+                     <li> 
+                        
+                        <p class="p-inline">Multimeter</p> 
+                        
+                     </li> 
+                     
+                  </ul>
+                  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d181550e71">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When using a multimeter to measure the voltage, select the closest range.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">When using a multimeter to measure the resistance, select the closest range.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         <div class="nested1 topic task" xml:lang="en-US" lang="en-US" id="DTA066924"> 
+            
+            <h3 class="topictitletopic2 title">Precautions</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace warning-imgwarning" data-attention-type="warning" id="d181550e101">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/warningv2.svg"></img></div><span class="notetitleone">Warning</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Never pull the wiring harness when disconnecting the connector for fear of damage to the wiring harness.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Never scratch the surface of the light cover when removing/installing the combination headlight assembly.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div>  
+                  
+                  <div>
+                     <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d181550e119">
+                        <div class="noteheader">
+                           <div class="common tip">
+                              <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                        </div>
+                        <div class="notebody attention-text postspace-s wl-attention-content"> 
+                           
+                           <ul name="contents" class="ul"> 
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">Never check the electrical signal of the system by piercing the wiring harness with a fine needle.</p> 
+                                 
+                              </li>  
+                              
+                              <li> 
+                                 
+                                 <p class="p-inline">After the installation, check whether the specified torques are applied to the fasteners.</p> 
+                                 
+                              </li> 
+                              
+                           </ul>
+                           
+                           
+                        </div>
+                     </div>
+                     
+                  </div> 
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

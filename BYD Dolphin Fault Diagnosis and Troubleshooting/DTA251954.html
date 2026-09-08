@@ -1,0 +1,340 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="Workflow"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA055061"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Workflow</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA055061">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Workflow</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               <div>
+                  <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G029641.png" alt="G029641"></img></div>
+               </div>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">  
+                  
+                  
+                  
+                  
+                  <thead style="font-weight: bold"> 
+                     
+                     <tr> 
+                        
+                        <th width="20%" class="greenCell" align="center" valign="middle"> 
+                           
+                           <p>Step</p> 
+                           
+                        </th>  
+                        
+                        <th width="20%" class="greenCell" colspan="2" align="center" valign="middle"> 
+                           
+                           <p>Instructions</p> 
+                           
+                        </th> 
+                        
+                     </tr> 
+                     
+                  </thead>  
+                  
+                  <tbody> 
+                     
+                     <tr> 
+                        
+                        <td width="20%" rowspan="4" align="center" valign="middle"> 
+                           
+                           <p>Step 1</p> 
+                           
+                        </td>  
+                        
+                        <td width="20%" colspan="2" align="left" valign="middle"> 
+                           
+                           <p>Get detailed information about the relevant situation and environmental conditions when the fault occurs.</p>  
+                           
+                           <p>The following key information helps to make a correct analysis:</p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" align="left" valign="middle"> 
+                           
+                           <p>Vehicle and fault type</p> 
+                           
+                        </td>  
+                        
+                        <td width="60%" align="left" valign="middle"> 
+                           
+                           <p>Model and fault system</p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" align="left" valign="middle"> 
+                           
+                           <p>When</p> 
+                           
+                        </td>  
+                        
+                        <td width="60%" align="left" valign="middle"> 
+                           
+                           <p>Date, time, weather conditions and frequency of occurrence</p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" align="left" valign="middle"> 
+                           
+                           <p>Where</p> 
+                           
+                        </td>  
+                        
+                        <td width="60%" align="left" valign="middle"> 
+                           
+                           <p>Road conditions, altitude and traffic conditions</p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" align="center" valign="middle"> 
+                           
+                           <p>Step 2</p> 
+                           
+                        </td>  
+                        
+                        <td width="20%" align="left" valign="middle"> 
+                           
+                           <p>How</p> 
+                           
+                        </td>  
+                        
+                        <td width="60%" align="left" valign="middle"> 
+                           
+                           <p>System symptoms, operation status (influence of other components and parts), maintenance history and whether other accessories
+                              are installed after sales
+                           </p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" rowspan="2" align="center" valign="middle"> 
+                           
+                           <p>Step 3</p> 
+                           
+                        </td>  
+                        
+                        <td width="20%" colspan="2" align="left" valign="middle"> 
+                           
+                           <p>Run the system, and carry out a road test if necessary.</p>  
+                           
+                           <p>Confirm the fault parameters.</p>  
+                           
+                           <p>If recurrence of the fault is impossible, please refer to "How to deal with intermittent faults".</p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" colspan="2" align="left" valign="middle"> 
+                           
+                           <p>Collect appropriate diagnostic materials, including:
+                              <ul name="contents" class="ul"> 
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">system circuit diagram</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">system working principle</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">corresponding chapters and sections in the maintenance manual</p> 
+                                    
+                                 </li>  
+                                 
+                                 <li> 
+                                    
+                                    <p class="p-inline">service maintenance bulletin</p> 
+                                    
+                                 </li> 
+                                 
+                              </ul>
+                              
+                              
+                           </p>  
+                           
+                           <p>Determine where to start the work according to the customer's description and your knowledge.</p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" align="center" valign="middle"> 
+                           
+                           <p>Step 4</p> 
+                           
+                        </td>  
+                        
+                        <td width="20%" colspan="2" align="left" valign="middle"> 
+                           
+                           <p>Check the system for tangled wires, loose joints, damaged wires or other faults.</p>  
+                           
+                           <p>Determine the circuits and parts involved in the fault, and perform diagnosis according to the system circuit diagram and
+                              the wiring harness layout diagram.
+                           </p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" align="center" valign="middle"> 
+                           
+                           <p>Step 5</p> 
+                           
+                        </td>  
+                        
+                        <td width="20%" colspan="2" align="left" valign="middle"> 
+                           
+                           <p>Repair or replace the faulty circuits or parts.</p> 
+                           
+                        </td> 
+                        
+                     </tr>  
+                     
+                     <tr> 
+                        
+                        <td width="20%" align="center" valign="middle"> 
+                           
+                           <p>Step 6</p> 
+                           
+                        </td>  
+                        
+                        <td width="20%" colspan="2" align="left" valign="middle"> 
+                           
+                           <p>Run the system in all modes to ensure that the system works normally under all conditions and that no new faults are caused
+                              by carelessness during diagnosis and maintenance.
+                           </p> 
+                           
+                        </td> 
+                        
+                     </tr> 
+                     
+                  </tbody> 
+                  
+               </table> 
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System descriptions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System descriptions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System descriptions</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Overview</h3> 
+               
+               
+               <p class="p">The EPS (Electric Power-assistant Steering) system is a steering system that uses the steering power provided by an EPS motor
+                  to assist a driver in performing steering operations. Like other control systems, this system is composed of sensors (torque
+                  and angle sensor, vehicle speed sensor), a controller (EPS electronic control unit), an actuator (EPS motor) and relevant
+                  mechanical components.
+               </p>  
+               
+               <p class="p">The EPS system, designed based on a mechanical steering system, features the latest electronic technology and high-performance
+                  motor control technology. Based on the original vehicle steering system, the EPS is modified and added with the following
+                  parts: EPS electronic control unit, torque and angle sensor, EPS motor, etc. The motor-driven transmission mechanism of the
+                  system replaces the traditional mechanical hydraulic mechanism, and can provide real-time steering wheel power for the driver
+                  in various environments.
+               </p>  
+               
+               <p class="p">The EPS system is powered by the EPS motor, and the power level is adjusted and controlled in real time by the EPS electronic
+                  control unit. The system provides different power according to different vehicle speeds, to improve the steering performance
+                  of vehicle, reduce the control force during parking and low-speed driving, and improve the stability of steering control during
+                  high-speed driving, thus improving the active safety of vehicle.
+               </p>  
+               
+               <p class="p">Main system components</p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Torque and angle sensor</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Vehicle speed sensor</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">EPS electronic control unit</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">EPS motor</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Related mechanical structure</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <p class="p">Main system components</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Power-assistant control function</p>  
+                     
+                     <p>The EPS system provides speed-sensitive power assistance. This means that with the same steering wheel torque input, the target
+                        motor current changes with the vehicle speed, so as to better meet easy steering and road feel requirements. Its power assistance
+                        is also segmented: The EPS motor applies power-assistant torque according to the steering wheel deviation direction, which
+                        ensures easy steering at low speed and stable operation at high speed for good road feel.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Return-to-center (RTC) control function</p>  
+                     
+                     <p>During steering, the steering wheel can automatically return to center by virtue of its king pin caster angle and king pin
+                        inclination angle. Based on the mechanical steering mechanism, an EPS motor and speed reduction mechanism are added for the
+                        EPS system. The EPS system performs steering RTC control of the EPS motor through the EPS electronic control unit, and together
+                        with the aligning torque produced by front wheel alignment, implements the steering RTC action. This allows the steering wheel
+                        to quickly return to center, inhibits its vibration, maintains good road feel, increases steering sensitivity and stability,
+                        optimizes the steering RTC performance and shortens the convergence time. The RTC control is implemented by adjusting the
+                        RTC compensation current, which produces a RTC torque to cause the steering wheel to return to center along a direction.
+                     </p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Damping control function</p>  
+                     
+                     <p>When the vehicle runs at a high speed, damping control is completed by controlling the damping compensation current to enhance
+                        the road feel and improve the steering stability under high-speed running.
+                     </p> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">System working principle</p>  
+               
+               <p class="p">When the vehicle makes a turn, the torque and angle sensor detects the size and direction of the torque and angle, and processes
+                  and passes the size and direction signals to the EPS electronic control unit. The EPS electronic control unit receives vehicle
+                  speed signals detected by the vehicle speed sensor at the same time, and determines the motor rotation direction and power-assistant
+                  torque based on signals of the vehicle speed sensor and the torque and angle sensor. At the same time, the current sensor
+                  detects the current of the circuit and monitors the drive circuit which finally drives the motor to work for power-assistant
+                  steering.
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component position view</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G123665.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="50%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="50%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="50%" valign="top"> 
+                           
+                           <p>1</p> 
+                           
+                        </td>
+                        <td width="50%" valign="top"> 
+                           
+                           <p>EPS column &amp; universal joint assembly</p> 
+                           
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

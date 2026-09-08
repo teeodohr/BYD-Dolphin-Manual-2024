@@ -1,0 +1,245 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="How to deal with intermittent faults"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA055063"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>How to deal with intermittent faults</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA055063">
+         
+         
+         
+         <h3 class="topictitletopic1 title">How to deal with intermittent faults</h3>
+         
+         
+         <div class="body taskbody"> 
+            
+            <div class="section context"> 
+               
+               <div>
+                  <div class="wl-attention prespace postspace tip-imgtip" data-attention-type="tip" id="d186421e14">
+                     <div class="noteheader">
+                        <div class="common tip">
+                           <div><img style="width:100%;height:100%;" src="basefiles/artwork/tipsv2.svg"></img></div><span class="notetitleone">Reminder</span></div>
+                     </div>
+                     <div class="notebody attention-text postspace-s wl-attention-content"> 
+                        
+                        <p class="p">To determine the status of an intermittent fault, first ask the customer about driving conditions, weather conditions, fault
+                           occurrence frequency, and fault symptoms of the vehicle, and then try to simulate the fault. Determine whether the circuit
+                           under detection is damaged or normal; identify and eliminate the fault. Refer to the Conventional Fault Symptoms Table for
+                           each system to narrow down the scope of possible faults.
+                        </p> 
+                        
+                     </div>
+                  </div>
+                  
+               </div>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Vibration method</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Gently vibrate the possibly faulty sensor with your fingers, and check whether the fault recurs.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Gently shake the connector in the horizontal and vertical directions to see whether the fault recurs.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Gently shake the wiring harness and connector in the horizontal and vertical directions to see whether the fault recurs.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Heating method</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Heat the possibly faulty parts with an electric hair dryer or a similar article to see whether the fault recurs.
+                              <div>
+                                 <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d186421e60">
+                                    <div class="noteheader">
+                                       <div class="common tip">
+                                          <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                                    </div>
+                                    <div class="notebody attention-text postspace-s wl-attention-content"> 
+                                       
+                                       <p class="p">Do not damage the component structure when heating.</p> 
+                                       
+                                    </div>
+                                 </div>
+                                 
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Water spraying method</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Spray water on the vehicle to see whether the fault recurs.
+                              <div>
+                                 <div class="wl-attention prespace postspace caution-imgcaution" data-attention-type="caution" id="d186421e81">
+                                    <div class="noteheader">
+                                       <div class="common tip">
+                                          <div><img style="width:100%;height:100%;" src="basefiles/artwork/noticev2.svg"></img></div><span class="notetitleone">Caution</span></div>
+                                    </div>
+                                    <div class="notebody attention-text postspace-s wl-attention-content"> 
+                                       
+                                       <ul name="contents" class="ul"> 
+                                          
+                                          <li> 
+                                             
+                                             <p class="p-inline">Do not spray water directly on the front compartment and high-voltage and low-voltage components.</p> 
+                                             
+                                          </li>  
+                                          
+                                          <li> 
+                                             
+                                             <p class="p-inline">Be careful when conducting a water spraying test on the vehicle, because water leakage of the vehicle may cause damage to
+                                                some electrical components.
+                                             </p> 
+                                             
+                                          </li> 
+                                          
+                                       </ul>
+                                       
+                                       
+                                    </div>
+                                 </div>
+                                 
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Others</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect all loads to see whether the fault recurs.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

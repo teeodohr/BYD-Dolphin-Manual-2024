@@ -1,0 +1,199 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="task"></meta>
+      
+      <meta name="DC.Title" content="DTC diagnosis of smart key system"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="DTA074592"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>DTC diagnosis of smart key system</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="DTA074592">
+         
+         
+         
+         <h3 class="topictitletopic1 title">DTC diagnosis of smart key system</h3>
+         
+         
+         <div class="nested1 topic task" id="T001"> 
+            
+            <h3 class="topictitletopic2 title">DTC list</h3>
+            
+            
+            <div class="body taskbody"> 
+               
+               <div class="section context"> 
+                  
+                  
+                  <table width="100%" border="1" frame="box" rules="all">
+                     <thead style="font-weight: bold">
+                        <tr align="center" valign="middle">
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">DTC</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Descriptions</th>
+                           <th width="1" align="center" valign="&#xA;            top&#xA;          ">Diagnosis process</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr align="center" valign="middle">
+                           <td width="1" align="center" valign="middle">
+                              <p>B22A300</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Front left detection antenna fault</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA213036.html">B22A300 Front left detection antenna fault</a></td>
+                        </tr>
+                        <tr align="center" valign="middle">
+                           <td width="1" align="center" valign="middle">
+                              <p>B22A400</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Front right detection antenna fault</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213040.html">B22A400 Front right detection antenna fault</a></td>
+                        </tr>
+                        <tr align="center" valign="middle">
+                           <td width="1" align="center" valign="middle">
+                              <p>B227600</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Exterior trunk lid detection antenna fault</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA250564.html">B227600 Exterior trunk lid detection antenna fault</a></td>
+                        </tr>
+                        <tr align="center">
+                           <td width="1" align="center" valign="middle">
+                              <p>B22A813</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Exterior detection antenna open-circuited (rear)</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213034.html">B22A813 Exterior detection antenna open-circuited (rear)</a></td>
+                        </tr>
+                        <tr align="center">
+                           <td width="1" align="center" valign="middle">
+                              <p>B22A800</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Exterior detection antenna circuit fault (rear)</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA213038.html">B22A800 Exterior detection antenna circuit fault (rear)</a></td>
+                        </tr>
+                        <tr align="center">
+                           <td width="1" align="center" valign="middle">
+                              <p>B22AD00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Disable the key remotely</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA213042.html">B22AD00 Disable the key remotely</a></td>
+                        </tr>
+                        <tr align="center">
+                           <td width="1" align="center" valign="middle">
+                              <p>B22AE00</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>First-level verification failed due to the key being disabled</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          "><a class="xref" href="DTA213046.html">B22AE00 First-level verification failed due to the key being disabled</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>B22AF00</p>
+                           </td>
+                           <td width="1" align="left" valign="middle">
+                              <p>Second-level verification failed due to the key being disabled</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250566.html">B22AF00 Second-level verification failed due to the key being disabled</a></td>
+                        </tr>
+                        <tr>
+                           <td width="1" align="center" valign="middle">
+                              <p>B22B000</p>
+                           </td>
+                           <td width="1" align="left" valign="&#xA;            top&#xA;          ">
+                              <p>Third-level verification failed due to the key being disabled</p>
+                           </td>
+                           <td width="1" align="left" valign="middle"><a class="xref" href="DTA250565.html">B22B000 Third-level verification failed due to the key disabled</a></td>
+                        </tr>
+                     </tbody>
+                  </table> 
+                  
+                  
+               </div>
+               
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

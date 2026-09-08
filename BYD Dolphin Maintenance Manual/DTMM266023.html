@@ -1,0 +1,443 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="System descriptions"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>System descriptions</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">System descriptions</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Overview</h3> 
+               
+               
+               <p class="p">There are active and passive safety systems in vehicles. Active safety means the ability to identify dangers in advance (e.g.,
+                  windshield vision, lighting system, mirrors, etc.) and to avoid dangers in advance (e.g., steering system, brake system, driving
+                  antiskid system, and vehicle body stability control system). Passive safety means to avoid or reduce the harm to the occupants,
+                  such as seat belts and airbags.
+               </p>  
+               
+               <p class="p">The supplemental restraint system (SRS) is a passive and deployable supplemental protective system. A vehicle equipped with
+                  this system can be quickly identified by the SRS or AIRBAG mark.
+               </p>  
+               
+               <p class="p">The driver airbag mark is cast on the trim cover in the middle of the steering wheel, while the passenger airbag mark is cast
+                  on the instrument panel. A vehicle equipped with SRS can also be identified by the SRS MIL on the instrument panel cluster.
+                  Each time when the power supply is turned to the ON position for system self-test, the SRS MIL on the instrument panel cluster
+                  will illuminate for about 3s.
+               </p>  
+               
+               <p class="p">Composition of SRS:</p>  
+               
+               <ul name="contents" class="ul"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Front collision sensor I</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Side collision sensor</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">SRS MIL</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">SRS electronic control unit</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Clock spring</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Driver airbag module</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Front passenger airbag module</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Side curtain airbag module</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Seat belt reminder sensor</p> 
+                     
+                  </li> 
+                  
+               </ul>
+               
+               
+               <p class="p">The SRS ECU is installed on the central axis of the vehicle, below the auxiliary instrument panel body. If the voltage of
+                  the 12 V battery is too low or the power supply is cut off due to collision, the SRS ECU can still continue to work for more
+                  than 100 ms.
+               </p>  
+               
+               <p class="p">The driver airbag is installed in the steering wheel central trim cover and cannot be disassembled. It consists of gas generator,
+                  air bag, trim cover, bracket and other auxiliaries. The function of the driver airbag is to receive ignition signal from the
+                  SRS ECU and ignite the gas generator to generate a large amount of gas to inflate the air bag and form an air cushion for
+                  protecting the driver.
+               </p>  
+               
+               <p class="p">The clock spring is installed on the multi-function switch and composed of spiral cable, rotor, shell, wiring harness and
+                  auxiliary structural parts. When the steering wheel is turned, the rotor and steering wheel rotate as a whole and the spiral
+                  cable with sufficient length is coiled in the shell spirally so that it will not affect the reliable connection of the wire
+                  when the rotor rotates by 2.5 turns clockwise or counterclockwise from the middle position.
+               </p>  
+               
+               <p class="p">The front passenger airbag module is installed inside the instrument panel and above the instrument panel body, with the same
+                  function as that of the driver airbag module.
+               </p>  
+               
+               <p class="p">The front left and right collision sensors are installed inside the left and right water tank pillars. They are designed to
+                  transmit a collision signal to the SRS ECU as the basis for the SRS ECU to determine whether an ignition signal or a collision
+                  unlocking signal needs to be sent.
+               </p>  
+               
+               <p class="p">Airbag wiring harness are used to connect SRS ECU, driver airbag module, front passenger airbag module, side curtain airbag
+                  modules, clock spring and instrument panel wiring harness. The airbag wiring harness consists of airbag module drive circuit,
+                  MIL circuit, collision unlocking circuit and vehicle communication bus. They are used to communicate signals between the SRS
+                  ECU and the airbag module as well as the vehicle and to ensure reliable communication. The airbag circuit wiring harness can
+                  be identified by its special color (yellow) cable or plug.
+               </p>  
+               
+               <p class="p">The SRS MIL is located on the instrument panel cluster and will illuminate for informing the driver of a fault in the SRS
+                  in case of any fault identified by the SRS ECU self-diagnosis circuit. Under normal circumstances, when the vehicle is powered
+                  ON, the MIL will illuminate for about 3s and then go out.
+               </p>  
+               
+               <p class="p">Components that assist the SRS:</p>  
+               
+               <p class="p">Lower left shield of instrument panel: It is a molded structural part located at the rear side of the steering column opening
+                  cover and integrated with the instrument panel to protect the driver's knee from collision.
+               </p>  
+               
+               <p class="p">Seat belt: In case of emergency braking, collision or rollover, it firmly restrains the driver and the passenger on the seats
+                  to limit their position, so as to avoid or reduce the damage to them caused by the secondary collision due to inertia force.
+               </p>  
+               
+               <p class="p">Seat belt buckle with reminder assembly: It monitors whether the driver and passengers fasten seat belts.</p>  
+               
+               <p class="p">Child safety lock: When provided, the rear passengers cannot open the doors in the vehicle, thus avoiding the danger of accidental
+                  opening by children and sudden opening during vehicle collision.
+               </p>  
+               
+               <p class="p">Anti-collision energy-absorbing vehicle body and accessories: They include bumper assembly, door assembly and bumper beam.</p>  
+               
+               <p class="p">The working of airbag depends on the angle and severity of vehicle collision. The collision angle specified to activate the
+                  SRS is within 30° in front of the body centerline. The deployment of an airbag does not depend on the vehicle speed but on
+                  the deceleration ratio measured by gravity (KG) and this force is measured by the collision sensor in SRS ECU. When a frontal
+                  collision is serious enough, the microprocessor in the SRS ECU will send a working signal to the deployment device of the
+                  2 airbag modules to make the airbag deploy. The clock spring at the top of the steering column allows a continuous circuit
+                  to be maintained between the fixed steering column and the driver airbag expander, which can also rotate with the steering
+                  wheel. When the vehicle suffers a frontal collision and the airbags deploy, the lower left shield of the instrument panel
+                  works together with the seat belts to restrain the driver and front passenger in place. The lower left shield of the instrument
+                  panel can also absorb and disperse the impact energy of the driver and front passenger acting on the instrument panel structure.
+                  When the SRS ECU detects a fault in any airbag component or SRS circuit, it stores a corresponding DTC in its memory and sends
+                  a message to the instrument panel cluster to illuminate the SRS MIL. The VDS is needed to properly test the SRS components,
+                  read or clear DTCs, and perform maintenance.
+               </p> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Component position view</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div>
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G126788.png"></img></div>
+                  </div> 
+                  
+               </p>  
+               
+               
+               <table width="100%" border="1" frame="box" rules="all">
+                  <thead style="font-weight: bold">
+                     <tr>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>S/N</p> 
+                           
+                        </th>
+                        <th width="25%" valign="top"> 
+                           
+                           <p>Name</p> 
+                           
+                        </th>
+                     </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>1</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Front collision sensor I</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>2</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Front collision sensor I</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>3</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>SRS ECU front row</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>4</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>PAB switch</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>5</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Passenger airbag module</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>6</p> 
+                           
+                        </td>
+                        <td width="25%" valign="top"> 
+                           
+                           <p>Pressure-type collision sensor</p> 
+                           
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top">
+                           <p>7</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Side collision sensor</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>8</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Front left seat side airbag</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top">
+                           <p>9</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Left curtain airbag module</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>10</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Front far left airbag module</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top">
+                           <p>11</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Front far right airbag module</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>12</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Right curtain airbag module</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top">
+                           <p>13</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Front left seat side airbag module</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>14</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Side collision sensor</p>
+                        </td>
+                     </tr>
+                     <tr>
+                        <td width="25%" valign="top">
+                           <p>15</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Driver airbag module</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>16</p>
+                        </td>
+                        <td width="25%" valign="top">
+                           <p>Pressure-type collision sensor</p>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+               
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">System Block Diagram</h3> 
+               
+               
+               <p class="p"> 
+                  
+                  <div class="bottomNoTable">
+                     <div class="imagecenter"><img width="170mm" style="width:170mm;" onclick="showOrHideImg(event,'show')" src="image/G020958.png" alt="G020958"></img></div>
+                  </div> 
+                  
+               </p> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>

@@ -1,0 +1,746 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+   
+   <head>
+      
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      
+      <meta name="copyright" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2005"></meta>
+      
+      <meta name="DC.Type" content="topic"></meta>
+      
+      <meta name="DC.Title" content="Calibration of ACC and MPC"></meta>
+      
+      <meta name="DC.Format" content="XHTML"></meta>
+      
+      <meta name="DC.Identifier" content="topic-1-F5240221"></meta>
+      
+      <meta name="DC.Language" content="en-US"></meta>
+      
+      <link rel="stylesheet" type="text/css" href="htmlCustom.css"></link>
+      
+      <title>Calibration of ACC and MPC</title>
+      <script type="text/javascript" src="basefiles/js/dtc-step.js"></script>
+      <script type="text/javascript" src="basefiles/js/svg_topics.js"></script>
+      <script type="text/javascript" src="basefiles/js/custom.js"></script>
+      <script type="text/javascript">
+        function toggleImage(el) {
+            if(el.className=="thumb"){
+                el.className="full";
+            } else {
+                el.className="thumb";
+            }
+        }
+        // 点击诊断步骤中左边单元格的图片函数
+        function fnimage(th,el){
+        console.dir(el)
+        console.dir(th)
+        let oDiv =th.children.imgbox
+        console.dir(oDiv)
+        let targ = el.target
+        let targid = el.target.id
+        console.dir(targid)
+        let tname = el.target.tagName;
+        if(tname == 'IMG'){
+        
+        if(targid !='imgtt'){
+        oDiv.className="imgbox"
+        th.children.imgbox.children[1].src=targ.src
+        }
+        if(targid =='imgtt'){
+        oDiv.className="imgboxnone"
+        th.children.imgbox.children[1].src=""
+        }
+        }
+        
+        }
+        
+    </script><link rel="stylesheet" type="text/css" href="basefiles/style/svg-topics.css"></link>
+      
+      <link rel="stylesheet" type="text/css" href="basefiles/style/dtc-style.css"></link>
+      
+   </head>
+   
+   <body onload="highLightKeyword();custTopic();">
+      <section id="topic-1-F5240221">
+         
+         
+         
+         <h3 class="topictitletopic1 title">Calibration of ACC and MPC</h3>
+         
+         
+         <div class="body"> 
+            
+            <div class="section">
+               <h3 class="title topictitle1">Calibration of ACC mid-range radar</h3> 
+               
+               
+               <p class="p">Configuration writing</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Conditions for re-calibrating the radar angle: replace with a new one.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Configuration writing steps:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the VDS and enter the diagnostic system interface.</p>  
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagecenterlevel2"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G123169.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Enter the ACC interface.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Tap to calibrate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the configuration corresponding to the vehicle model to perform configuration writing.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Conditions for re-calibrating radar angle:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The existing one is replaced with a new one.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The radar is removed or installed.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The radar position changes during maintenance.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The system prompts that the radar angle deviation is too large.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Necessary equipment:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">VDS</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">ACC/MPC static calibration service tool</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Adjusting bolt (model: 3.5 mm hexagonal socket head cap bolt)</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Description of ACC mid-range radar adjusting bolt:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The upper right bolt is used to adjust the horizontal angle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The lower left bolt is used to adjust the vertical angle.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Calibration process of ACC mid-range radar</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preparation for calibration:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Four-wheel alignment should be completed for the vehicle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The calibration site for placing equipment and parking vehicles must be flat.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The vehicle suspension and steering system are in normal condition without damage.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The windshield washer fluid, coolant and brake fluid are filled up.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The tire pressure is normal.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The vehicle is unloaded.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The spare tire and on-board tools are installed in place.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Calibration process:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After the vehicle is parked, pull up the handbrake, center the steering wheel, power on the vehicle, and move the equipment
+                              to the front of the vehicle.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fix four disc assemblies on four tires by using three high-strength magnets to attach them on the brake disc and installing
+                              the two discs with scales on two rear wheels. Point the laser scale at the rear wheels with the display screen facing upward,
+                              and press and hold to start the power supply. Slightly adjust the angle so that laser beams illuminate on the scales of rear
+                              discs. At this time, slightly adjust the steering wheel left and right to make the readings of the positions illuminated by
+                              two laser beams the same so as to ensure that the wheels are completely aligned (the laser scale is in power-saving mode.
+                              It will automatically power off if it is not operated for a period of time and can be woken up by pressing the switch again).
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Install the laser scales on the 2 front wheel discs in a reverse direction to make them face the calibration tooling, adjust
+                              the angle so that the laser beam irradiates horizontally on the ranging plate center marking line of the cross beam of the
+                              calibration tool. At this time, observe the distance values displayed on the 2 laser scales, and twist to adjust the base
+                              of the calibration tool to make the distance values on laser scales consistent and meet the calibration requirements. Then
+                              move the base left and right to make the pointer indication value of ranging plate on the cross beam scale consistent. At
+                              this time, determine the position of calibration tool. Rotate 4 adjusting legs clockwise to contact the ground and fix the
+                              position.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Press the up and down buttons on the manual controller to change the value on the display screen to "18.6". At this time,
+                              observe that the horizontal bubble behind the reflection board reaches the center position, and the reflection board is vertical
+                              to the ground.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Turn the battery and switch behind the reflection board to "ON" position, so that a laser beam can be emitted from the center
+                              of the front of the reflection board. Take out the label at the front radar of the vehicle. Rotate the hand wheel at the top
+                              of the equipment, adjust the height of laser beam to make it irradiate in the center of ACC radar. At this time, the calibration
+                              tool is completely positioned.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Turn on the ACC radar, connect the VDS, enter the diagnostic system interface, select the calibration procedure and operate
+                              according to the instructions on the VDS: Step 1: When VDS prompts that the reflection board is in position 1, press the up
+                              and down buttons of the manual controller within 20 seconds to change its displayed value to 18.1, and the actual corresponding
+                              angle of the reflection board is -2°. Step 2: When VDS prompts that the reflection board is in position 2, press the up and
+                              down buttons of the manual controller within 20 seconds to change its displayed value to 19.2, and the actual angle of the
+                              corresponding reflection board is +2°. Step 3: When VDS prompts that the reflection board is in position 3, press the up and
+                              down buttons of the manual controller within 20 seconds to change its displayed value to 18.6, and the actual corresponding
+                              angle of the reflection board is 0.
+                           </p>  
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagecenterlevel2"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G123169.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After operation, VDS will automatically display whether the radar needs to be calibrated and display specific information
+                              for calibration. After calibration as required, use the VDS to test once again. If the diagnosis result shows that the number
+                              of turns to be adjusted is 0 and no calibration is needed, the calibration is successful. (The number of turns to be adjusted
+                              can be ignored if it is 2.5 turns).
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+            <div class="section">
+               <h3 class="title topictitle1">Multi-purpose&nbsp;camera (MPC)</h3> 
+               
+               
+               <p class="p">Configuration writing</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Conditions for re-writing the model configuration: replace with a new one.</p> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Configuration writing steps:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Connect the VDS and enter the diagnostic system interface.</p>  
+                           
+                           <p> 
+                              
+                              <div class="bottomNoTable">
+                                 <div class="imagecenterlevel2"><img width="85mm" style="width:85mm;" onclick="showOrHideImg(event,'show')" src="image/G123169.png"></img></div>
+                              </div> 
+                              
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Enter the multi-purpose camera interface.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Tap to calibrate.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Select the configuration corresponding to the vehicle model to perform configuration writing.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Conditions for re-calibration:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The sample is replaced with a new one.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The multi-purpose camera assembly is removed or installed.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The front windshield is replaced.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <ol class="num"></ol>  
+               
+               <p class="p">Calibration process of multi-purpose&nbsp;camera (MPC)</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preparation for calibration:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Four-wheel alignment should be completed for the vehicle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The calibration site for placing equipment and parking vehicles must be flat.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The illumination of the calibration plate must be uniform during calibration.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The tire pressure is normal.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The vehicle is unloaded.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The headlight must be turned off.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The vehicle speed is 0, and the vehicle is powered on.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">There is no obstruction between the calibration plate and camera.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol>  
+               
+               <p class="p">Calibration process:</p>  
+               
+               <ol class="num"> 
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Preparation for calibration:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Four-wheel alignment should be completed for the vehicle.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The calibration site for placing equipment and parking vehicles must be flat.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The illumination of the calibration plate must be uniform during calibration.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The tire pressure is normal.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The vehicle is unloaded.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The headlight must be turned off.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">The vehicle speed is 0, and the vehicle is powered on.</p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">There is no obstruction between the calibration plate and camera.</p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Calibration process:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After the vehicle is parked, pull up the handbrake, center the steering wheel, power on the vehicle, and move the equipment
+                              to the front of the vehicle.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fix four disc assemblies on four tires by using three high-strength magnets to attach them on the brake disc and installing
+                              the two discs with scales on two rear wheels. Point the laser scale at the rear wheels with the display screen facing upward,
+                              and press and hold to start the power supply. Slightly adjust the angle so that laser beams illuminate on the scales of rear
+                              discs. At this time, slightly adjust the steering wheel left and right to make the readings of the positions illuminated by
+                              two laser beams the same so as to ensure that the wheels are completely aligned (the laser scale is in power-saving mode.
+                              It will automatically power off if it is not operated for a period of time and can be woken up by pressing the switch again).
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Install the laser scales on the 2 front wheel discs in a reverse direction to make them face the calibration tooling, adjust
+                              the angle so that the laser beam irradiates horizontally on the ranging plate center marking line of the cross beam of the
+                              calibration tool. At this time, observe the distance values displayed on the 2 laser scales, and twist to adjust the base
+                              of the calibration tool to make the distance values on laser scales consistent and meet the calibration requirements. Then
+                              move the base left and right to make the pointer indication value of ranging plate on the cross beam scale consistent. At
+                              this time, determine the position of calibration tool. Rotate 4 adjusting legs clockwise to contact the ground and fix the
+                              position.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the 3 handles fixing the scale behind the pillar to allow the scale the fall to the ground and tighten the handles.
+                              At this time, the value indicated by the pointer is the actual distance from the black and white pattern center of calibration
+                              plate to the ground.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rotate the lifting device handle on the pillar, and move the MPC2 calibration plate assembly to a height that meets the calibration
+                              requirements (the center of camera calibration plate shall be at the same height as the camera) according to the indicated
+                              value of the pointer behind the pillar. At this time, the position of the equipment and the vehicle has been determined.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use VDS to enter the multi-purpose&nbsp;camera interface, click the calibration option and operate according to the instructions
+                              on the computer until the computer prompts that the calibration is successful.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li>  
+                  
+                  <li> 
+                     
+                     <p class="p-inline">Calibration process:</p>  
+                     
+                     <ol class="num"> 
+                        
+                        <li> 
+                           
+                           <p class="p-inline">After the vehicle is parked, pull up the handbrake, center the steering wheel, power on the vehicle, and move the equipment
+                              to the front of the vehicle.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Fix four disc assemblies on four tires by using three high-strength magnets to attach them on the brake disc and installing
+                              the two discs with scales on two rear wheels. Point the laser scale at the rear wheels with the display screen facing upward,
+                              and press and hold to start the power supply. Slightly adjust the angle so that laser beams illuminate on the scales of rear
+                              discs. At this time, slightly adjust the steering wheel left and right to make the readings of the positions illuminated by
+                              two laser beams the same so as to ensure that the wheels are completely aligned (the laser scale is in power-saving mode.
+                              It will automatically power off if it is not operated for a period of time and can be woken up by pressing the switch again).
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Install the laser scales on the 2 front wheel discs in a reverse direction to make them face the calibration tooling, adjust
+                              the angle so that the laser beam irradiates horizontally on the ranging plate center marking line of the cross beam of the
+                              calibration tool. At this time, observe the distance values displayed on the 2 laser scales, and twist to adjust the base
+                              of the calibration tool to make the distance values on laser scales consistent and meet the calibration requirements. Then
+                              move the base left and right to make the pointer indication value of ranging plate on the cross beam scale consistent. At
+                              this time, determine the position of calibration tool. Rotate 4 adjusting legs clockwise to contact the ground and fix the
+                              position.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Loosen the 3 handles fixing the scale behind the pillar to allow the scale the fall to the ground and tighten the handles.
+                              At this time, the value indicated by the pointer is the actual distance from the black and white pattern center of calibration
+                              plate to the ground.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Rotate the lifting device handle on the pillar, and move the MPC2 calibration plate assembly to a height that meets the calibration
+                              requirements (the center of camera calibration plate shall be at the same height as the camera) according to the indicated
+                              value of the pointer behind the pillar. At this time, the position of the equipment and the vehicle has been determined.
+                           </p> 
+                           
+                        </li>  
+                        
+                        <li> 
+                           
+                           <p class="p-inline">Use VDS to enter the multi-purpose&nbsp;camera interface, click the calibration option and operate according to the instructions
+                              on the computer until the computer prompts that the calibration is successful.
+                           </p> 
+                           
+                        </li> 
+                        
+                     </ol> 
+                     
+                  </li> 
+                  
+               </ol> 
+               
+            </div>
+            
+            
+         </div>
+         
+         
+      </section>
+      <div class="scaleContainer" onclick="showOrHideImg(event,'hide')"><img id="image" alt=""></img></div><script type="text/javascript" src="basefiles/js/imageScale.js"></script><script>
+      function sendIndexCode(code){
+        window.parent.postMessage(
+          {
+            message: 'html3d',
+            token: '123456789TqwertyuioI987654321Smm',
+            index3d: code
+          },'*');
+      }
+    </script></body>
+   
+</html>
